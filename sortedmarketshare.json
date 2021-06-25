@@ -1,0 +1,2497 @@
+[
+  {
+    "ticker": "FSN",
+    "USD_AvailibleMarketShare": 3.3637027332460634e-8,
+    "USD_MaxSupplyMarketShare": 3.363702855462105e-8
+  },
+  {
+    "ticker": "TNC",
+    "USD_AvailibleMarketShare": 3.355350324120011e-8,
+    "USD_MaxSupplyMarketShare": 1.9036315794156928e-10
+  },
+  {
+    "ticker": "DG",
+    "USD_AvailibleMarketShare": 3.3416521144897245e-8,
+    "USD_MaxSupplyMarketShare": 9.053329486295458e-9
+  },
+  {
+    "ticker": "DSLA",
+    "USD_AvailibleMarketShare": 3.316055009557006e-8,
+    "USD_MaxSupplyMarketShare": 3.119717385600487e-8
+  },
+  {
+    "ticker": "OLY",
+    "USD_AvailibleMarketShare": 3.3065455920897034e-8,
+    "USD_MaxSupplyMarketShare": 7.682525683514475e-9
+  },
+  {
+    "ticker": "mTWTR",
+    "USD_AvailibleMarketShare": 3.2924841563597046e-8,
+    "USD_MaxSupplyMarketShare": 3.2924841563597046e-8
+  },
+  {
+    "ticker": "VSP",
+    "USD_AvailibleMarketShare": 3.288398601778701e-8,
+    "USD_MaxSupplyMarketShare": 1.3219860095772578e-8
+  },
+  {
+    "ticker": "HC",
+    "USD_AvailibleMarketShare": 3.279268350315578e-8,
+    "USD_MaxSupplyMarketShare": 3.279268350315578e-8
+  },
+  {
+    "ticker": "vUSDT",
+    "USD_AvailibleMarketShare": 3.2428061569742796e-8,
+    "USD_MaxSupplyMarketShare": 3.2428061569742796e-8
+  },
+  {
+    "ticker": "PAID",
+    "USD_AvailibleMarketShare": 3.238797231576499e-8,
+    "USD_MaxSupplyMarketShare": 4.523954194271539e-9
+  },
+  {
+    "ticker": "GXC",
+    "USD_AvailibleMarketShare": 3.228301975483992e-8,
+    "USD_MaxSupplyMarketShare": 2.2746672377579018e-8
+  },
+  {
+    "ticker": "mUSO",
+    "USD_AvailibleMarketShare": 3.223896788896347e-8,
+    "USD_MaxSupplyMarketShare": 3.223896788896347e-8
+  },
+  {
+    "ticker": "LA",
+    "USD_AvailibleMarketShare": 3.216303124507392e-8,
+    "USD_MaxSupplyMarketShare": 3.056327921924503e-8
+  },
+  {
+    "ticker": "MET",
+    "USD_AvailibleMarketShare": 3.2001603380009043e-8,
+    "USD_MaxSupplyMarketShare": 2.88727749758287e-8
+  },
+  {
+    "ticker": "OM",
+    "USD_AvailibleMarketShare": 3.1794253313330244e-8,
+    "USD_MaxSupplyMarketShare": 1.1087850703318715e-8
+  },
+  {
+    "ticker": "PZM",
+    "USD_AvailibleMarketShare": 3.16537110601071e-8,
+    "USD_MaxSupplyMarketShare": 1.465749761878299e-8
+  },
+  {
+    "ticker": "COS",
+    "USD_AvailibleMarketShare": 3.162361500680152e-8,
+    "USD_MaxSupplyMarketShare": 9.608383834820031e-9
+  },
+  {
+    "ticker": "mNFLX",
+    "USD_AvailibleMarketShare": 3.144029683950499e-8,
+    "USD_MaxSupplyMarketShare": 3.144029683950499e-8
+  },
+  {
+    "ticker": "DGD",
+    "USD_AvailibleMarketShare": 3.138208420022985e-8,
+    "USD_MaxSupplyMarketShare": 3.138208420022985e-8
+  },
+  {
+    "ticker": "BEL",
+    "USD_AvailibleMarketShare": 3.125854348961911e-8,
+    "USD_MaxSupplyMarketShare": 9.846441199230018e-9
+  },
+  {
+    "ticker": "mBABA",
+    "USD_AvailibleMarketShare": 3.106875025247437e-8,
+    "USD_MaxSupplyMarketShare": 3.106875025247437e-8
+  },
+  {
+    "ticker": "mSLV",
+    "USD_AvailibleMarketShare": 3.1002357591587504e-8,
+    "USD_MaxSupplyMarketShare": 3.1002357591587504e-8
+  },
+  {
+    "ticker": "SNTVT",
+    "USD_AvailibleMarketShare": 3.067952900416675e-8,
+    "USD_MaxSupplyMarketShare": 2.60275367081898e-8
+  },
+  {
+    "ticker": "ARPA",
+    "USD_AvailibleMarketShare": 3.047295889408229e-8,
+    "USD_MaxSupplyMarketShare": 2.3175509877847868e-8
+  },
+  {
+    "ticker": "mAMZN",
+    "USD_AvailibleMarketShare": 3.0349642972226715e-8,
+    "USD_MaxSupplyMarketShare": 3.0349642972226715e-8
+  },
+  {
+    "ticker": "GRS",
+    "USD_AvailibleMarketShare": 3.0188851662975416e-8,
+    "USD_MaxSupplyMarketShare": 3.0188851662975416e-8
+  },
+  {
+    "ticker": "BRG",
+    "USD_AvailibleMarketShare": 3.017629131190776e-8,
+    "USD_MaxSupplyMarketShare": 2.4147572870467472e-8
+  },
+  {
+    "ticker": "mTSLA",
+    "USD_AvailibleMarketShare": 3.0155908837988084e-8,
+    "USD_MaxSupplyMarketShare": 3.0155908837988084e-8
+  },
+  {
+    "ticker": "CTXC",
+    "USD_AvailibleMarketShare": 3.010746965293965e-8,
+    "USD_MaxSupplyMarketShare": 2.5100773511018555e-8
+  },
+  {
+    "ticker": "PIVX",
+    "USD_AvailibleMarketShare": 3.0093990592863415e-8,
+    "USD_MaxSupplyMarketShare": 3.0093990592863415e-8
+  },
+  {
+    "ticker": "GHST",
+    "USD_AvailibleMarketShare": 3.007118523348448e-8,
+    "USD_MaxSupplyMarketShare": 2.7337386500051468e-8
+  },
+  {
+    "ticker": "NXS",
+    "USD_AvailibleMarketShare": 3.001154414242856e-8,
+    "USD_MaxSupplyMarketShare": 3.001154414242856e-8
+  },
+  {
+    "ticker": "SBD",
+    "USD_AvailibleMarketShare": 2.9820330420671076e-8,
+    "USD_MaxSupplyMarketShare": 2.9820330420671076e-8
+  },
+  {
+    "ticker": "PCX",
+    "USD_AvailibleMarketShare": 2.981719424728473e-8,
+    "USD_MaxSupplyMarketShare": 2.981719424728473e-8
+  },
+  {
+    "ticker": "KEY",
+    "USD_AvailibleMarketShare": 2.9767410524208937e-8,
+    "USD_MaxSupplyMarketShare": 2.2887146960654938e-8
+  },
+  {
+    "ticker": "SUPER",
+    "USD_AvailibleMarketShare": 2.9474087014754766e-8,
+    "USD_MaxSupplyMarketShare": 3.0036968391519044e-9
+  },
+  {
+    "ticker": "mAAPL",
+    "USD_AvailibleMarketShare": 2.942298359731511e-8,
+    "USD_MaxSupplyMarketShare": 2.942298359731511e-8
+  },
+  {
+    "ticker": "TORN",
+    "USD_AvailibleMarketShare": 2.8909548238599566e-8,
+    "USD_MaxSupplyMarketShare": 2.4992191446400596e-9
+  },
+  {
+    "ticker": "MASS",
+    "USD_AvailibleMarketShare": 2.8781517793490086e-8,
+    "USD_MaxSupplyMarketShare": 2.8781517793490086e-8
+  },
+  {
+    "ticker": "RARI",
+    "USD_AvailibleMarketShare": 2.862499373181095e-8,
+    "USD_MaxSupplyMarketShare": 4.936531631610401e-9
+  },
+  {
+    "ticker": "VTC",
+    "USD_AvailibleMarketShare": 2.8354549610276608e-8,
+    "USD_MaxSupplyMarketShare": 2.8354549610276608e-8
+  },
+  {
+    "ticker": "VEE",
+    "USD_AvailibleMarketShare": 2.8121403887932274e-8,
+    "USD_MaxSupplyMarketShare": 2.546158777019868e-8
+  },
+  {
+    "ticker": "mQQQ",
+    "USD_AvailibleMarketShare": 2.7976780035379156e-8,
+    "USD_MaxSupplyMarketShare": 2.7976780035379156e-8
+  },
+  {
+    "ticker": "NULS",
+    "USD_AvailibleMarketShare": 2.7922954712006336e-8,
+    "USD_MaxSupplyMarketShare": 2.4903887272015922e-8
+  },
+  {
+    "ticker": "HMR",
+    "USD_AvailibleMarketShare": 2.7675522482749917e-8,
+    "USD_MaxSupplyMarketShare": 1.4240235719175111e-9
+  },
+  {
+    "ticker": "AE",
+    "USD_AvailibleMarketShare": 2.7668156901071717e-8,
+    "USD_MaxSupplyMarketShare": 2.4374436829439157e-8
+  },
+  {
+    "ticker": "BEAM",
+    "USD_AvailibleMarketShare": 2.7656865966678575e-8,
+    "USD_MaxSupplyMarketShare": 2.7656865966678575e-8
+  },
+  {
+    "ticker": "CET",
+    "USD_AvailibleMarketShare": 2.7599951768782945e-8,
+    "USD_MaxSupplyMarketShare": 3.3622016455790264e-9
+  },
+  {
+    "ticker": "LDO",
+    "USD_AvailibleMarketShare": 2.759796318978007e-8,
+    "USD_MaxSupplyMarketShare": 6.772339444039642e-10
+  },
+  {
+    "ticker": "MITH",
+    "USD_AvailibleMarketShare": 2.7511122891210606e-8,
+    "USD_MaxSupplyMarketShare": 2.7511122891210606e-8
+  },
+  {
+    "ticker": "BTU",
+    "USD_AvailibleMarketShare": 2.7508092371220868e-8,
+    "USD_MaxSupplyMarketShare": 2.4898767275750946e-8
+  },
+  {
+    "ticker": "WICC",
+    "USD_AvailibleMarketShare": 2.7476520958202856e-8,
+    "USD_MaxSupplyMarketShare": 2.7476520958202856e-8
+  },
+  {
+    "ticker": "TT",
+    "USD_AvailibleMarketShare": 2.7424804502679524e-8,
+    "USD_MaxSupplyMarketShare": 1.9939220431431826e-8
+  },
+  {
+    "ticker": "BSCPAD",
+    "USD_AvailibleMarketShare": 2.731839645666352e-8,
+    "USD_MaxSupplyMarketShare": 5.061724929644653e-9
+  },
+  {
+    "ticker": "VRT",
+    "USD_AvailibleMarketShare": 2.720149686829103e-8,
+    "USD_MaxSupplyMarketShare": 1.9947747215002733e-8
+  },
+  {
+    "ticker": "HAI",
+    "USD_AvailibleMarketShare": 2.6869190019651636e-8,
+    "USD_MaxSupplyMarketShare": 8.724133716331853e-9
+  },
+  {
+    "ticker": "NIM",
+    "USD_AvailibleMarketShare": 2.686277388042215e-8,
+    "USD_MaxSupplyMarketShare": 2.4796799008386343e-8
+  },
+  {
+    "ticker": "DRGN",
+    "USD_AvailibleMarketShare": 2.6765543002341695e-8,
+    "USD_MaxSupplyMarketShare": 2.2868260320630724e-8
+  },
+  {
+    "ticker": "DEGO",
+    "USD_AvailibleMarketShare": 2.6716913424519925e-8,
+    "USD_MaxSupplyMarketShare": 2.6716913424519925e-8
+  },
+  {
+    "ticker": "CRE",
+    "USD_AvailibleMarketShare": 2.6465494048266433e-8,
+    "USD_MaxSupplyMarketShare": 2.2039121314690318e-8
+  },
+  {
+    "ticker": "BLZ",
+    "USD_AvailibleMarketShare": 2.6348332364578e-8,
+    "USD_MaxSupplyMarketShare": 1.5502438698751422e-8
+  },
+  {
+    "ticker": "HEGIC",
+    "USD_AvailibleMarketShare": 2.6326430474216423e-8,
+    "USD_MaxSupplyMarketShare": 4.699574807160377e-9
+  },
+  {
+    "ticker": "CTK",
+    "USD_AvailibleMarketShare": 2.6226057772647302e-8,
+    "USD_MaxSupplyMarketShare": 1.1559755186609938e-8
+  },
+  {
+    "ticker": "WTC",
+    "USD_AvailibleMarketShare": 2.6148549821023685e-8,
+    "USD_MaxSupplyMarketShare": 2.434510274909545e-8
+  },
+  {
+    "ticker": "RGT",
+    "USD_AvailibleMarketShare": 2.580061313281868e-8,
+    "USD_MaxSupplyMarketShare": 2.2536890112238278e-8
+  },
+  {
+    "ticker": "BOR",
+    "USD_AvailibleMarketShare": 2.548249131146149e-8,
+    "USD_MaxSupplyMarketShare": 1.3631780500375542e-8
+  },
+  {
+    "ticker": "MUSD",
+    "USD_AvailibleMarketShare": 2.5207745308878027e-8,
+    "USD_MaxSupplyMarketShare": 2.5207745308878027e-8
+  },
+  {
+    "ticker": "PLTC",
+    "USD_AvailibleMarketShare": 2.514218732696162e-8,
+    "USD_MaxSupplyMarketShare": 6.8013262931625356e-9
+  },
+  {
+    "ticker": "BAR",
+    "USD_AvailibleMarketShare": 2.488164476088274e-8,
+    "USD_MaxSupplyMarketShare": 1.8356209487538394e-9
+  },
+  {
+    "ticker": "BURST",
+    "USD_AvailibleMarketShare": 2.4852717621955094e-8,
+    "USD_MaxSupplyMarketShare": 2.4852717621955094e-8
+  },
+  {
+    "ticker": "LOOM",
+    "USD_AvailibleMarketShare": 2.4644252740629767e-8,
+    "USD_MaxSupplyMarketShare": 2.4644252740629767e-8
+  },
+  {
+    "ticker": "LQTY",
+    "USD_AvailibleMarketShare": 2.4598881890846662e-8,
+    "USD_MaxSupplyMarketShare": 1.4836202928688966e-9
+  },
+  {
+    "ticker": "VSYS",
+    "USD_AvailibleMarketShare": 2.4554496750040745e-8,
+    "USD_MaxSupplyMarketShare": 1.339277596557066e-8
+  },
+  {
+    "ticker": "DUSK",
+    "USD_AvailibleMarketShare": 2.410957141093808e-8,
+    "USD_MaxSupplyMarketShare": 1.7873086172536414e-8
+  },
+  {
+    "ticker": "STPT",
+    "USD_AvailibleMarketShare": 2.4014267214372672e-8,
+    "USD_MaxSupplyMarketShare": 1.388446182759712e-8
+  },
+  {
+    "ticker": "BZRX",
+    "USD_AvailibleMarketShare": 2.3997281765791334e-8,
+    "USD_MaxSupplyMarketShare": 5.6470138078488855e-9
+  },
+  {
+    "ticker": "WHALE",
+    "USD_AvailibleMarketShare": 2.3993975282735583e-8,
+    "USD_MaxSupplyMarketShare": 1.4066424347426972e-8
+  },
+  {
+    "ticker": "BURGER",
+    "USD_AvailibleMarketShare": 2.3983102111105454e-8,
+    "USD_MaxSupplyMarketShare": 2.327731494504698e-8
+  },
+  {
+    "ticker": "LOTTO",
+    "USD_AvailibleMarketShare": 2.3929575874164928e-8,
+    "USD_MaxSupplyMarketShare": 2.3929575874164928e-8
+  },
+  {
+    "ticker": "KARMA",
+    "USD_AvailibleMarketShare": 2.379165253412884e-8,
+    "USD_MaxSupplyMarketShare": 1.5323156587588566e-8
+  },
+  {
+    "ticker": "AUTO",
+    "USD_AvailibleMarketShare": 2.326027800944347e-8,
+    "USD_MaxSupplyMarketShare": 2.326027800944347e-8
+  },
+  {
+    "ticker": "DOCK",
+    "USD_AvailibleMarketShare": 2.2967336103168895e-8,
+    "USD_MaxSupplyMarketShare": 1.8553914714171556e-8
+  },
+  {
+    "ticker": "VERI",
+    "USD_AvailibleMarketShare": 2.2900027197786285e-8,
+    "USD_MaxSupplyMarketShare": 4.922696194162445e-10
+  },
+  {
+    "ticker": "CXO",
+    "USD_AvailibleMarketShare": 2.280382772664642e-8,
+    "USD_MaxSupplyMarketShare": 1.765517982827672e-8
+  },
+  {
+    "ticker": "KRT",
+    "USD_AvailibleMarketShare": 2.2787126085908495e-8,
+    "USD_MaxSupplyMarketShare": 2.2786794741750247e-8
+  },
+  {
+    "ticker": "TLOS",
+    "USD_AvailibleMarketShare": 2.2632728748999462e-8,
+    "USD_MaxSupplyMarketShare": 1.7211392349191394e-8
+  },
+  {
+    "ticker": "POND",
+    "USD_AvailibleMarketShare": 2.235879164830632e-8,
+    "USD_MaxSupplyMarketShare": 5.174743065488364e-9
+  },
+  {
+    "ticker": "AXEL",
+    "USD_AvailibleMarketShare": 2.2216048222717193e-8,
+    "USD_MaxSupplyMarketShare": 8.061777204766307e-9
+  },
+  {
+    "ticker": "DIA",
+    "USD_AvailibleMarketShare": 2.221323233506305e-8,
+    "USD_MaxSupplyMarketShare": 4.601519280922478e-9
+  },
+  {
+    "ticker": "EPS",
+    "USD_AvailibleMarketShare": 2.2161549323697312e-8,
+    "USD_MaxSupplyMarketShare": 9.029061003682107e-9
+  },
+  {
+    "ticker": "VRA",
+    "USD_AvailibleMarketShare": 2.2062309643649453e-8,
+    "USD_MaxSupplyMarketShare": 8.406300944147075e-9
+  },
+  {
+    "ticker": "DAD",
+    "USD_AvailibleMarketShare": 2.205605109981989e-8,
+    "USD_MaxSupplyMarketShare": 8.040179825828108e-9
+  },
+  {
+    "ticker": "ULT",
+    "USD_AvailibleMarketShare": 2.1924076884608126e-8,
+    "USD_MaxSupplyMarketShare": 1.3819133028536723e-8
+  },
+  {
+    "ticker": "DKA",
+    "USD_AvailibleMarketShare": 2.1848255028925477e-8,
+    "USD_MaxSupplyMarketShare": 3.498336184953522e-9
+  },
+  {
+    "ticker": "GAS",
+    "USD_AvailibleMarketShare": 2.1834125568644414e-8,
+    "USD_MaxSupplyMarketShare": 1.2864418331335113e-8
+  },
+  {
+    "ticker": "CRU",
+    "USD_AvailibleMarketShare": 2.181077537539117e-8,
+    "USD_MaxSupplyMarketShare": 1.905043940926997e-9
+  },
+  {
+    "ticker": "SHR",
+    "USD_AvailibleMarketShare": 2.1728260557794358e-8,
+    "USD_MaxSupplyMarketShare": 7.804095071412733e-9
+  },
+  {
+    "ticker": "ADX",
+    "USD_AvailibleMarketShare": 2.1653895348334533e-8,
+    "USD_MaxSupplyMarketShare": 2.046792918851613e-8
+  },
+  {
+    "ticker": "HARD",
+    "USD_AvailibleMarketShare": 2.156614040688178e-8,
+    "USD_MaxSupplyMarketShare": 7.143784009779589e-9
+  },
+  {
+    "ticker": "GALA",
+    "USD_AvailibleMarketShare": 2.1418127255125077e-8,
+    "USD_MaxSupplyMarketShare": 5.354531813205695e-9
+  },
+  {
+    "ticker": "LTO",
+    "USD_AvailibleMarketShare": 2.139491830711344e-8,
+    "USD_MaxSupplyMarketShare": 1.5024112040869365e-8
+  },
+  {
+    "ticker": "REQ",
+    "USD_AvailibleMarketShare": 2.1370597577305387e-8,
+    "USD_MaxSupplyMarketShare": 2.137059755926647e-8
+  },
+  {
+    "ticker": "ZNN",
+    "USD_AvailibleMarketShare": 2.1325158751446733e-8,
+    "USD_MaxSupplyMarketShare": 1.877948919014503e-8
+  },
+  {
+    "ticker": "QQQ",
+    "USD_AvailibleMarketShare": 2.1317021075268044e-8,
+    "USD_MaxSupplyMarketShare": 2.2361305471428036e-9
+  },
+  {
+    "ticker": "MASK",
+    "USD_AvailibleMarketShare": 2.1218349178861324e-8,
+    "USD_MaxSupplyMarketShare": 2.721606779886285e-9
+  },
+  {
+    "ticker": "ATRI",
+    "USD_AvailibleMarketShare": 2.114231483184081e-8,
+    "USD_MaxSupplyMarketShare": 7.187204971987842e-9
+  },
+  {
+    "ticker": "DVI",
+    "USD_AvailibleMarketShare": 2.1140415051273008e-8,
+    "USD_MaxSupplyMarketShare": 4.399241941230073e-9
+  },
+  {
+    "ticker": "MLK",
+    "USD_AvailibleMarketShare": 2.1131794523494427e-8,
+    "USD_MaxSupplyMarketShare": 1.2705217149494493e-9
+  },
+  {
+    "ticker": "ELA",
+    "USD_AvailibleMarketShare": 2.104712397084423e-8,
+    "USD_MaxSupplyMarketShare": 1.6793244123168962e-8
+  },
+  {
+    "ticker": "STAKE",
+    "USD_AvailibleMarketShare": 2.07880751341435e-8,
+    "USD_MaxSupplyMarketShare": 1.4708153443909157e-8
+  },
+  {
+    "ticker": "APL",
+    "USD_AvailibleMarketShare": 2.0749317103283083e-8,
+    "USD_MaxSupplyMarketShare": 2.0749317103283083e-8
+  },
+  {
+    "ticker": "AKRO",
+    "USD_AvailibleMarketShare": 2.071598139407607e-8,
+    "USD_MaxSupplyMarketShare": 1.5763118394790097e-8
+  },
+  {
+    "ticker": "SNM",
+    "USD_AvailibleMarketShare": 2.0713738002751777e-8,
+    "USD_MaxSupplyMarketShare": 1.677626167970617e-8
+  },
+  {
+    "ticker": "NSBT",
+    "USD_AvailibleMarketShare": 2.0708238409157802e-8,
+    "USD_MaxSupplyMarketShare": 2.0708238409157802e-8
+  },
+  {
+    "ticker": "FIO",
+    "USD_AvailibleMarketShare": 2.0611372294128278e-8,
+    "USD_MaxSupplyMarketShare": 8.99869063457925e-9
+  },
+  {
+    "ticker": "DDX",
+    "USD_AvailibleMarketShare": 2.0595402470806938e-8,
+    "USD_MaxSupplyMarketShare": 1.0685067366394131e-8
+  },
+  {
+    "ticker": "STC",
+    "USD_AvailibleMarketShare": 2.0544111861104488e-8,
+    "USD_MaxSupplyMarketShare": 1.0998319502678177e-8
+  },
+  {
+    "ticker": "SLP",
+    "USD_AvailibleMarketShare": 2.032101844662462e-8,
+    "USD_MaxSupplyMarketShare": 2.032101844662462e-8
+  },
+  {
+    "ticker": "KDA",
+    "USD_AvailibleMarketShare": 1.9854596329647695e-8,
+    "USD_MaxSupplyMarketShare": 2.478609289907942e-9
+  },
+  {
+    "ticker": "BORA",
+    "USD_AvailibleMarketShare": 1.9677536113743317e-8,
+    "USD_MaxSupplyMarketShare": 1.3924731063519109e-8
+  },
+  {
+    "ticker": "JGN",
+    "USD_AvailibleMarketShare": 1.9593429351836648e-8,
+    "USD_MaxSupplyMarketShare": 5.167766991546916e-9
+  },
+  {
+    "ticker": "CUSD",
+    "USD_AvailibleMarketShare": 1.9550660327884685e-8,
+    "USD_MaxSupplyMarketShare": 1.9550660327884685e-8
+  },
+  {
+    "ticker": "BOA",
+    "USD_AvailibleMarketShare": 1.9471840732782135e-8,
+    "USD_MaxSupplyMarketShare": 1.3136786857268695e-8
+  },
+  {
+    "ticker": "WOZX",
+    "USD_AvailibleMarketShare": 1.9422835338001634e-8,
+    "USD_MaxSupplyMarketShare": 2.01553434870601e-9
+  },
+  {
+    "ticker": "GTN",
+    "USD_AvailibleMarketShare": 1.940374765756187e-8,
+    "USD_MaxSupplyMarketShare": 4.807226902342192e-9
+  },
+  {
+    "ticker": "LIT",
+    "USD_AvailibleMarketShare": 1.9401499656015814e-8,
+    "USD_MaxSupplyMarketShare": 4.426679718350373e-9
+  },
+  {
+    "ticker": "MX",
+    "USD_AvailibleMarketShare": 1.929086823416004e-8,
+    "USD_MaxSupplyMarketShare": 3.3547555502087873e-9
+  },
+  {
+    "ticker": "USDX",
+    "USD_AvailibleMarketShare": 1.9276222440931042e-8,
+    "USD_MaxSupplyMarketShare": 1.9276222440931042e-8
+  },
+  {
+    "ticker": "FLM",
+    "USD_AvailibleMarketShare": 1.9260120411694796e-8,
+    "USD_MaxSupplyMarketShare": 1.9260120411694796e-8
+  },
+  {
+    "ticker": "ASTA",
+    "USD_AvailibleMarketShare": 1.9144745752099353e-8,
+    "USD_MaxSupplyMarketShare": 1.1287179634929978e-8
+  },
+  {
+    "ticker": "BELT",
+    "USD_AvailibleMarketShare": 1.868032975868272e-8,
+    "USD_MaxSupplyMarketShare": 1.868032975868272e-8
+  },
+  {
+    "ticker": "aEth",
+    "USD_AvailibleMarketShare": 1.867534264966468e-8,
+    "USD_MaxSupplyMarketShare": 1.8675321000809783e-8
+  },
+  {
+    "ticker": "RAMP",
+    "USD_AvailibleMarketShare": 1.8573615184865772e-8,
+    "USD_MaxSupplyMarketShare": 6.831228912265357e-9
+  },
+  {
+    "ticker": "NFT",
+    "USD_AvailibleMarketShare": 1.8419921012042545e-8,
+    "USD_MaxSupplyMarketShare": 3.683984202408509e-10
+  },
+  {
+    "ticker": "ALBT",
+    "USD_AvailibleMarketShare": 1.816459386767243e-8,
+    "USD_MaxSupplyMarketShare": 3.940943657017752e-9
+  },
+  {
+    "ticker": "PNK",
+    "USD_AvailibleMarketShare": 1.8132057399715815e-8,
+    "USD_MaxSupplyMarketShare": 1.4484210089623132e-8
+  },
+  {
+    "ticker": "RDD",
+    "USD_AvailibleMarketShare": 1.8127577969126698e-8,
+    "USD_MaxSupplyMarketShare": 1.8127577969126698e-8
+  },
+  {
+    "ticker": "MFT",
+    "USD_AvailibleMarketShare": 1.8111545011933597e-8,
+    "USD_MaxSupplyMarketShare": 1.8111545011933597e-8
+  },
+  {
+    "ticker": "vBUSD",
+    "USD_AvailibleMarketShare": 1.7919185378286217e-8,
+    "USD_MaxSupplyMarketShare": 1.7919185378286217e-8
+  },
+  {
+    "ticker": "CHR",
+    "USD_AvailibleMarketShare": 1.7912397461252294e-8,
+    "USD_MaxSupplyMarketShare": 1.6312765835224335e-8
+  },
+  {
+    "ticker": "DX",
+    "USD_AvailibleMarketShare": 1.7898906706604166e-8,
+    "USD_MaxSupplyMarketShare": 8.949453353245916e-9
+  },
+  {
+    "ticker": "CUMMIES",
+    "USD_AvailibleMarketShare": 1.784695699010611e-8,
+    "USD_MaxSupplyMarketShare": 1.784695699010611e-8
+  },
+  {
+    "ticker": "HOGE",
+    "USD_AvailibleMarketShare": 1.784036808977796e-8,
+    "USD_MaxSupplyMarketShare": 1.784036808977796e-8
+  },
+  {
+    "ticker": "POWR",
+    "USD_AvailibleMarketShare": 1.7766228935962964e-8,
+    "USD_MaxSupplyMarketShare": 7.841402906729027e-9
+  },
+  {
+    "ticker": "DVPN",
+    "USD_AvailibleMarketShare": 1.761527778855123e-8,
+    "USD_MaxSupplyMarketShare": 4.8742850224454824e-9
+  },
+  {
+    "ticker": "OXEN",
+    "USD_AvailibleMarketShare": 1.756235608561025e-8,
+    "USD_MaxSupplyMarketShare": 1.756235608561025e-8
+  },
+  {
+    "ticker": "FIRO",
+    "USD_AvailibleMarketShare": 1.7177045954829642e-8,
+    "USD_MaxSupplyMarketShare": 9.641464279127245e-9
+  },
+  {
+    "ticker": "MWC",
+    "USD_AvailibleMarketShare": 1.712787659130422e-8,
+    "USD_MaxSupplyMarketShare": 1.712787659130422e-8
+  },
+  {
+    "ticker": "BASID",
+    "USD_AvailibleMarketShare": 1.7001223923692777e-8,
+    "USD_MaxSupplyMarketShare": 1.0114650099247114e-9
+  },
+  {
+    "ticker": "HTR",
+    "USD_AvailibleMarketShare": 1.682249989793883e-8,
+    "USD_MaxSupplyMarketShare": 3.4940914158572226e-9
+  },
+  {
+    "ticker": "KIN",
+    "USD_AvailibleMarketShare": 1.6819120149688088e-8,
+    "USD_MaxSupplyMarketShare": 2.553334422197691e-9
+  },
+  {
+    "ticker": "AION",
+    "USD_AvailibleMarketShare": 1.665146872502016e-8,
+    "USD_MaxSupplyMarketShare": 1.665146872502016e-8
+  },
+  {
+    "ticker": "TRB",
+    "USD_AvailibleMarketShare": 1.65839694123294e-8,
+    "USD_MaxSupplyMarketShare": 1.586313525141662e-8
+  },
+  {
+    "ticker": "PRQ",
+    "USD_AvailibleMarketShare": 1.648779743989672e-8,
+    "USD_MaxSupplyMarketShare": 6.144628446125067e-9
+  },
+  {
+    "ticker": "META",
+    "USD_AvailibleMarketShare": 1.6398350653967336e-8,
+    "USD_MaxSupplyMarketShare": 1.0211501418886686e-8
+  },
+  {
+    "ticker": "MOF",
+    "USD_AvailibleMarketShare": 1.6383330543611837e-8,
+    "USD_MaxSupplyMarketShare": 1.4004671611711896e-8
+  },
+  {
+    "ticker": "XOR",
+    "USD_AvailibleMarketShare": 1.622798083477025e-8,
+    "USD_MaxSupplyMarketShare": 1.622798083477025e-8
+  },
+  {
+    "ticker": "BLCT",
+    "USD_AvailibleMarketShare": 1.6150699877578478e-8,
+    "USD_MaxSupplyMarketShare": 6.137265953479822e-9
+  },
+  {
+    "ticker": "NOIA",
+    "USD_AvailibleMarketShare": 1.6095131262819304e-8,
+    "USD_MaxSupplyMarketShare": 6.352044236224838e-9
+  },
+  {
+    "ticker": "XYO",
+    "USD_AvailibleMarketShare": 1.5983745862591504e-8,
+    "USD_MaxSupplyMarketShare": 1.4705875435562453e-8
+  },
+  {
+    "ticker": "VRSC",
+    "USD_AvailibleMarketShare": 1.5787995252675977e-8,
+    "USD_MaxSupplyMarketShare": 1.5787995252675977e-8
+  },
+  {
+    "ticker": "CORE",
+    "USD_AvailibleMarketShare": 1.558528255169457e-8,
+    "USD_MaxSupplyMarketShare": 1.558528255169457e-8
+  },
+  {
+    "ticker": "PEAK",
+    "USD_AvailibleMarketShare": 1.548258638434335e-8,
+    "USD_MaxSupplyMarketShare": 4.995211748291563e-9
+  },
+  {
+    "ticker": "FIDA",
+    "USD_AvailibleMarketShare": 1.5456530610439496e-8,
+    "USD_MaxSupplyMarketShare": 6.976692599413205e-10
+  },
+  {
+    "ticker": "RBTC",
+    "USD_AvailibleMarketShare": 1.5431975549598076e-8,
+    "USD_MaxSupplyMarketShare": 1.4986225207801411e-12
+  },
+  {
+    "ticker": "PPT",
+    "USD_AvailibleMarketShare": 1.5397833546455623e-8,
+    "USD_MaxSupplyMarketShare": 1.5397833544833393e-8
+  },
+  {
+    "ticker": "ZEON",
+    "USD_AvailibleMarketShare": 1.520359330601395e-8,
+    "USD_MaxSupplyMarketShare": 9.283041452858521e-9
+  },
+  {
+    "ticker": "POLS",
+    "USD_AvailibleMarketShare": 1.5056993330775625e-8,
+    "USD_MaxSupplyMarketShare": 1.0560068992347377e-8
+  },
+  {
+    "ticker": "MXC",
+    "USD_AvailibleMarketShare": 1.5033309846121132e-8,
+    "USD_MaxSupplyMarketShare": 1.4734341257492056e-8
+  },
+  {
+    "ticker": "ERN",
+    "USD_AvailibleMarketShare": 1.4916910507186377e-8,
+    "USD_MaxSupplyMarketShare": 5.5068546422823645e-9
+  },
+  {
+    "ticker": "TLM",
+    "USD_AvailibleMarketShare": 1.4807642642852543e-8,
+    "USD_MaxSupplyMarketShare": 2.60815853693271e-9
+  },
+  {
+    "ticker": "ALICE",
+    "USD_AvailibleMarketShare": 1.4793946329307988e-8,
+    "USD_MaxSupplyMarketShare": 2.57414666129959e-9
+  },
+  {
+    "ticker": "YFII",
+    "USD_AvailibleMarketShare": 1.4766520673664755e-8,
+    "USD_MaxSupplyMarketShare": 1.4474377953543235e-8
+  },
+  {
+    "ticker": "IRIS",
+    "USD_AvailibleMarketShare": 1.4681409800456777e-8,
+    "USD_MaxSupplyMarketShare": 7.2824530762148475e-9
+  },
+  {
+    "ticker": "SWAP",
+    "USD_AvailibleMarketShare": 1.4675018235163342e-8,
+    "USD_MaxSupplyMarketShare": 1.3009144785840348e-8
+  },
+  {
+    "ticker": "DMCH",
+    "USD_AvailibleMarketShare": 1.466307897112368e-8,
+    "USD_MaxSupplyMarketShare": 1.466307897112368e-8
+  },
+  {
+    "ticker": "SCRT",
+    "USD_AvailibleMarketShare": 1.4611955030265911e-8,
+    "USD_MaxSupplyMarketShare": 5.453684242289341e-9
+  },
+  {
+    "ticker": "QUICK",
+    "USD_AvailibleMarketShare": 1.456955036534596e-8,
+    "USD_MaxSupplyMarketShare": 2.3275293795151128e-9
+  },
+  {
+    "ticker": "SYS",
+    "USD_AvailibleMarketShare": 1.4559006661626986e-8,
+    "USD_MaxSupplyMarketShare": 1.4559006661626986e-8
+  },
+  {
+    "ticker": "NRG",
+    "USD_AvailibleMarketShare": 1.4549056528827458e-8,
+    "USD_MaxSupplyMarketShare": 1.4549056528827458e-8
+  },
+  {
+    "ticker": "DNT",
+    "USD_AvailibleMarketShare": 1.447665807995287e-8,
+    "USD_MaxSupplyMarketShare": 8.685994847971722e-9
+  },
+  {
+    "ticker": "SERO",
+    "USD_AvailibleMarketShare": 1.4459518167759317e-8,
+    "USD_MaxSupplyMarketShare": 7.32577595748464e-9
+  },
+  {
+    "ticker": "RFOX",
+    "USD_AvailibleMarketShare": 1.4451496997395749e-8,
+    "USD_MaxSupplyMarketShare": 9.480187521860471e-9
+  },
+  {
+    "ticker": "TROY",
+    "USD_AvailibleMarketShare": 1.4335341690664146e-8,
+    "USD_MaxSupplyMarketShare": 1.3947009229904285e-8
+  },
+  {
+    "ticker": "BIFI",
+    "USD_AvailibleMarketShare": 1.4313943906826156e-8,
+    "USD_MaxSupplyMarketShare": 1.288254951614354e-8
+  },
+  {
+    "ticker": "TWT",
+    "USD_AvailibleMarketShare": 1.4215142117028162e-8,
+    "USD_MaxSupplyMarketShare": 3.566951593885832e-9
+  },
+  {
+    "ticker": "SFP",
+    "USD_AvailibleMarketShare": 1.4180297511438264e-8,
+    "USD_MaxSupplyMarketShare": 3.067671037761343e-9
+  },
+  {
+    "ticker": "PAC",
+    "USD_AvailibleMarketShare": 1.4170632055586397e-8,
+    "USD_MaxSupplyMarketShare": 1.4170632055586397e-8
+  },
+  {
+    "ticker": "QC",
+    "USD_AvailibleMarketShare": 1.4169503258863545e-8,
+    "USD_MaxSupplyMarketShare": 6.517974332977883e-10
+  },
+  {
+    "ticker": "RNDR",
+    "USD_AvailibleMarketShare": 1.4006722370435031e-8,
+    "USD_MaxSupplyMarketShare": 4.196384074885842e-9
+  },
+  {
+    "ticker": "QKC",
+    "USD_AvailibleMarketShare": 1.3930651722068132e-8,
+    "USD_MaxSupplyMarketShare": 8.915486846350808e-9
+  },
+  {
+    "ticker": "BNANA",
+    "USD_AvailibleMarketShare": 1.3831049869548857e-8,
+    "USD_MaxSupplyMarketShare": 4.388230766093491e-12
+  },
+  {
+    "ticker": "ROSE",
+    "USD_AvailibleMarketShare": 1.359201561620046e-8,
+    "USD_MaxSupplyMarketShare": 2.038802342430069e-9
+  },
+  {
+    "ticker": "KMD",
+    "USD_AvailibleMarketShare": 1.3504539908272921e-8,
+    "USD_MaxSupplyMarketShare": 1.3504539908272921e-8
+  },
+  {
+    "ticker": "DAO",
+    "USD_AvailibleMarketShare": 1.3497087769327201e-8,
+    "USD_MaxSupplyMarketShare": 1.7781718216555603e-9
+  },
+  {
+    "ticker": "SNL",
+    "USD_AvailibleMarketShare": 1.345874163749633e-8,
+    "USD_MaxSupplyMarketShare": 9.482408903529598e-9
+  },
+  {
+    "ticker": "RKN",
+    "USD_AvailibleMarketShare": 1.3323004576938527e-8,
+    "USD_MaxSupplyMarketShare": 1.1324553885734697e-8
+  },
+  {
+    "ticker": "vETH",
+    "USD_AvailibleMarketShare": 1.329549568955283e-8,
+    "USD_MaxSupplyMarketShare": 1.329549568955283e-8
+  },
+  {
+    "ticker": "HNS",
+    "USD_AvailibleMarketShare": 1.3191023160421765e-8,
+    "USD_MaxSupplyMarketShare": 1.3191023160421765e-8
+  },
+  {
+    "ticker": "LYXe",
+    "USD_AvailibleMarketShare": 1.313580971750611e-8,
+    "USD_MaxSupplyMarketShare": 1.9632670480542626e-9
+  },
+  {
+    "ticker": "FORTH",
+    "USD_AvailibleMarketShare": 1.3086980058519197e-8,
+    "USD_MaxSupplyMarketShare": 6.309242480574077e-9
+  },
+  {
+    "ticker": "RLY",
+    "USD_AvailibleMarketShare": 1.3085410809951763e-8,
+    "USD_MaxSupplyMarketShare": 1.5309300472684437e-10
+  },
+  {
+    "ticker": "BADGER",
+    "USD_AvailibleMarketShare": 1.286342764867177e-8,
+    "USD_MaxSupplyMarketShare": 5.893793246172112e-9
+  },
+  {
+    "ticker": "NYE",
+    "USD_AvailibleMarketShare": 1.2691833360375903e-8,
+    "USD_MaxSupplyMarketShare": 2.355856533382146e-10
+  },
+  {
+    "ticker": "AUDIO",
+    "USD_AvailibleMarketShare": 1.2644385840576757e-8,
+    "USD_MaxSupplyMarketShare": 1.517326300869211e-9
+  },
+  {
+    "ticker": "LON",
+    "USD_AvailibleMarketShare": 1.2587755128184075e-8,
+    "USD_MaxSupplyMarketShare": 2.9397394548845618e-9
+  },
+  {
+    "ticker": "KAI",
+    "USD_AvailibleMarketShare": 1.2556616193509457e-8,
+    "USD_MaxSupplyMarketShare": 5.147710374691137e-9
+  },
+  {
+    "ticker": "VAI",
+    "USD_AvailibleMarketShare": 1.2542439717146745e-8,
+    "USD_MaxSupplyMarketShare": 1.2542439717146745e-8
+  },
+  {
+    "ticker": "DAG",
+    "USD_AvailibleMarketShare": 1.2506930778137092e-8,
+    "USD_MaxSupplyMarketShare": 4.268638311946073e-9
+  },
+  {
+    "ticker": "ELF",
+    "USD_AvailibleMarketShare": 1.2485667329897214e-8,
+    "USD_MaxSupplyMarketShare": 7.725225732785764e-9
+  },
+  {
+    "ticker": "GNY",
+    "USD_AvailibleMarketShare": 1.242006757237662e-8,
+    "USD_MaxSupplyMarketShare": 5.973327698219799e-9
+  },
+  {
+    "ticker": "ATA",
+    "USD_AvailibleMarketShare": 1.2227485262591543e-8,
+    "USD_MaxSupplyMarketShare": 2.1062087914519184e-9
+  },
+  {
+    "ticker": "vXVS",
+    "USD_AvailibleMarketShare": 1.219241033043956e-8,
+    "USD_MaxSupplyMarketShare": 1.219241033043956e-8
+  },
+  {
+    "ticker": "XHV",
+    "USD_AvailibleMarketShare": 1.2165640620069034e-8,
+    "USD_MaxSupplyMarketShare": 1.2165640620069034e-8
+  },
+  {
+    "ticker": "WNXM",
+    "USD_AvailibleMarketShare": 1.2163726926302952e-8,
+    "USD_MaxSupplyMarketShare": 1.2163726926302952e-8
+  },
+  {
+    "ticker": "RPL",
+    "USD_AvailibleMarketShare": 1.2158313278754211e-8,
+    "USD_MaxSupplyMarketShare": 6.973593344373979e-9
+  },
+  {
+    "ticker": "BTRS",
+    "USD_AvailibleMarketShare": 1.2155408437563578e-8,
+    "USD_MaxSupplyMarketShare": 5.469933796903611e-9
+  },
+  {
+    "ticker": "GTC",
+    "USD_AvailibleMarketShare": 1.2145531511713713e-8,
+    "USD_MaxSupplyMarketShare": 1.7244470646869486e-9
+  },
+  {
+    "ticker": "LINA",
+    "USD_AvailibleMarketShare": 1.2128555632900786e-8,
+    "USD_MaxSupplyMarketShare": 4.485014467738091e-9
+  },
+  {
+    "ticker": "TRAC",
+    "USD_AvailibleMarketShare": 1.2115505737802273e-8,
+    "USD_MaxSupplyMarketShare": 8.672088794714189e-9
+  },
+  {
+    "ticker": "MED",
+    "USD_AvailibleMarketShare": 1.2031281208044871e-8,
+    "USD_MaxSupplyMarketShare": 3.926974521781304e-9
+  },
+  {
+    "ticker": "OXY",
+    "USD_AvailibleMarketShare": 1.1976994437945968e-8,
+    "USD_MaxSupplyMarketShare": 7.048644218499264e-11
+  },
+  {
+    "ticker": "ALCX",
+    "USD_AvailibleMarketShare": 1.1964962452920012e-8,
+    "USD_MaxSupplyMarketShare": 4.737060048580463e-9
+  },
+  {
+    "ticker": "BTM",
+    "USD_AvailibleMarketShare": 1.188094055817181e-8,
+    "USD_MaxSupplyMarketShare": 1.0138944239393315e-8
+  },
+  {
+    "ticker": "MTL",
+    "USD_AvailibleMarketShare": 1.1769076508963685e-8,
+    "USD_MaxSupplyMarketShare": 1.159232658085309e-8
+  },
+  {
+    "ticker": "CREAM",
+    "USD_AvailibleMarketShare": 1.1356569029825036e-8,
+    "USD_MaxSupplyMarketShare": 7.777710339406106e-10
+  },
+  {
+    "ticker": "MONA",
+    "USD_AvailibleMarketShare": 1.1307081408785773e-8,
+    "USD_MaxSupplyMarketShare": 1.1307081408785773e-8
+  },
+  {
+    "ticker": "POLY",
+    "USD_AvailibleMarketShare": 1.127520112633508e-8,
+    "USD_MaxSupplyMarketShare": 6.976690405012796e-9
+  },
+  {
+    "ticker": "SURE",
+    "USD_AvailibleMarketShare": 1.1253023000969183e-8,
+    "USD_MaxSupplyMarketShare": 3.4257863307008164e-9
+  },
+  {
+    "ticker": "MVL",
+    "USD_AvailibleMarketShare": 1.1042698612530946e-8,
+    "USD_MaxSupplyMarketShare": 4.766790673171912e-9
+  },
+  {
+    "ticker": "DAWN",
+    "USD_AvailibleMarketShare": 1.1020870980385639e-8,
+    "USD_MaxSupplyMarketShare": 7.988636552551416e-9
+  },
+  {
+    "ticker": "COTI",
+    "USD_AvailibleMarketShare": 1.0967160335538332e-8,
+    "USD_MaxSupplyMarketShare": 3.6725742878053535e-9
+  },
+  {
+    "ticker": "EXRD",
+    "USD_AvailibleMarketShare": 1.0965441095119146e-8,
+    "USD_MaxSupplyMarketShare": null
+  },
+  {
+    "ticker": "DIVI",
+    "USD_AvailibleMarketShare": 1.0960619217773741e-8,
+    "USD_MaxSupplyMarketShare": 1.0960619217773741e-8
+  },
+  {
+    "ticker": "UTK",
+    "USD_AvailibleMarketShare": 1.0883435250946092e-8,
+    "USD_MaxSupplyMarketShare": 9.795091725851482e-9
+  },
+  {
+    "ticker": "ARK",
+    "USD_AvailibleMarketShare": 1.086654386446903e-8,
+    "USD_MaxSupplyMarketShare": 8.93465213179155e-9
+  },
+  {
+    "ticker": "MBN",
+    "USD_AvailibleMarketShare": 1.0837432731316418e-8,
+    "USD_MaxSupplyMarketShare": 1.5334349581147045e-10
+  },
+  {
+    "ticker": "DODO",
+    "USD_AvailibleMarketShare": 1.0833072132566132e-8,
+    "USD_MaxSupplyMarketShare": 1.1976174112419264e-9
+  },
+  {
+    "ticker": "IQ",
+    "USD_AvailibleMarketShare": 1.0712127627539674e-8,
+    "USD_MaxSupplyMarketShare": 1.070469588280966e-8
+  },
+  {
+    "ticker": "STEEM",
+    "USD_AvailibleMarketShare": 1.0414510812618135e-8,
+    "USD_MaxSupplyMarketShare": 9.99293281681874e-9
+  },
+  {
+    "ticker": "EUM",
+    "USD_AvailibleMarketShare": 1.0356875535576867e-8,
+    "USD_MaxSupplyMarketShare": 9.37987901320621e-10
+  },
+  {
+    "ticker": "HIVE",
+    "USD_AvailibleMarketShare": 1.0350957915862614e-8,
+    "USD_MaxSupplyMarketShare": 1.0350957915862614e-8
+  },
+  {
+    "ticker": "XNC",
+    "USD_AvailibleMarketShare": 1.0323068551088423e-8,
+    "USD_MaxSupplyMarketShare": 7.841501478872053e-9
+  },
+  {
+    "ticker": "VLX",
+    "USD_AvailibleMarketShare": 1.0261068297135719e-8,
+    "USD_MaxSupplyMarketShare": 1.0261068297135719e-8
+  },
+  {
+    "ticker": "DATA",
+    "USD_AvailibleMarketShare": 1.0251065507027691e-8,
+    "USD_MaxSupplyMarketShare": 9.182464863659843e-9
+  },
+  {
+    "ticker": "PERP",
+    "USD_AvailibleMarketShare": 1.022865962924769e-8,
+    "USD_MaxSupplyMarketShare": 1.4862586962411486e-9
+  },
+  {
+    "ticker": "vUSDC",
+    "USD_AvailibleMarketShare": 1.0164316907363066e-8,
+    "USD_MaxSupplyMarketShare": 1.0164316907363066e-8
+  },
+  {
+    "ticker": "WAN",
+    "USD_AvailibleMarketShare": 1.0163363776520477e-8,
+    "USD_MaxSupplyMarketShare": 1.0163363776520477e-8
+  },
+  {
+    "ticker": "CENNZ",
+    "USD_AvailibleMarketShare": 1.016204339536259e-8,
+    "USD_MaxSupplyMarketShare": 1.016204339536259e-8
+  },
+  {
+    "ticker": "BOND",
+    "USD_AvailibleMarketShare": 1.0125238483124211e-8,
+    "USD_MaxSupplyMarketShare": 3.3776722724266782e-9
+  },
+  {
+    "ticker": "JST",
+    "USD_AvailibleMarketShare": 1.0053803229449417e-8,
+    "USD_MaxSupplyMarketShare": 2.2954424178175316e-9
+  },
+  {
+    "ticker": "FX",
+    "USD_AvailibleMarketShare": 1.0033693621030198e-8,
+    "USD_MaxSupplyMarketShare": 9.652811309292638e-9
+  },
+  {
+    "ticker": "ALPHA",
+    "USD_AvailibleMarketShare": 9.897818015729922e-9,
+    "USD_MaxSupplyMarketShare": 2.8266093175377657e-9
+  },
+  {
+    "ticker": "REV",
+    "USD_AvailibleMarketShare": 9.80433718069932e-9,
+    "USD_MaxSupplyMarketShare": 6.907384736280502e-9
+  },
+  {
+    "ticker": "DERO",
+    "USD_AvailibleMarketShare": 9.664651663355696e-9,
+    "USD_MaxSupplyMarketShare": 5.608179905582884e-9
+  },
+  {
+    "ticker": "ETN",
+    "USD_AvailibleMarketShare": 9.598857698767226e-9,
+    "USD_MaxSupplyMarketShare": 9.598857698767226e-9
+  },
+  {
+    "ticker": "NWC",
+    "USD_AvailibleMarketShare": 9.511523580318893e-9,
+    "USD_MaxSupplyMarketShare": 5.398461497881953e-9
+  },
+  {
+    "ticker": "ARDR",
+    "USD_AvailibleMarketShare": 9.510397801183449e-9,
+    "USD_MaxSupplyMarketShare": 9.510397801183449e-9
+  },
+  {
+    "ticker": "STRK",
+    "USD_AvailibleMarketShare": 9.431953002319042e-9,
+    "USD_MaxSupplyMarketShare": 4.199887874274789e-9
+  },
+  {
+    "ticker": "EURS",
+    "USD_AvailibleMarketShare": 9.36876954288758e-9,
+    "USD_MaxSupplyMarketShare": 9.36876954288758e-9
+  },
+  {
+    "ticker": "PAXG",
+    "USD_AvailibleMarketShare": 9.342996088430093e-9,
+    "USD_MaxSupplyMarketShare": 6.679548278978525e-9
+  },
+  {
+    "ticker": "C20",
+    "USD_AvailibleMarketShare": 9.30702037708238e-9,
+    "USD_MaxSupplyMarketShare": 9.125815804452474e-9
+  },
+  {
+    "ticker": "RIF",
+    "USD_AvailibleMarketShare": 9.300067296073813e-9,
+    "USD_MaxSupplyMarketShare": 6.907036062106737e-9
+  },
+  {
+    "ticker": "TOMO",
+    "USD_AvailibleMarketShare": 9.16785291017485e-9,
+    "USD_MaxSupplyMarketShare": 7.500455392044867e-9
+  },
+  {
+    "ticker": "AVA",
+    "USD_AvailibleMarketShare": 9.127907640460434e-9,
+    "USD_MaxSupplyMarketShare": 7.4217208009311826e-9
+  },
+  {
+    "ticker": "MLN",
+    "USD_AvailibleMarketShare": 9.045107996729362e-9,
+    "USD_MaxSupplyMarketShare": 8.887948777013705e-9
+  },
+  {
+    "ticker": "ORBS",
+    "USD_AvailibleMarketShare": 8.957964206170442e-9,
+    "USD_MaxSupplyMarketShare": 1.9975816923579e-9
+  },
+  {
+    "ticker": "BAL",
+    "USD_AvailibleMarketShare": 8.904976311506183e-9,
+    "USD_MaxSupplyMarketShare": 1.7308509605626954e-9
+  },
+  {
+    "ticker": "SUN",
+    "USD_AvailibleMarketShare": 8.90009001058957e-9,
+    "USD_MaxSupplyMarketShare": 2.223660033822517e-9
+  },
+  {
+    "ticker": "SAPP",
+    "USD_AvailibleMarketShare": 8.798777316561402e-9,
+    "USD_MaxSupplyMarketShare": 8.511461605643586e-9
+  },
+  {
+    "ticker": "PHA",
+    "USD_AvailibleMarketShare": 8.622266930290282e-9,
+    "USD_MaxSupplyMarketShare": 1.531611043193343e-9
+  },
+  {
+    "ticker": "CSPR",
+    "USD_AvailibleMarketShare": 8.466443668361859e-9,
+    "USD_MaxSupplyMarketShare": 4.935574329221596e-10
+  },
+  {
+    "ticker": "CVC",
+    "USD_AvailibleMarketShare": 8.424200887215139e-9,
+    "USD_MaxSupplyMarketShare": 5.644214594434144e-9
+  },
+  {
+    "ticker": "KSP",
+    "USD_AvailibleMarketShare": 8.221007049859585e-9,
+    "USD_MaxSupplyMarketShare": 5.073371077466675e-10
+  },
+  {
+    "ticker": "AGIX",
+    "USD_AvailibleMarketShare": 8.095358374184726e-9,
+    "USD_MaxSupplyMarketShare": 7.0199445990519136e-9
+  },
+  {
+    "ticker": "BTS",
+    "USD_AvailibleMarketShare": 8.091954863609244e-9,
+    "USD_MaxSupplyMarketShare": 8.091954863609244e-9
+  },
+  {
+    "ticker": "AMPL",
+    "USD_AvailibleMarketShare": 8.00201370171463e-9,
+    "USD_MaxSupplyMarketShare": 5.657275735357692e-9
+  },
+  {
+    "ticker": "HXRO",
+    "USD_AvailibleMarketShare": 7.813540341493982e-9,
+    "USD_MaxSupplyMarketShare": 1.7556499462194823e-9
+  },
+  {
+    "ticker": "REP",
+    "USD_AvailibleMarketShare": 7.747395551467477e-9,
+    "USD_MaxSupplyMarketShare": 7.747395551467477e-9
+  },
+  {
+    "ticker": "ANT",
+    "USD_AvailibleMarketShare": 7.681474681784102e-9,
+    "USD_MaxSupplyMarketShare": 7.681474487854109e-9
+  },
+  {
+    "ticker": "STMX",
+    "USD_AvailibleMarketShare": 7.647359139442045e-9,
+    "USD_MaxSupplyMarketShare": 7.647359139442045e-9
+  },
+  {
+    "ticker": "CTSI",
+    "USD_AvailibleMarketShare": 7.633420631204923e-9,
+    "USD_MaxSupplyMarketShare": 2.8100092521173442e-9
+  },
+  {
+    "ticker": "SAND",
+    "USD_AvailibleMarketShare": 7.628735237048311e-9,
+    "USD_MaxSupplyMarketShare": 1.7848402952300521e-9
+  },
+  {
+    "ticker": "MATH",
+    "USD_AvailibleMarketShare": 7.5627546884103e-9,
+    "USD_MaxSupplyMarketShare": 4.324238078710637e-9
+  },
+  {
+    "ticker": "KEEP",
+    "USD_AvailibleMarketShare": 7.518509092147103e-9,
+    "USD_MaxSupplyMarketShare": 4.0284208999099936e-9
+  },
+  {
+    "ticker": "vBTC",
+    "USD_AvailibleMarketShare": 7.5046661000927e-9,
+    "USD_MaxSupplyMarketShare": 7.5046661000927e-9
+  },
+  {
+    "ticker": "UOS",
+    "USD_AvailibleMarketShare": 7.421651294823034e-9,
+    "USD_MaxSupplyMarketShare": 2.0987670058623035e-9
+  },
+  {
+    "ticker": "FRAX",
+    "USD_AvailibleMarketShare": 7.421306785990208e-9,
+    "USD_MaxSupplyMarketShare": 7.421306785990208e-9
+  },
+  {
+    "ticker": "NMR",
+    "USD_AvailibleMarketShare": 7.371973075043477e-9,
+    "USD_MaxSupplyMarketShare": 3.3535974809573363e-9
+  },
+  {
+    "ticker": "ZB",
+    "USD_AvailibleMarketShare": 7.369781222216059e-9,
+    "USD_MaxSupplyMarketShare": 1.6258748440003922e-9
+  },
+  {
+    "ticker": "SRM",
+    "USD_AvailibleMarketShare": 7.363275477300696e-9,
+    "USD_MaxSupplyMarketShare": 2.286731500486356e-9
+  },
+  {
+    "ticker": "UBT",
+    "USD_AvailibleMarketShare": 7.083495364232111e-9,
+    "USD_MaxSupplyMarketShare": 7.083495328507368e-9
+  },
+  {
+    "ticker": "NKN",
+    "USD_AvailibleMarketShare": 7.07865516388185e-9,
+    "USD_MaxSupplyMarketShare": 7.07865516388185e-9
+  },
+  {
+    "ticker": "NU",
+    "USD_AvailibleMarketShare": 7.067470380980772e-9,
+    "USD_MaxSupplyMarketShare": 3.8253986785616325e-9
+  },
+  {
+    "ticker": "FET",
+    "USD_AvailibleMarketShare": 7.0559251687669775e-9,
+    "USD_MaxSupplyMarketShare": 4.572115522237276e-9
+  },
+  {
+    "ticker": "LOC",
+    "USD_AvailibleMarketShare": 7.034656973272784e-9,
+    "USD_MaxSupplyMarketShare": 5.659298295276139e-9
+  },
+  {
+    "ticker": "ONG",
+    "USD_AvailibleMarketShare": 6.930856855351732e-9,
+    "USD_MaxSupplyMarketShare": 1.924667853193293e-9
+  },
+  {
+    "ticker": "CELR",
+    "USD_AvailibleMarketShare": 6.922932057640195e-9,
+    "USD_MaxSupplyMarketShare": 3.877676625826594e-9
+  },
+  {
+    "ticker": "ZKS",
+    "USD_AvailibleMarketShare": 6.892879755303489e-9,
+    "USD_MaxSupplyMarketShare": 1.3609301788871209e-9
+  },
+  {
+    "ticker": "IOTX",
+    "USD_AvailibleMarketShare": 6.853440405508194e-9,
+    "USD_MaxSupplyMarketShare": 6.7926779526116705e-9
+  },
+  {
+    "ticker": "TKO",
+    "USD_AvailibleMarketShare": 6.7939729175344844e-9,
+    "USD_MaxSupplyMarketShare": 1.4742921231049831e-9
+  },
+  {
+    "ticker": "SNT",
+    "USD_AvailibleMarketShare": 6.7926173573257874e-9,
+    "USD_MaxSupplyMarketShare": 3.464234851497484e-9
+  },
+  {
+    "ticker": "ORN",
+    "USD_AvailibleMarketShare": 6.7879794908240766e-9,
+    "USD_MaxSupplyMarketShare": 1.9674958554153583e-9
+  },
+  {
+    "ticker": "SUSD",
+    "USD_AvailibleMarketShare": 6.78193357023859e-9,
+    "USD_MaxSupplyMarketShare": 6.78193357023859e-9
+  },
+  {
+    "ticker": "TRIBE",
+    "USD_AvailibleMarketShare": 6.571549373116603e-9,
+    "USD_MaxSupplyMarketShare": 1.6321389171244814e-9
+  },
+  {
+    "ticker": "INJ",
+    "USD_AvailibleMarketShare": 6.500659736455576e-9,
+    "USD_MaxSupplyMarketShare": 1.78573465350183e-9
+  },
+  {
+    "ticker": "WAXP",
+    "USD_AvailibleMarketShare": 6.457542601878552e-9,
+    "USD_MaxSupplyMarketShare": 2.847948047427365e-9
+  },
+  {
+    "ticker": "STRAX",
+    "USD_AvailibleMarketShare": 6.32464344872036e-9,
+    "USD_MaxSupplyMarketShare": 6.32464344872036e-9
+  },
+  {
+    "ticker": "BTCST",
+    "USD_AvailibleMarketShare": 6.317233966682992e-9,
+    "USD_MaxSupplyMarketShare": 3.5646424399904935e-9
+  },
+  {
+    "ticker": "DRS",
+    "USD_AvailibleMarketShare": 6.128255434095745e-9,
+    "USD_MaxSupplyMarketShare": 1.4079152270226173e-10
+  },
+  {
+    "ticker": "SXP",
+    "USD_AvailibleMarketShare": 6.101371258505397e-9,
+    "USD_MaxSupplyMarketShare": 2.423652641700334e-9
+  },
+  {
+    "ticker": "OXT",
+    "USD_AvailibleMarketShare": 6.086590418885206e-9,
+    "USD_MaxSupplyMarketShare": 4.1510489897800315e-9
+  },
+  {
+    "ticker": "ABBC",
+    "USD_AvailibleMarketShare": 5.985500294077388e-9,
+    "USD_MaxSupplyMarketShare": 3.4124916623597474e-9
+  },
+  {
+    "ticker": "FUN",
+    "USD_AvailibleMarketShare": 5.980051723010984e-9,
+    "USD_MaxSupplyMarketShare": 5.598957984157382e-9
+  },
+  {
+    "ticker": "RAY",
+    "USD_AvailibleMarketShare": 5.8962858512437674e-9,
+    "USD_MaxSupplyMarketShare": 5.613455357755447e-10
+  },
+  {
+    "ticker": "MCO",
+    "USD_AvailibleMarketShare": 5.885970276152387e-9,
+    "USD_MaxSupplyMarketShare": 2.9429832585567487e-9
+  },
+  {
+    "ticker": "EWT",
+    "USD_AvailibleMarketShare": 5.8358793974727876e-9,
+    "USD_MaxSupplyMarketShare": 3.606996185209986e-9
+  },
+  {
+    "ticker": "CFX",
+    "USD_AvailibleMarketShare": 5.815868501476146e-9,
+    "USD_MaxSupplyMarketShare": 5.815868501476146e-9
+  },
+  {
+    "ticker": "UQC",
+    "USD_AvailibleMarketShare": 5.720149057107415e-9,
+    "USD_MaxSupplyMarketShare": 1.4300372642768538e-9
+  },
+  {
+    "ticker": "REEF",
+    "USD_AvailibleMarketShare": 5.6855451978800314e-9,
+    "USD_MaxSupplyMarketShare": 4.519695013085032e-9
+  },
+  {
+    "ticker": "STORJ",
+    "USD_AvailibleMarketShare": 5.663196340059128e-9,
+    "USD_MaxSupplyMarketShare": 3.8395017130087055e-9
+  },
+  {
+    "ticker": "PROM",
+    "USD_AvailibleMarketShare": 5.560775838414248e-9,
+    "USD_MaxSupplyMarketShare": 4.751935716463084e-9
+  },
+  {
+    "ticker": "TITAN",
+    "USD_AvailibleMarketShare": 5.53552903016298e-9,
+    "USD_MaxSupplyMarketShare": 2.956202780114686e-11
+  },
+  {
+    "ticker": "BAND",
+    "USD_AvailibleMarketShare": 5.4640746715785655e-9,
+    "USD_MaxSupplyMarketShare": 1.9229073777282666e-9
+  },
+  {
+    "ticker": "XVS",
+    "USD_AvailibleMarketShare": 5.375462885815731e-9,
+    "USD_MaxSupplyMarketShare": 1.836522773750732e-9
+  },
+  {
+    "ticker": "KLV",
+    "USD_AvailibleMarketShare": 5.270308046851201e-9,
+    "USD_MaxSupplyMarketShare": 1.7906481764454262e-9
+  },
+  {
+    "ticker": "ERG",
+    "USD_AvailibleMarketShare": 5.1486381536582476e-9,
+    "USD_MaxSupplyMarketShare": 4.6669981918198215e-9
+  },
+  {
+    "ticker": "PUNDIX",
+    "USD_AvailibleMarketShare": 5.1466179008758e-9,
+    "USD_MaxSupplyMarketShare": 5.1466179008758e-9
+  },
+  {
+    "ticker": "OGN",
+    "USD_AvailibleMarketShare": 5.1259625894092935e-9,
+    "USD_MaxSupplyMarketShare": 1.6081063448191679e-9
+  },
+  {
+    "ticker": "ANC",
+    "USD_AvailibleMarketShare": 5.095431716436916e-9,
+    "USD_MaxSupplyMarketShare": 3.9792953423189413e-10
+  },
+  {
+    "ticker": "SKL",
+    "USD_AvailibleMarketShare": 5.086997103290966e-9,
+    "USD_MaxSupplyMarketShare": 1.1978019084929844e-9
+  },
+  {
+    "ticker": "RLC",
+    "USD_AvailibleMarketShare": 4.876989709902582e-9,
+    "USD_MaxSupplyMarketShare": 4.4885678136819595e-9
+  },
+  {
+    "ticker": "SOLO",
+    "USD_AvailibleMarketShare": 4.7228493066329e-9,
+    "USD_MaxSupplyMarketShare": 2.361467698898761e-9
+  },
+  {
+    "ticker": "GUSD",
+    "USD_AvailibleMarketShare": 4.70597246242993e-9,
+    "USD_MaxSupplyMarketShare": 4.70597246242993e-9
+  },
+  {
+    "ticker": "AXS",
+    "USD_AvailibleMarketShare": 4.699792475176605e-9,
+    "USD_MaxSupplyMarketShare": 1.0601948525252558e-9
+  },
+  {
+    "ticker": "DENT",
+    "USD_AvailibleMarketShare": 4.590399244201339e-9,
+    "USD_MaxSupplyMarketShare": 4.526625299107143e-9
+  },
+  {
+    "ticker": "XPRT",
+    "USD_AvailibleMarketShare": 4.564525454710721e-9,
+    "USD_MaxSupplyMarketShare": 8.77414248262079e-10
+  },
+  {
+    "ticker": "VTHO",
+    "USD_AvailibleMarketShare": 4.402597271489536e-9,
+    "USD_MaxSupplyMarketShare": 4.402597271489536e-9
+  },
+  {
+    "ticker": "KAVA",
+    "USD_AvailibleMarketShare": 4.400225399541958e-9,
+    "USD_MaxSupplyMarketShare": 2.258736848410437e-9
+  },
+  {
+    "ticker": "YOUC",
+    "USD_AvailibleMarketShare": 4.3529279432299506e-9,
+    "USD_MaxSupplyMarketShare": 2.0478603179923145e-9
+  },
+  {
+    "ticker": "GLM",
+    "USD_AvailibleMarketShare": 4.346154165586106e-9,
+    "USD_MaxSupplyMarketShare": 4.346154165586106e-9
+  },
+  {
+    "ticker": "GT",
+    "USD_AvailibleMarketShare": 4.237001008304856e-9,
+    "USD_MaxSupplyMarketShare": 1.1218069103954258e-9
+  },
+  {
+    "ticker": "WOO",
+    "USD_AvailibleMarketShare": 4.1532663723261215e-9,
+    "USD_MaxSupplyMarketShare": 5.437867047392354e-10
+  },
+  {
+    "ticker": "OCEAN",
+    "USD_AvailibleMarketShare": 4.143615331042714e-9,
+    "USD_MaxSupplyMarketShare": 4.143615331027937e-9
+  },
+  {
+    "ticker": "LSK",
+    "USD_AvailibleMarketShare": 4.079953708566862e-9,
+    "USD_MaxSupplyMarketShare": 3.6296520983271707e-9
+  },
+  {
+    "ticker": "MINA",
+    "USD_AvailibleMarketShare": 3.950237064270938e-9,
+    "USD_MaxSupplyMarketShare": 7.783346085186804e-10
+  },
+  {
+    "ticker": "AKT",
+    "USD_AvailibleMarketShare": 3.927886811858141e-9,
+    "USD_MaxSupplyMarketShare": 1.7927956866065015e-9
+  },
+  {
+    "ticker": "HNC",
+    "USD_AvailibleMarketShare": 3.905491512740323e-9,
+    "USD_MaxSupplyMarketShare": 3.905491512740323e-9
+  },
+  {
+    "ticker": "LRC",
+    "USD_AvailibleMarketShare": 3.878530476777156e-9,
+    "USD_MaxSupplyMarketShare": 3.4598727454083283e-9
+  },
+  {
+    "ticker": "KNC",
+    "USD_AvailibleMarketShare": 3.783244773904206e-9,
+    "USD_MaxSupplyMarketShare": 3.689535846745493e-9
+  },
+  {
+    "ticker": "GNO",
+    "USD_AvailibleMarketShare": 3.752229252356301e-9,
+    "USD_MaxSupplyMarketShare": 5.645555354115009e-10
+  },
+  {
+    "ticker": "BTMX",
+    "USD_AvailibleMarketShare": 3.7001791606606476e-9,
+    "USD_MaxSupplyMarketShare": 3.7001791606606476e-9
+  },
+  {
+    "ticker": "RSR",
+    "USD_AvailibleMarketShare": 3.6155082093392412e-9,
+    "USD_MaxSupplyMarketShare": 4.758008441939621e-10
+  },
+  {
+    "ticker": "MAID",
+    "USD_AvailibleMarketShare": 3.576410227068627e-9,
+    "USD_MaxSupplyMarketShare": 3.576410227068627e-9
+  },
+  {
+    "ticker": "WIN",
+    "USD_AvailibleMarketShare": 3.51187960018696e-9,
+    "USD_MaxSupplyMarketShare": 2.705438433350182e-9
+  },
+  {
+    "ticker": "BCN",
+    "USD_AvailibleMarketShare": 3.439558011873182e-9,
+    "USD_MaxSupplyMarketShare": 3.439558011873182e-9
+  },
+  {
+    "ticker": "IOST",
+    "USD_AvailibleMarketShare": 3.3372028338891878e-9,
+    "USD_MaxSupplyMarketShare": 3.3372028338891878e-9
+  },
+  {
+    "ticker": "HEDG",
+    "USD_AvailibleMarketShare": 3.2908372850858597e-9,
+    "USD_MaxSupplyMarketShare": 1.1476185186117606e-9
+  },
+  {
+    "ticker": "CKB",
+    "USD_AvailibleMarketShare": 3.171403450282424e-9,
+    "USD_MaxSupplyMarketShare": 2.6063131576341616e-9
+  },
+  {
+    "ticker": "MIR",
+    "USD_AvailibleMarketShare": 3.021492390412661e-9,
+    "USD_MaxSupplyMarketShare": 6.338768557682377e-10
+  },
+  {
+    "ticker": "OMI",
+    "USD_AvailibleMarketShare": 3.017082090756113e-9,
+    "USD_MaxSupplyMarketShare": 6.689306307694999e-10
+  },
+  {
+    "ticker": "AR",
+    "USD_AvailibleMarketShare": 3.002237619449146e-9,
+    "USD_MaxSupplyMarketShare": 1.5866139809364505e-9
+  },
+  {
+    "ticker": "FLOW",
+    "USD_AvailibleMarketShare": 2.9675694338076928e-9,
+    "USD_MaxSupplyMarketShare": 9.36736181479138e-11
+  },
+  {
+    "ticker": "WRX",
+    "USD_AvailibleMarketShare": 2.9650986618170725e-9,
+    "USD_MaxSupplyMarketShare": 8.838120747622723e-10
+  },
+  {
+    "ticker": "REN",
+    "USD_AvailibleMarketShare": 2.951660103792005e-9,
+    "USD_MaxSupplyMarketShare": 2.945058472138884e-9
+  },
+  {
+    "ticker": "XVG",
+    "USD_AvailibleMarketShare": 2.9259997019856234e-9,
+    "USD_MaxSupplyMarketShare": 2.9259997019856234e-9
+  },
+  {
+    "ticker": "RENBTC",
+    "USD_AvailibleMarketShare": 2.8160129618467895e-9,
+    "USD_MaxSupplyMarketShare": 2.8160129618467895e-9
+  },
+  {
+    "ticker": "ORC",
+    "USD_AvailibleMarketShare": 2.5951983659451055e-9,
+    "USD_MaxSupplyMarketShare": 1.2093303800450047e-9
+  },
+  {
+    "ticker": "BCD",
+    "USD_AvailibleMarketShare": 2.5804282653878517e-9,
+    "USD_MaxSupplyMarketShare": 2.5395756272162426e-9
+  },
+  {
+    "ticker": "USDN",
+    "USD_AvailibleMarketShare": 2.573193627100385e-9,
+    "USD_MaxSupplyMarketShare": 2.573189799789679e-9
+  },
+  {
+    "ticker": "1INCH",
+    "USD_AvailibleMarketShare": 2.4277052312369975e-9,
+    "USD_MaxSupplyMarketShare": 2.79647227806926e-10
+  },
+  {
+    "ticker": "BEST",
+    "USD_AvailibleMarketShare": 2.3798407182938294e-9,
+    "USD_MaxSupplyMarketShare": 1.09022608029354e-9
+  },
+  {
+    "ticker": "ZLW",
+    "USD_AvailibleMarketShare": 2.3632674005735507e-9,
+    "USD_MaxSupplyMarketShare": 5.568146564021847e-10
+  },
+  {
+    "ticker": "BOTX",
+    "USD_AvailibleMarketShare": 2.360886970008314e-9,
+    "USD_MaxSupplyMarketShare": 7.709392848772281e-10
+  },
+  {
+    "ticker": "LPT",
+    "USD_AvailibleMarketShare": 2.3129671017373527e-9,
+    "USD_MaxSupplyMarketShare": 2.1415252239086504e-9
+  },
+  {
+    "ticker": "NXM",
+    "USD_AvailibleMarketShare": 2.219670551019695e-9,
+    "USD_MaxSupplyMarketShare": 2.058973748976759e-9
+  },
+  {
+    "ticker": "RVN",
+    "USD_AvailibleMarketShare": 2.2065469954637956e-9,
+    "USD_MaxSupplyMarketShare": 2.2065469954637956e-9
+  },
+  {
+    "ticker": "BCHA",
+    "USD_AvailibleMarketShare": 2.1733896579706925e-9,
+    "USD_MaxSupplyMarketShare": 2.1733896579706925e-9
+  },
+  {
+    "ticker": "ICX",
+    "USD_AvailibleMarketShare": 2.1414375975060923e-9,
+    "USD_MaxSupplyMarketShare": 1.6922743325047211e-9
+  },
+  {
+    "ticker": "CHSB",
+    "USD_AvailibleMarketShare": 2.131957324199681e-9,
+    "USD_MaxSupplyMarketShare": 2.131957324199681e-9
+  },
+  {
+    "ticker": "ANKR",
+    "USD_AvailibleMarketShare": 2.0925846658439763e-9,
+    "USD_MaxSupplyMarketShare": 1.4640209289976203e-9
+  },
+  {
+    "ticker": "VGX",
+    "USD_AvailibleMarketShare": 2.0766420667083343e-9,
+    "USD_MaxSupplyMarketShare": 2.0766420644849808e-9
+  },
+  {
+    "ticker": "vBNB",
+    "USD_AvailibleMarketShare": 2.0531688437947436e-9,
+    "USD_MaxSupplyMarketShare": 2.0531688437947436e-9
+  },
+  {
+    "ticker": "UMA",
+    "USD_AvailibleMarketShare": 2.0026584830417686e-9,
+    "USD_MaxSupplyMarketShare": 1.1918011101951314e-9
+  },
+  {
+    "ticker": "BAKE",
+    "USD_AvailibleMarketShare": 1.9960402216178782e-9,
+    "USD_MaxSupplyMarketShare": 1.8729994488631075e-9
+  },
+  {
+    "ticker": "OMG",
+    "USD_AvailibleMarketShare": 1.975365096780093e-9,
+    "USD_MaxSupplyMarketShare": 1.975365096780093e-9
+  },
+  {
+    "ticker": "ZRX",
+    "USD_AvailibleMarketShare": 1.9358112103043483e-9,
+    "USD_MaxSupplyMarketShare": 1.6363871540976243e-9
+  },
+  {
+    "ticker": "ONT",
+    "USD_AvailibleMarketShare": 1.9301574401634088e-9,
+    "USD_MaxSupplyMarketShare": 1.6708079503089252e-9
+  },
+  {
+    "ticker": "SC",
+    "USD_AvailibleMarketShare": 1.9218639585826096e-9,
+    "USD_MaxSupplyMarketShare": 1.9218639585826096e-9
+  },
+  {
+    "ticker": "KCS",
+    "USD_AvailibleMarketShare": 1.8923822167341495e-9,
+    "USD_MaxSupplyMarketShare": 8.912314815273848e-10
+  },
+  {
+    "ticker": "FTM",
+    "USD_AvailibleMarketShare": 1.8222954351887172e-9,
+    "USD_MaxSupplyMarketShare": 1.8222954351887172e-9
+  },
+  {
+    "ticker": "CRV",
+    "USD_AvailibleMarketShare": 1.819657423423886e-9,
+    "USD_MaxSupplyMarketShare": 4.4283211719078307e-10
+  },
+  {
+    "ticker": "ARRR",
+    "USD_AvailibleMarketShare": 1.810930929239024e-9,
+    "USD_MaxSupplyMarketShare": 1.810930929239024e-9
+  },
+  {
+    "ticker": "QTUM",
+    "USD_AvailibleMarketShare": 1.7987609430509578e-9,
+    "USD_MaxSupplyMarketShare": 1.7112873855114754e-9
+  },
+  {
+    "ticker": "XYM",
+    "USD_AvailibleMarketShare": 1.7569143059983008e-9,
+    "USD_MaxSupplyMarketShare": 1.2098883958831264e-9
+  },
+  {
+    "ticker": "ONE",
+    "USD_AvailibleMarketShare": 1.7516412574777073e-9,
+    "USD_MaxSupplyMarketShare": 1.3672485404527303e-9
+  },
+  {
+    "ticker": "DGB",
+    "USD_AvailibleMarketShare": 1.706707488628741e-9,
+    "USD_MaxSupplyMarketShare": 1.706707488628741e-9
+  },
+  {
+    "ticker": "OKB",
+    "USD_AvailibleMarketShare": 1.7006133215786555e-9,
+    "USD_MaxSupplyMarketShare": 3.401226643157311e-10
+  },
+  {
+    "ticker": "HUSD",
+    "USD_AvailibleMarketShare": 1.5888585767246294e-9,
+    "USD_MaxSupplyMarketShare": 1.5888585767246294e-9
+  },
+  {
+    "ticker": "BNT",
+    "USD_AvailibleMarketShare": 1.5710402583077703e-9,
+    "USD_MaxSupplyMarketShare": 1.5710402583077703e-9
+  },
+  {
+    "ticker": "NANO",
+    "USD_AvailibleMarketShare": 1.5600149161503735e-9,
+    "USD_MaxSupplyMarketShare": 1.5600149161503735e-9
+  },
+  {
+    "ticker": "ZEN",
+    "USD_AvailibleMarketShare": 1.553758759512111e-9,
+    "USD_MaxSupplyMarketShare": 1.553758759512111e-9
+  },
+  {
+    "ticker": "XDC",
+    "USD_AvailibleMarketShare": 1.5208060966852036e-9,
+    "USD_MaxSupplyMarketShare": 4.955206040056534e-10
+  },
+  {
+    "ticker": "BTG",
+    "USD_AvailibleMarketShare": 1.4864385223393244e-9,
+    "USD_MaxSupplyMarketShare": 1.4864385223393244e-9
+  },
+  {
+    "ticker": "SNX",
+    "USD_AvailibleMarketShare": 1.484216711738606e-9,
+    "USD_MaxSupplyMarketShare": 7.918361311207686e-10
+  },
+  {
+    "ticker": "REV",
+    "USD_AvailibleMarketShare": 1.4630583015047838e-9,
+    "USD_MaxSupplyMarketShare": 1.4630583015047838e-9
+  },
+  {
+    "ticker": "XWC",
+    "USD_AvailibleMarketShare": 1.3783603024664945e-9,
+    "USD_MaxSupplyMarketShare": 1.0816829500225711e-9
+  },
+  {
+    "ticker": "LUSD",
+    "USD_AvailibleMarketShare": 1.3663556131429212e-9,
+    "USD_MaxSupplyMarketShare": 1.3663556131429212e-9
+  },
+  {
+    "ticker": "STX",
+    "USD_AvailibleMarketShare": 1.3482208197439295e-9,
+    "USD_MaxSupplyMarketShare": 1.1488385399697807e-9
+  },
+  {
+    "ticker": "MDX",
+    "USD_AvailibleMarketShare": 1.3157188973555265e-9,
+    "USD_MaxSupplyMarketShare": 6.563438702681414e-10
+  },
+  {
+    "ticker": "DFI",
+    "USD_AvailibleMarketShare": 1.3099090616398943e-9,
+    "USD_MaxSupplyMarketShare": 6.687425918823522e-10
+  },
+  {
+    "ticker": "MANA",
+    "USD_AvailibleMarketShare": 1.3091913802388538e-9,
+    "USD_MaxSupplyMarketShare": 9.42922535317267e-10
+  },
+  {
+    "ticker": "NEXO",
+    "USD_AvailibleMarketShare": 1.2769634665843087e-9,
+    "USD_MaxSupplyMarketShare": 7.150995553338109e-10
+  },
+  {
+    "ticker": "BAT",
+    "USD_AvailibleMarketShare": 1.2663501814476662e-9,
+    "USD_MaxSupplyMarketShare": 1.2643751394654438e-9
+  },
+  {
+    "ticker": "NEAR",
+    "USD_AvailibleMarketShare": 1.2521611688644001e-9,
+    "USD_MaxSupplyMarketShare": 5.143678424596581e-10
+  },
+  {
+    "ticker": "SUSHI",
+    "USD_AvailibleMarketShare": 1.246940316215735e-9,
+    "USD_MaxSupplyMarketShare": 7.035041985261412e-10
+  },
+  {
+    "ticker": "ENJ",
+    "USD_AvailibleMarketShare": 1.2356872945833141e-9,
+    "USD_MaxSupplyMarketShare": 1.030972366188216e-9
+  },
+  {
+    "ticker": "ZIL",
+    "USD_AvailibleMarketShare": 1.23299291709492e-9,
+    "USD_MaxSupplyMarketShare": 9.570763043876894e-10
+  },
+  {
+    "ticker": "CELO",
+    "USD_AvailibleMarketShare": 1.2006807834879774e-9,
+    "USD_MaxSupplyMarketShare": 2.950432481033541e-10
+  },
+  {
+    "ticker": "PAX",
+    "USD_AvailibleMarketShare": 1.0866739381856835e-9,
+    "USD_MaxSupplyMarketShare": 1.0866739381856835e-9
+  },
+  {
+    "ticker": "HOT",
+    "USD_AvailibleMarketShare": 1.0456868329308174e-9,
+    "USD_MaxSupplyMarketShare": 1.016571122105265e-9
+  },
+  {
+    "ticker": "HNT",
+    "USD_AvailibleMarketShare": 1.0269273380730468e-9,
+    "USD_MaxSupplyMarketShare": 4.0412789601129304e-10
+  },
+  {
+    "ticker": "XEM",
+    "USD_AvailibleMarketShare": 1.0269158756197284e-9,
+    "USD_MaxSupplyMarketShare": 1.0269158756197284e-9
+  },
+  {
+    "ticker": "STETH",
+    "USD_AvailibleMarketShare": 1.0092197652549884e-9,
+    "USD_MaxSupplyMarketShare": 1.0092197652549884e-9
+  },
+  {
+    "ticker": "YFI",
+    "USD_AvailibleMarketShare": 9.576441084911966e-10,
+    "USD_MaxSupplyMarketShare": 9.568459366184401e-10
+  },
+  {
+    "ticker": "QNT",
+    "USD_AvailibleMarketShare": 9.223012964799289e-10,
+    "USD_MaxSupplyMarketShare": 7.619987806237575e-10
+  },
+  {
+    "ticker": "EGLD",
+    "USD_AvailibleMarketShare": 9.018335344541441e-10,
+    "USD_MaxSupplyMarketShare": 7.263478540469518e-10
+  },
+  {
+    "ticker": "TEL",
+    "USD_AvailibleMarketShare": 8.897786334841466e-10,
+    "USD_MaxSupplyMarketShare": 4.629261101369425e-10
+  },
+  {
+    "ticker": "COMP",
+    "USD_AvailibleMarketShare": 8.250152857286117e-10,
+    "USD_MaxSupplyMarketShare": 4.3809275747965354e-10
+  },
+  {
+    "ticker": "ZEC",
+    "USD_AvailibleMarketShare": 7.948077231800136e-10,
+    "USD_MaxSupplyMarketShare": 7.948077231800136e-10
+  },
+  {
+    "ticker": "DASH",
+    "USD_AvailibleMarketShare": 7.943338111746558e-10,
+    "USD_MaxSupplyMarketShare": 7.943338111746558e-10
+  },
+  {
+    "ticker": "RUNE",
+    "USD_AvailibleMarketShare": 7.779263627486969e-10,
+    "USD_MaxSupplyMarketShare": 3.940226419458048e-10
+  },
+  {
+    "ticker": "HBTC",
+    "USD_AvailibleMarketShare": 7.777661595810686e-10,
+    "USD_MaxSupplyMarketShare": 7.777661595810686e-10
+  },
+  {
+    "ticker": "INO",
+    "USD_AvailibleMarketShare": 7.580692959574851e-10,
+    "USD_MaxSupplyMarketShare": 1.3645488393270848e-10
+  },
+  {
+    "ticker": "CEL",
+    "USD_AvailibleMarketShare": 7.570690911612141e-10,
+    "USD_MaxSupplyMarketShare": 2.599497831898334e-10
+  },
+  {
+    "ticker": "TTT",
+    "USD_AvailibleMarketShare": 7.48847899356331e-10,
+    "USD_MaxSupplyMarketShare": 3.937028327952519e-11
+  },
+  {
+    "ticker": "CHZ",
+    "USD_AvailibleMarketShare": 7.395288597288157e-10,
+    "USD_MaxSupplyMarketShare": 4.903592489106123e-10
+  },
+  {
+    "ticker": "WAVES",
+    "USD_AvailibleMarketShare": 7.394875201532821e-10,
+    "USD_MaxSupplyMarketShare": 7.394875201532821e-10
+  },
+  {
+    "ticker": "DCR",
+    "USD_AvailibleMarketShare": 7.122104307398374e-10,
+    "USD_MaxSupplyMarketShare": 7.122104307398374e-10
+  },
+  {
+    "ticker": "TUSD",
+    "USD_AvailibleMarketShare": 7.05459362919413e-10,
+    "USD_MaxSupplyMarketShare": 7.05459362919413e-10
+  },
+  {
+    "ticker": "CTC",
+    "USD_AvailibleMarketShare": 6.868192657938263e-10,
+    "USD_MaxSupplyMarketShare": 5.813490016014154e-10
+  },
+  {
+    "ticker": "HBAR",
+    "USD_AvailibleMarketShare": 6.752582047748221e-10,
+    "USD_MaxSupplyMarketShare": 1.1891336047070732e-10
+  },
+  {
+    "ticker": "KSM",
+    "USD_AvailibleMarketShare": 6.513100629876573e-10,
+    "USD_MaxSupplyMarketShare": 5.716025078748576e-10
+  },
+  {
+    "ticker": "BTT",
+    "USD_AvailibleMarketShare": 6.440958814983791e-10,
+    "USD_MaxSupplyMarketShare": 4.293664320672164e-10
+  },
+  {
+    "ticker": "GRT",
+    "USD_AvailibleMarketShare": 6.401221674352543e-10,
+    "USD_MaxSupplyMarketShare": 1.8550122195086806e-10
+  },
+  {
+    "ticker": "HT",
+    "USD_AvailibleMarketShare": 5.88710057892736e-10,
+    "USD_MaxSupplyMarketShare": 2.0099102195472177e-10
+  },
+  {
+    "ticker": "AVAX",
+    "USD_AvailibleMarketShare": 5.58208406540687e-10,
+    "USD_MaxSupplyMarketShare": 2.4939040287970737e-10
+  },
+  {
+    "ticker": "CCXX",
+    "USD_AvailibleMarketShare": 5.518106141729506e-10,
+    "USD_MaxSupplyMarketShare": 5.349340968174177e-10
+  },
+  {
+    "ticker": "SAFEMOON",
+    "USD_AvailibleMarketShare": 5.49525548282617e-10,
+    "USD_MaxSupplyMarketShare": 3.2176719278691656e-10
+  },
+  {
+    "ticker": "UST",
+    "USD_AvailibleMarketShare": 5.245833661813964e-10,
+    "USD_MaxSupplyMarketShare": 5.245833661813964e-10
+  },
+  {
+    "ticker": "WBNB",
+    "USD_AvailibleMarketShare": 5.182361681234216e-10,
+    "USD_MaxSupplyMarketShare": 5.182361681234216e-10
+  },
+  {
+    "ticker": "ATOM",
+    "USD_AvailibleMarketShare": 5.154769465094087e-10,
+    "USD_MaxSupplyMarketShare": 4.0456119984317505e-10
+  },
+  {
+    "ticker": "MKR",
+    "USD_AvailibleMarketShare": 5.000217951570901e-10,
+    "USD_MaxSupplyMarketShare": 5.000217951570901e-10
+  },
+  {
+    "ticker": "FEI",
+    "USD_AvailibleMarketShare": 4.933808508057123e-10,
+    "USD_MaxSupplyMarketShare": 4.933808508057123e-10
+  },
+  {
+    "ticker": "LUNA",
+    "USD_AvailibleMarketShare": 4.802358497232504e-10,
+    "USD_MaxSupplyMarketShare": 2.014866131819899e-10
+  },
+  {
+    "ticker": "MIOTA",
+    "USD_AvailibleMarketShare": 4.648242363875578e-10,
+    "USD_MaxSupplyMarketShare": 4.648242363875578e-10
+  },
+  {
+    "ticker": "XTZ",
+    "USD_AvailibleMarketShare": 4.5941279572775796e-10,
+    "USD_MaxSupplyMarketShare": 4.437493651723823e-10
+  },
+  {
+    "ticker": "NEO",
+    "USD_AvailibleMarketShare": 4.4858194757153484e-10,
+    "USD_MaxSupplyMarketShare": 3.1642446189399353e-10
+  },
+  {
+    "ticker": "FTT",
+    "USD_AvailibleMarketShare": 4.4847684203367345e-10,
+    "USD_MaxSupplyMarketShare": 1.22566804206108e-10
+  },
+  {
+    "ticker": "TFUEL",
+    "USD_AvailibleMarketShare": 4.4154752693173585e-10,
+    "USD_MaxSupplyMarketShare": 4.4154752693173585e-10
+  },
+  {
+    "ticker": "CAKE",
+    "USD_AvailibleMarketShare": 4.3811821190252474e-10,
+    "USD_MaxSupplyMarketShare": 4.3811821190252474e-10
+  },
+  {
+    "ticker": "LEO",
+    "USD_AvailibleMarketShare": 4.356507753863455e-10,
+    "USD_MaxSupplyMarketShare": 4.2181708582556656e-10
+  },
+  {
+    "ticker": "BSV",
+    "USD_AvailibleMarketShare": 4.3166490070412576e-10,
+    "USD_MaxSupplyMarketShare": 4.3166490070412576e-10
+  },
+  {
+    "ticker": "BTCB",
+    "USD_AvailibleMarketShare": 4.247889310976491e-10,
+    "USD_MaxSupplyMarketShare": 3.8571279523637466e-10
+  },
+  {
+    "ticker": "KLAY",
+    "USD_AvailibleMarketShare": 4.2292909587942876e-10,
+    "USD_MaxSupplyMarketShare": 9.891781387768918e-11
+  },
+  {
+    "ticker": "AAVE",
+    "USD_AvailibleMarketShare": 4.1234914667249374e-10,
+    "USD_MaxSupplyMarketShare": 3.3051510415634595e-10
+  },
+  {
+    "ticker": "AMP",
+    "USD_AvailibleMarketShare": 4.103041035496858e-10,
+    "USD_MaxSupplyMarketShare": 1.7463566413281314e-10
+  },
+  {
+    "ticker": "CRO",
+    "USD_AvailibleMarketShare": 4.0896908785237507e-10,
+    "USD_MaxSupplyMarketShare": 3.413999600690959e-10
+  },
+  {
+    "ticker": "ALGO",
+    "USD_AvailibleMarketShare": 4.0507065019516585e-10,
+    "USD_MaxSupplyMarketShare": 2.2471253000859331e-10
+  },
+  {
+    "ticker": "SHIB",
+    "USD_AvailibleMarketShare": 3.5781061407257123e-10,
+    "USD_MaxSupplyMarketShare": 1.4126219919339482e-10
+  },
+  {
+    "ticker": "EOS",
+    "USD_AvailibleMarketShare": 2.9119180259199946e-10,
+    "USD_MaxSupplyMarketShare": 2.696972846402331e-10
+  },
+  {
+    "ticker": "XMR",
+    "USD_AvailibleMarketShare": 2.7875397648117625e-10,
+    "USD_MaxSupplyMarketShare": 2.7875397648117625e-10
+  },
+  {
+    "ticker": "EGR",
+    "USD_AvailibleMarketShare": 2.7481234598644453e-10,
+    "USD_MaxSupplyMarketShare": 1.80699093075648e-10
+  },
+  {
+    "ticker": "FIL",
+    "USD_AvailibleMarketShare": 2.349953471332886e-10,
+    "USD_MaxSupplyMarketShare": 2.349953471332886e-10
+  },
+  {
+    "ticker": "ICP",
+    "USD_AvailibleMarketShare": 2.3436980884709936e-10,
+    "USD_MaxSupplyMarketShare": 6.716733341469522e-11
+  },
+  {
+    "ticker": "TRX",
+    "USD_AvailibleMarketShare": 2.256841763383231e-10,
+    "USD_MaxSupplyMarketShare": 1.6036025257604175e-10
+  },
+  {
+    "ticker": "ETC",
+    "USD_AvailibleMarketShare": 2.1482973648436096e-10,
+    "USD_MaxSupplyMarketShare": 2.1482973648436096e-10
+  },
+  {
+    "ticker": "VET",
+    "USD_AvailibleMarketShare": 2.121494599512399e-10,
+    "USD_MaxSupplyMarketShare": 1.5735325086932692e-10
+  },
+  {
+    "ticker": "DAI",
+    "USD_AvailibleMarketShare": 1.932518336407555e-10,
+    "USD_MaxSupplyMarketShare": 1.932518153766412e-10
+  },
+  {
+    "ticker": "XLM",
+    "USD_AvailibleMarketShare": 1.7397210199728866e-10,
+    "USD_MaxSupplyMarketShare": 8.070653699670751e-11
+  },
+  {
+    "ticker": "WBTC",
+    "USD_AvailibleMarketShare": 1.6272797867571875e-10,
+    "USD_MaxSupplyMarketShare": 1.6272797867571875e-10
+  },
+  {
+    "ticker": "THETA",
+    "USD_AvailibleMarketShare": 1.5355344037574496e-10,
+    "USD_MaxSupplyMarketShare": 1.5355344037574496e-10
+  },
+  {
+    "ticker": "MATIC",
+    "USD_AvailibleMarketShare": 1.454754592817935e-10,
+    "USD_MaxSupplyMarketShare": 9.155385031836676e-11
+  },
+  {
+    "ticker": "LINK",
+    "USD_AvailibleMarketShare": 1.3228246800888235e-10,
+    "USD_MaxSupplyMarketShare": 5.761027863364952e-11
+  },
+  {
+    "ticker": "SOL",
+    "USD_AvailibleMarketShare": 1.2743763118855513e-10,
+    "USD_MaxSupplyMarketShare": 7.025868890781019e-11
+  },
+  {
+    "ticker": "LTC",
+    "USD_AvailibleMarketShare": 1.1730167710185877e-10,
+    "USD_MaxSupplyMarketShare": 1.1730167710185877e-10
+  },
+  {
+    "ticker": "BCH",
+    "USD_AvailibleMarketShare": 1.1531581670741153e-10,
+    "USD_MaxSupplyMarketShare": 1.1531581670741153e-10
+  },
+  {
+    "ticker": "UNI",
+    "USD_AvailibleMarketShare": 1.0780636242238711e-10,
+    "USD_MaxSupplyMarketShare": 6.201198736586209e-11
+  },
+  {
+    "ticker": "BUSD",
+    "USD_AvailibleMarketShare": 1.0035345038992996e-10,
+    "USD_MaxSupplyMarketShare": 1.0035345038992996e-10
+  },
+  {
+    "ticker": "HEX",
+    "USD_AvailibleMarketShare": 7.892107418201176e-11,
+    "USD_MaxSupplyMarketShare": 2.1601999603185546e-11
+  },
+  {
+    "ticker": "DOT",
+    "USD_AvailibleMarketShare": 7.037439087849635e-11,
+    "USD_MaxSupplyMarketShare": 6.190098789794454e-11
+  },
+  {
+    "ticker": "USDC",
+    "USD_AvailibleMarketShare": 3.909598909419461e-11,
+    "USD_MaxSupplyMarketShare": 3.909598909419461e-11
+  },
+  {
+    "ticker": "XRP",
+    "USD_AvailibleMarketShare": 3.5077312226782424e-11,
+    "USD_MaxSupplyMarketShare": 1.6222896866559862e-11
+  },
+  {
+    "ticker": "DOGE",
+    "USD_AvailibleMarketShare": 3.212549143048927e-11,
+    "USD_MaxSupplyMarketShare": 3.212549143048927e-11
+  },
+  {
+    "ticker": "ADA",
+    "USD_AvailibleMarketShare": 2.4452153159683675e-11,
+    "USD_MaxSupplyMarketShare": 2.388500933254096e-11
+  },
+  {
+    "ticker": "BNB",
+    "USD_AvailibleMarketShare": 2.3050226890037694e-11,
+    "USD_MaxSupplyMarketShare": 2.0873532536280625e-11
+  },
+  {
+    "ticker": "USDT",
+    "USD_AvailibleMarketShare": 1.599069343448241e-11,
+    "USD_MaxSupplyMarketShare": 1.5512697461220015e-11
+  },
+  {
+    "ticker": "ETH",
+    "USD_AvailibleMarketShare": 4.678472742344545e-12,
+    "USD_MaxSupplyMarketShare": 4.678472742344545e-12
+  },
+  {
+    "ticker": "BTC",
+    "USD_AvailibleMarketShare": 1.6640460159090618e-12,
+    "USD_MaxSupplyMarketShare": 1.6640460159090618e-12
+  }
+]
