@@ -23,8 +23,8 @@ const requestOptions = {
 rp(requestOptions).then(response => {
     let coins = response;
     for (x = 0; x < total_coins - 1; x++) {
-        coins.data[x].weights = calculateTotalMarketSharePerUSD(response.data[x]);
         coins.data[x].weights = calculateRelativePriceChanges(response.data[x]);
+        coins.data[x].weights.marketShare = calculateTotalMarketSharePerUSD(response.data[x]);
         // purchasingPowerList[x] = coins.data[x].weights;
     }    
     //purchasingPowerList.sort(function(a, b) {return b.USD_AvailibleMarketShare - a.USD_AvailibleMarketShare});
@@ -45,7 +45,6 @@ function cont(response) {
         purchasingPowerList.push(calculateTotalMarketSharePerUSD(response.data[x]));
         purchasingPowerList.push(calculateRelativePriceChanges(response.data[x]));
     }
-    console.log(purchasingPowerList)
 }
 /**
  * Calculates the relative market share that 1 USD is able to purchase given the totla market cap and total supply
@@ -57,10 +56,8 @@ function calculateTotalMarketSharePerUSD(data) {
     let USD_AvailibleMarketShare = USD_Share / data.circulating_supply;
     let USD_MaxSupplyMarketShare = USD_Share / data.total_supply;
     return {
-        marketSharePerUSD: { 
             USD_AvailibleMarketShare, 
             USD_MaxSupplyMarketShare
-        }
     };
 }
 

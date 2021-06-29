@@ -1,9 +1,9 @@
 {
   "status": {
-    "timestamp": "2021-06-29T13:53:36.636Z",
+    "timestamp": "2021-06-29T14:01:34.691Z",
     "error_code": 0,
     "error_message": null,
-    "elapsed": 14,
+    "elapsed": 10,
     "credit_count": 1,
     "notice": null,
     "total_count": 5490
@@ -52,35 +52,39 @@
       "total_supply": 18744562,
       "platform": null,
       "cmc_rank": 1,
-      "last_updated": "2021-06-29T13:53:02.000Z",
+      "last_updated": "2021-06-29T14:01:02.000Z",
       "quote": {
         "USD": {
-          "price": 36300.779914440674,
-          "volume_24h": 37380323821.474976,
-          "percent_change_1h": 1.23169391,
-          "percent_change_24h": 5.91498289,
-          "percent_change_7d": 25.18915888,
-          "percent_change_30d": 1.81485219,
-          "percent_change_60d": -34.60300638,
-          "percent_change_90d": -38.39691057,
-          "market_cap": 680442219754.5879,
-          "last_updated": "2021-06-29T13:53:02.000Z"
+          "price": 36299.47747168128,
+          "volume_24h": 37539270755.85021,
+          "percent_change_1h": 1.36399482,
+          "percent_change_24h": 5.97116739,
+          "percent_change_7d": 23.33738667,
+          "percent_change_30d": 1.90026457,
+          "percent_change_60d": -35.35133626,
+          "percent_change_90d": -38.32512532,
+          "market_cap": 680417806035.5331,
+          "last_updated": "2021-06-29T14:01:02.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -1.23169391,
-          "dailyBuyRating": -141.95958936,
-          "weeklyBuyRating": -4231.77869184,
-          "monthlyBuyRating": -1306.6935768,
-          "quarterlyBuyRating": 82937.3268312
+          "hourlyBuyRating": -1.36399482,
+          "dailyBuyRating": -143.30801736,
+          "weeklyBuyRating": -3920.68096056,
+          "monthlyBuyRating": -1368.1904904,
+          "quarterlyBuyRating": 82782.2706912
         },
         "sellRatings": {
-          "hourlySellRating": 1.23169391,
-          "dailySellRating": 141.95958936,
-          "weeklySellRating": 4231.77869184,
-          "monthlySellRating": 1306.6935768,
-          "quarterlySellRating": -82937.3268312
+          "hourlySellRating": 1.36399482,
+          "dailySellRating": 143.30801736,
+          "weeklySellRating": 3920.68096056,
+          "monthlySellRating": 1368.1904904,
+          "quarterlySellRating": -82782.2706912
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 1.4696852303535655e-12,
+          "USD_MaxSupplyMarketShare": 1.4696852303535655e-12
         }
       }
     },
@@ -127,35 +131,39 @@
       "total_supply": 116488176.9365,
       "platform": null,
       "cmc_rank": 2,
-      "last_updated": "2021-06-29T13:53:02.000Z",
+      "last_updated": "2021-06-29T14:01:02.000Z",
       "quote": {
         "USD": {
-          "price": 2225.346601755543,
-          "volume_24h": 27092419936.48156,
-          "percent_change_1h": 2.19709684,
-          "percent_change_24h": 10.81247451,
-          "percent_change_7d": 28.84839724,
-          "percent_change_30d": -6.86919722,
-          "percent_change_60d": -18.50976668,
-          "percent_change_90d": 21.4096166,
-          "market_cap": 259226568690.33868,
-          "last_updated": "2021-06-29T13:53:02.000Z"
+          "price": 2225.4333815728314,
+          "volume_24h": 27289166418.907608,
+          "percent_change_1h": 2.43724833,
+          "percent_change_24h": 10.92619393,
+          "percent_change_7d": 28.00180497,
+          "percent_change_30d": -6.61114394,
+          "percent_change_60d": -18.62336395,
+          "percent_change_90d": 21.31757143,
+          "market_cap": 259236677513.0495,
+          "last_updated": "2021-06-29T14:01:02.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -2.19709684,
-          "dailyBuyRating": -259.49938824,
-          "weeklyBuyRating": -4846.53073632,
-          "monthlyBuyRating": 4945.8219984,
-          "quarterlyBuyRating": -46244.771856
+          "hourlyBuyRating": -2.43724833,
+          "dailyBuyRating": -262.22865432000003,
+          "weeklyBuyRating": -4704.30323496,
+          "monthlyBuyRating": 4760.0236368,
+          "quarterlyBuyRating": -46045.9542888
         },
         "sellRatings": {
-          "hourlySellRating": 2.19709684,
-          "dailySellRating": 259.49938824,
-          "weeklySellRating": 4846.53073632,
-          "monthlySellRating": -4945.8219984,
-          "quarterlySellRating": 46244.771856
+          "hourlySellRating": 2.43724833,
+          "dailySellRating": 262.22865432000003,
+          "weeklySellRating": 4704.30323496,
+          "monthlySellRating": -4760.0236368,
+          "quarterlySellRating": 46045.9542888
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 3.857478847489325e-12,
+          "USD_MaxSupplyMarketShare": 3.857478847489325e-12
         }
       }
     },
@@ -183,35 +191,39 @@
         "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
       },
       "cmc_rank": 3,
-      "last_updated": "2021-06-29T13:52:09.000Z",
+      "last_updated": "2021-06-29T14:00:09.000Z",
       "quote": {
         "USD": {
-          "price": 1.00075596157624,
-          "volume_24h": 64946023912.6924,
-          "percent_change_1h": 0.0308126,
-          "percent_change_24h": 0.02169595,
-          "percent_change_7d": -0.02940076,
-          "percent_change_30d": 0.07340212,
-          "percent_change_60d": 0.08419098,
-          "percent_change_90d": -0.0979795,
-          "market_cap": 62501740129.31541,
-          "last_updated": "2021-06-29T13:52:09.000Z"
+          "price": 1.00075475582745,
+          "volume_24h": 65297832877.55362,
+          "percent_change_1h": 0.02487167,
+          "percent_change_24h": 0.01919392,
+          "percent_change_7d": 0.03111544,
+          "percent_change_30d": 0.07056527,
+          "percent_change_60d": 0.09200055,
+          "percent_change_90d": -0.08798388,
+          "market_cap": 62501664824.84516,
+          "last_updated": "2021-06-29T14:00:09.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -0.0308126,
-          "dailyBuyRating": -0.5207028,
-          "weeklyBuyRating": 4.93932768,
-          "monthlyBuyRating": -52.8495264,
-          "quarterlyBuyRating": 211.63572
+          "hourlyBuyRating": -0.02487167,
+          "dailyBuyRating": -0.46065407999999997,
+          "weeklyBuyRating": -5.22739392,
+          "monthlyBuyRating": -50.8069944,
+          "quarterlyBuyRating": 190.0451808
         },
         "sellRatings": {
-          "hourlySellRating": 0.0308126,
-          "dailySellRating": 0.5207028,
-          "weeklySellRating": -4.93932768,
-          "monthlySellRating": 52.8495264,
-          "quarterlySellRating": -211.63572
+          "hourlySellRating": 0.02487167,
+          "dailySellRating": 0.46065407999999997,
+          "weeklySellRating": 5.22739392,
+          "monthlySellRating": 50.8069944,
+          "quarterlySellRating": -190.0451808
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 1.599957381619198e-11,
+          "USD_MaxSupplyMarketShare": 1.5498967227610038e-11
         }
       }
     },
@@ -235,35 +247,39 @@
       "total_supply": 169432897,
       "platform": null,
       "cmc_rank": 4,
-      "last_updated": "2021-06-29T13:52:11.000Z",
+      "last_updated": "2021-06-29T14:00:14.000Z",
       "quote": {
         "USD": {
-          "price": 313.4475027765048,
-          "volume_24h": 1975117080.5287392,
-          "percent_change_1h": 1.46248582,
-          "percent_change_24h": 9.34409788,
-          "percent_change_7d": 35.75221081,
-          "percent_change_30d": -4.64683946,
-          "percent_change_60d": -47.92116454,
-          "percent_change_90d": 2.05547051,
-          "market_cap": 48093158408.41467,
-          "last_updated": "2021-06-29T13:52:11.000Z"
+          "price": 313.63684174097824,
+          "volume_24h": 1990549224.5789618,
+          "percent_change_1h": 2.04032917,
+          "percent_change_24h": 9.21840963,
+          "percent_change_7d": 33.48313304,
+          "percent_change_30d": -4.35575424,
+          "percent_change_60d": -48.12634766,
+          "percent_change_90d": 1.92300004,
+          "market_cap": 48122209234.24882,
+          "last_updated": "2021-06-29T14:00:14.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -1.46248582,
-          "dailyBuyRating": -224.25834912,
-          "weeklyBuyRating": -6006.37141608,
-          "monthlyBuyRating": 3345.7244112,
-          "quarterlyBuyRating": -4439.8163016
+          "hourlyBuyRating": -2.04032917,
+          "dailyBuyRating": -221.24183112,
+          "weeklyBuyRating": -5625.16635072,
+          "monthlyBuyRating": 3136.1430528000005,
+          "quarterlyBuyRating": -4153.6800864
         },
         "sellRatings": {
-          "hourlySellRating": 1.46248582,
-          "dailySellRating": 224.25834912,
-          "weeklySellRating": 6006.37141608,
-          "monthlySellRating": -3345.7244112,
-          "quarterlySellRating": 4439.8163016
+          "hourlySellRating": 2.04032917,
+          "dailySellRating": 221.24183112,
+          "weeklySellRating": 5625.16635072,
+          "monthlySellRating": -3136.1430528000005,
+          "quarterlySellRating": 4153.6800864
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 2.078042583482005e-11,
+          "USD_MaxSupplyMarketShare": 1.8818074843695105e-11
         }
       }
     },
@@ -289,35 +305,39 @@
       "total_supply": 32704886184.416,
       "platform": null,
       "cmc_rank": 5,
-      "last_updated": "2021-06-29T13:52:10.000Z",
+      "last_updated": "2021-06-29T14:00:10.000Z",
       "quote": {
         "USD": {
-          "price": 1.41630660233915,
-          "volume_24h": 2758035969.74732,
-          "percent_change_1h": 1.54308316,
-          "percent_change_24h": 7.88661831,
-          "percent_change_7d": 39.55664805,
-          "percent_change_30d": -13.72167015,
-          "percent_change_60d": 5.14826965,
-          "percent_change_90d": 18.24921765,
-          "market_cap": 45245795648.5357,
-          "last_updated": "2021-06-29T13:52:10.000Z"
+          "price": 1.41547778326233,
+          "volume_24h": 2779007673.053112,
+          "percent_change_1h": 1.92991079,
+          "percent_change_24h": 7.68630521,
+          "percent_change_7d": 38.49093044,
+          "percent_change_30d": -13.93483565,
+          "percent_change_60d": 4.82958646,
+          "percent_change_90d": 18.36879639,
+          "market_cap": 45219317922.23161,
+          "last_updated": "2021-06-29T14:00:10.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -1.54308316,
-          "dailyBuyRating": -189.27883944,
-          "weeklyBuyRating": -6645.5168724,
-          "monthlyBuyRating": 9879.602508,
-          "quarterlyBuyRating": -39418.310123999996
+          "hourlyBuyRating": -1.92991079,
+          "dailyBuyRating": -184.47132504,
+          "weeklyBuyRating": -6466.47631392,
+          "monthlyBuyRating": 10033.081668,
+          "quarterlyBuyRating": -39676.6002024
         },
         "sellRatings": {
-          "hourlySellRating": 1.54308316,
-          "dailySellRating": 189.27883944,
-          "weeklySellRating": 6645.5168724,
-          "monthlySellRating": -9879.602508,
-          "quarterlySellRating": 39418.310123999996
+          "hourlySellRating": 1.92991079,
+          "dailySellRating": 184.47132504,
+          "weeklySellRating": 6466.47631392,
+          "monthlySellRating": -10033.081668,
+          "quarterlySellRating": 39676.6002024
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 2.2114442365535116e-11,
+          "USD_MaxSupplyMarketShare": 2.160151945864789e-11
         }
       }
     },
@@ -342,35 +362,39 @@
       "total_supply": 130228392047.17001,
       "platform": null,
       "cmc_rank": 6,
-      "last_updated": "2021-06-29T13:53:03.000Z",
+      "last_updated": "2021-06-29T14:01:03.000Z",
       "quote": {
         "USD": {
-          "price": 0.27223515325469,
-          "volume_24h": 2132401755.4162066,
-          "percent_change_1h": 0.13968727,
-          "percent_change_24h": 7.58754615,
-          "percent_change_7d": 63.60624283,
-          "percent_change_30d": -9.6243856,
-          "percent_change_60d": -12.64967634,
-          "percent_change_90d": 411.18592331,
-          "market_cap": 35452746267.07318,
-          "last_updated": "2021-06-29T13:53:03.000Z"
+          "price": 0.27141423386601,
+          "volume_24h": 2140855246.1965504,
+          "percent_change_1h": 0.52702723,
+          "percent_change_24h": 7.58604648,
+          "percent_change_7d": 57.59889997,
+          "percent_change_30d": -9.8174326,
+          "percent_change_60d": -12.95314382,
+          "percent_change_90d": 408.83967731,
+          "market_cap": 35345839255.08504,
+          "last_updated": "2021-06-29T14:01:03.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -0.13968727,
-          "dailyBuyRating": -182.10110759999998,
-          "weeklyBuyRating": -10685.84879544,
-          "monthlyBuyRating": 6929.557632,
-          "quarterlyBuyRating": -888161.5943496
+          "hourlyBuyRating": -0.52702723,
+          "dailyBuyRating": -182.06511552,
+          "weeklyBuyRating": -9676.615194959999,
+          "monthlyBuyRating": 7068.551472,
+          "quarterlyBuyRating": -883093.7029896
         },
         "sellRatings": {
-          "hourlySellRating": 0.13968727,
-          "dailySellRating": 182.10110759999998,
-          "weeklySellRating": 10685.84879544,
-          "monthlySellRating": -6929.557632,
-          "quarterlySellRating": 888161.5943496
+          "hourlySellRating": 0.52702723,
+          "dailySellRating": 182.06511552,
+          "weeklySellRating": 9676.615194959999,
+          "monthlySellRating": -7068.551472,
+          "quarterlySellRating": 883093.7029896
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 2.829187313344483e-11,
+          "USD_MaxSupplyMarketShare": 2.829187313344483e-11
         }
       }
     },
@@ -395,35 +419,39 @@
       "total_supply": 99990358414,
       "platform": null,
       "cmc_rank": 7,
-      "last_updated": "2021-06-29T13:53:03.000Z",
+      "last_updated": "2021-06-29T14:01:03.000Z",
       "quote": {
         "USD": {
-          "price": 0.72559365804364,
-          "volume_24h": 3196756494.6264405,
-          "percent_change_1h": 1.76356986,
-          "percent_change_24h": 15.11514396,
-          "percent_change_7d": 41.52131568,
-          "percent_change_30d": -17.59124444,
-          "percent_change_60d": -54.65104209,
-          "percent_change_90d": 29.81925616,
-          "market_cap": 33483918038.86191,
-          "last_updated": "2021-06-29T13:53:03.000Z"
+          "price": 0.72157653430562,
+          "volume_24h": 3210115147.990622,
+          "percent_change_1h": 1.76040068,
+          "percent_change_24h": 14.59774818,
+          "percent_change_7d": 37.25262848,
+          "percent_change_30d": -17.85191635,
+          "percent_change_60d": -55.02327145,
+          "percent_change_90d": 28.99564738,
+          "market_cap": 33298540120.37446,
+          "last_updated": "2021-06-29T14:01:03.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -1.76356986,
-          "dailyBuyRating": -362.76345504,
-          "weeklyBuyRating": -6975.58103424,
-          "monthlyBuyRating": 12665.695996800001,
-          "quarterlyBuyRating": -64409.5933056
+          "hourlyBuyRating": -1.76040068,
+          "dailyBuyRating": -350.34595632,
+          "weeklyBuyRating": -6258.44158464,
+          "monthlyBuyRating": 12853.379772,
+          "quarterlyBuyRating": -62630.5983408
         },
         "sellRatings": {
-          "hourlySellRating": 1.76356986,
-          "dailySellRating": 362.76345504,
-          "weeklySellRating": 6975.58103424,
-          "monthlySellRating": -12665.695996800001,
-          "quarterlySellRating": 64409.5933056
+          "hourlySellRating": 1.76040068,
+          "dailySellRating": 350.34595632,
+          "weeklySellRating": 6258.44158464,
+          "monthlySellRating": -12853.379772,
+          "quarterlySellRating": 62630.5983408
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 3.00313466111425e-11,
+          "USD_MaxSupplyMarketShare": 1.3859880104323471e-11
         }
       }
     },
@@ -450,35 +478,39 @@
         "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
       },
       "cmc_rank": 8,
-      "last_updated": "2021-06-29T13:53:06.000Z",
+      "last_updated": "2021-06-29T14:01:06.000Z",
       "quote": {
         "USD": {
-          "price": 1.00048508228305,
-          "volume_24h": 2387152446.3189635,
-          "percent_change_1h": 0.02647689,
-          "percent_change_24h": 0.00928889,
-          "percent_change_7d": -0.05613673,
-          "percent_change_30d": 0.08804705,
-          "percent_change_60d": 0.02969983,
-          "percent_change_90d": -0.10158864,
-          "market_cap": 25389079392.689835,
-          "last_updated": "2021-06-29T13:53:06.000Z"
+          "price": 1.00055709561587,
+          "volume_24h": 2399425337.605579,
+          "percent_change_1h": 0.02455307,
+          "percent_change_24h": 0.00810569,
+          "percent_change_7d": 0.01203618,
+          "percent_change_30d": 0.11317051,
+          "percent_change_60d": 0.05972355,
+          "percent_change_90d": -0.10340783,
+          "market_cap": 25390906858.442875,
+          "last_updated": "2021-06-29T14:01:06.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -0.02647689,
-          "dailyBuyRating": -0.22293335999999997,
-          "weeklyBuyRating": 9.43097064,
-          "monthlyBuyRating": -63.393876,
-          "quarterlyBuyRating": 219.4314624
+          "hourlyBuyRating": -0.02455307,
+          "dailyBuyRating": -0.19453656000000003,
+          "weeklyBuyRating": -2.02207824,
+          "monthlyBuyRating": -81.4827672,
+          "quarterlyBuyRating": 223.36091280000002
         },
         "sellRatings": {
-          "hourlySellRating": 0.02647689,
-          "dailySellRating": 0.22293335999999997,
-          "weeklySellRating": -9.43097064,
-          "monthlySellRating": 63.393876,
-          "quarterlySellRating": -219.4314624
+          "hourlySellRating": 0.02455307,
+          "dailySellRating": 0.19453656000000003,
+          "weeklySellRating": 2.02207824,
+          "monthlySellRating": 81.4827672,
+          "quarterlySellRating": -223.36091280000002
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 3.9384178185328755e-11,
+          "USD_MaxSupplyMarketShare": 3.9384178185328755e-11
         }
       }
     },
@@ -514,35 +546,39 @@
       "total_supply": 1086601230.4924579,
       "platform": null,
       "cmc_rank": 9,
-      "last_updated": "2021-06-29T13:53:06.000Z",
+      "last_updated": "2021-06-29T14:01:06.000Z",
       "quote": {
         "USD": {
-          "price": 17.00934447267693,
-          "volume_24h": 1389147613.420748,
-          "percent_change_1h": 3.00378797,
-          "percent_change_24h": 14.06336474,
-          "percent_change_7d": 30.11639147,
-          "percent_change_30d": -17.02684529,
-          "percent_change_60d": -52.4202678,
-          "percent_change_90d": -53.87443335,
-          "market_cap": 16258842426.344713,
-          "last_updated": "2021-06-29T13:53:06.000Z"
+          "price": 16.90783725364954,
+          "volume_24h": 1396117551.8557692,
+          "percent_change_1h": 2.86112587,
+          "percent_change_24h": 13.67897934,
+          "percent_change_7d": 24.7318674,
+          "percent_change_30d": -17.61086033,
+          "percent_change_60d": -52.80722668,
+          "percent_change_90d": -54.174154,
+          "market_cap": 16161814002.824106,
+          "last_updated": "2021-06-29T14:01:06.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -3.00378797,
-          "dailyBuyRating": -337.52075376000005,
-          "weeklyBuyRating": -5059.55376696,
-          "monthlyBuyRating": 12259.3286088,
-          "quarterlyBuyRating": 116368.776036
+          "hourlyBuyRating": -2.86112587,
+          "dailyBuyRating": -328.29550416,
+          "weeklyBuyRating": -4154.9537232,
+          "monthlyBuyRating": 12679.819437600001,
+          "quarterlyBuyRating": 117016.17264
         },
         "sellRatings": {
-          "hourlySellRating": 3.00378797,
-          "dailySellRating": 337.52075376000005,
-          "weeklySellRating": 5059.55376696,
-          "monthlySellRating": -12259.3286088,
-          "quarterlySellRating": -116368.776036
+          "hourlySellRating": 2.86112587,
+          "dailySellRating": 328.29550416,
+          "weeklySellRating": 4154.9537232,
+          "monthlySellRating": -12679.819437600001,
+          "quarterlySellRating": -117016.17264
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 6.187424257111612e-11,
+          "USD_MaxSupplyMarketShare": 5.443042791531011e-11
         }
       }
     },
@@ -581,19 +617,19 @@
         "token_address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
       },
       "cmc_rank": 10,
-      "last_updated": "2021-06-29T13:52:09.000Z",
+      "last_updated": "2021-06-29T14:00:08.000Z",
       "quote": {
         "USD": {
-          "price": 19.04213935260199,
-          "volume_24h": 323510528.81268966,
-          "percent_change_1h": 1.21757713,
-          "percent_change_24h": 11.65091009,
-          "percent_change_7d": 34.15569086,
-          "percent_change_30d": -23.19685897,
-          "percent_change_60d": -52.64205154,
-          "percent_change_90d": -32.86326447,
-          "market_cap": 10953679843.28278,
-          "last_updated": "2021-06-29T13:52:09.000Z"
+          "price": 19.10462235510446,
+          "volume_24h": 326756666.29727066,
+          "percent_change_1h": 1.59695336,
+          "percent_change_24h": 11.82686888,
+          "percent_change_7d": 34.90810891,
+          "percent_change_30d": -23.02761158,
+          "percent_change_60d": -52.58037573,
+          "percent_change_90d": -32.29878031,
+          "market_cap": 10989622170.580452,
+          "last_updated": "2021-06-29T14:00:08.000Z"
         }
       }
     }
