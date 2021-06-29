@@ -25,6 +25,7 @@ rp(requestOptions).then(response => {
     }    
     purchasingPowerList.sort(function(a, b) {return b.USD_AvailibleMarketShare - a.USD_AvailibleMarketShare});
     
+    fs.writeFileSync('./coins.json', JSON.stringify(response, null, 2) , 'utf-8');
     fs.writeFileSync('./sortedmarketshare_1000.json', JSON.stringify(purchasingPowerList, null, 2) , 'utf-8');
 
     console.log(purchasingPowerList)
@@ -55,6 +56,40 @@ function calculateTotalMarketSharePerUSD(data) {
     let USD_AvailibleMarketShare = USD_Share / data.circulating_supply;
     let USD_MaxSupplyMarketShare = USD_Share / data.total_supply;
     return {ticker, USD_AvailibleMarketShare, USD_MaxSupplyMarketShare};
+}
+
+function calculateRelativePriceChanges(data) {
+  // Total % return per hour 
+
+  let hourlyBuyRating = -1 * 1 * data.quote.percent_change_1h;
+  let dailyBuyRating = -1 * 24 * data.quote.percent_change_24h;
+  let weeklyBuyRating = -1 * 168 * data.quote.percent_change_7d;
+  let monthlyBuyRating = -1 * 720 * data.quote.percent_change_30d;
+  let quarterlyBuyRating = -1 * 2160 * data.quote.percent_change_90d;
+
+  let hourlySellRating = 1 * data.quote.percent_change_1h;
+  let dailySellRating = 24 * data.quote.percent_change_24h;
+  let weeklySellRating = 168 * data.quote.percent_change_7d;
+  let monthlySellRating = 720 * data.quote.percent_change_30d;
+  let quarterlySellRating = 2160 * data.quote.percent_change_90d;
+
+  return {
+    buyRatings: 
+    {
+      hourlyBuyRating, 
+      dailyBuyRating, 
+      weeklyBuyRating, 
+      monthlyBuyRating, 
+      quarterlyBuyRating
+    },
+    sellRatings:
+    {
+      hourlySellRating,
+      dailySellRating,
+      weeklySellRating,
+      monthlySellRating,
+      quarterlySellRating
+    }
 }
 
 console.table(purchasingPowerList)
