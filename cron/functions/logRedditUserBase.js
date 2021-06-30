@@ -15,11 +15,11 @@ const orderReccentFiles = (dir) => {
         .sort((a, b) => b.mtime.getTime() - a.mtime.getTime());
 };
 
-const dirPath = './coinmarketcap/';
+const dirPath = './../data/coinmarketcap/';
 let x = getMostRecentFile(dirPath)
 
 
-const coins = require(`./coinmarketcap/${x.file}`);
+const coins = require(`./../data/coinmarketcap/${x.file}`);
 
 
 (async () => {
@@ -35,7 +35,7 @@ const coins = require(`./coinmarketcap/${x.file}`);
         let reddit_data = saveRelevantSubredditData(response);
         coins.data[x].reddit_data = reddit_data;
     }
-    fs.writeFileSync(`./../data/reddit/${Date.now()}_Top${coins.totalcoins}.json`, JSON.stringify(coins, null, 2) , 'utf-8');
+    fs.writeFileSync(`./../data/reddit/${Date.now()}_Top${coins.total_coins}.json`, JSON.stringify(coins, null, 2) , 'utf-8');
 
 })();
 
