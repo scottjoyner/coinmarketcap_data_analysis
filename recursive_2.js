@@ -30,7 +30,7 @@ rp(requestOptions).then(response => {
     }
     //purchasingPowerList.sort(function(a, b) {return b.USD_AvailibleMarketShare - a.USD_AvailibleMarketShare});
     //fs.writeFileSync('./coins.json', JSON.stringify(response, null, 2) , 'utf-8');
-    fs.writeFileSync(`./currentMarketStats_${Date.now()}_Top${total_coins}.json`, JSON.stringify(coins, null, 2) , 'utf-8');
+    fs.writeFileSync(`./coinmarketcap/${Date.now()}_Top${total_coins}.json`, JSON.stringify(coins, null, 2) , 'utf-8');
 }).catch((err) => {
   console.log('API call error:', err.message);
 });

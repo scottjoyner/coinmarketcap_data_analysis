@@ -1,23 +1,41 @@
-const rp = require('request-promise');
-const fetch = require('node-fetch');
 const fs = require('fs');
-const coins = require('./data/currentMarketStats_1625062615758_Top10.json');
-let coinlist = coins;
+const path = require('path');
+const fetch = require('node-fetch');
+
+
+const getMostRecentFile = (dir) => {
+    const files = orderReccentFiles(dir);
+    return files.length ? files[0] : undefined;
+};
+
+const orderReccentFiles = (dir) => {
+    return fs.readdirSync(dir)
+        .filter(file => fs.lstatSync(path.join(dir, file)).isFile())
+        .map(file => ({ file, mtime: fs.lstatSync(path.join(dir, file)).mtime }))
+        .sort((a, b) => b.mtime.getTime() - a.mtime.getTime());
+};
+
+const dirPath = './coinmarketcap/';
+let x = getMostRecentFile(dirPath)
+
+
+const coins = require(`./coinmarketcap/${x.file}`);
+
 
 (async () => {
-    for (x=0; x < 9; x++) {
+    for (x=0; x < coins.totalcoins; x++) {
         const res = await fetch(`https://www.reddit.com/r/${coins.data[x].name}/about.json`);
         const response = await res.json();
         let reddit_data = saveRelevantSubredditData(response);
-        coinlist.data[x].reddit_data = reddit_data;
+        coins.data[x].reddit_data = reddit_data;
     }
     for (x=0; x < 9; x++) {
         const res = await fetch(`https://www.reddit.com/r/${coins.data[x].symbol}/about.json`);
         const response = await res.json();
         let reddit_data = saveRelevantSubredditData(response);
-        coinlist.data[x].reddit_data = reddit_data;
+        coins.data[x].reddit_data = reddit_data;
     }
-    fs.writeFileSync(`./data/currentMarketStats_${Date.now()}_Top10.json`, JSON.stringify(coinlist, null, 2) , 'utf-8');
+    fs.writeFileSync(`./reddit/${Date.now()}_Top${coins.totalcoins}.json`, JSON.stringify(coins, null, 2) , 'utf-8');
 
 })();
 
@@ -35,6 +53,5 @@ function saveRelevantSubredditData(response) {
         active_users,
         created_utc
     }
-}
-
+};
 
