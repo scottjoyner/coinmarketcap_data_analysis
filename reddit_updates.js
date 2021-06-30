@@ -17,7 +17,7 @@ let coinlist = coins;
         let reddit_data = saveRelevantSubredditData(response);
         coinlist.data[x].reddit_data = reddit_data;
     }
-    fs.writeFileSync(`./data/currentMarketStats_${Date.now()}_Top10.json`, JSON.stringify(coinlist, null, 2) , 'utf-8');
+    fs.writeFileSync(`./data/${Date.now()}_Top10.json`, JSON.stringify(coinlist, null, 2) , 'utf-8');
 
 })();
 
