@@ -1,0 +1,681 @@
+{
+  "status": {
+    "timestamp": "2021-06-30T14:16:55.772Z",
+    "error_code": 0,
+    "error_message": null,
+    "elapsed": 20,
+    "credit_count": 1,
+    "notice": null,
+    "total_count": 5504
+  },
+  "data": [
+    {
+      "id": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "slug": "bitcoin",
+      "num_market_pairs": 9224,
+      "date_added": "2013-04-28T00:00:00.000Z",
+      "tags": [
+        "mineable",
+        "pow",
+        "sha-256",
+        "store-of-value",
+        "state-channels",
+        "coinbase-ventures-portfolio",
+        "three-arrows-capital-portfolio",
+        "polychain-capital-portfolio",
+        "binance-labs-portfolio",
+        "arrington-xrp-capital",
+        "blockchain-capital-portfolio",
+        "boostvc-portfolio",
+        "cms-holdings-portfolio",
+        "dcg-portfolio",
+        "dragonfly-capital-portfolio",
+        "electric-capital-portfolio",
+        "fabric-ventures-portfolio",
+        "framework-ventures",
+        "galaxy-digital-portfolio",
+        "huobi-capital",
+        "alameda-research-portfolio",
+        "a16z-portfolio",
+        "1confirmation-portfolio",
+        "winklevoss-capital",
+        "usv-portfolio",
+        "placeholder-ventures-portfolio",
+        "pantera-capital-portfolio",
+        "multicoin-capital-portfolio",
+        "paradigm-xzy-screener"
+      ],
+      "max_supply": 21000000,
+      "circulating_supply": 18745143,
+      "total_supply": 18745143,
+      "platform": null,
+      "cmc_rank": 1,
+      "last_updated": "2021-06-30T14:16:02.000Z",
+      "quote": {
+        "USD": {
+          "price": 34735.118776016614,
+          "volume_24h": 32541273830.556976,
+          "percent_change_1h": 0.60074772,
+          "percent_change_24h": -4.06951016,
+          "percent_change_7d": 1.85246091,
+          "percent_change_30d": -4.78802524,
+          "percent_change_60d": -39.52854367,
+          "percent_change_90d": -41.31217543,
+          "market_cap": 651114768578.4164,
+          "last_updated": "2021-06-30T14:16:02.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": -0.60074772,
+          "dailyBuyRating": 97.66824384,
+          "weeklyBuyRating": -311.21343288,
+          "monthlyBuyRating": 3447.3781728,
+          "quarterlyBuyRating": 89234.29892880001
+        },
+        "sellRatings": {
+          "hourlySellRating": 0.60074772,
+          "dailySellRating": -97.66824384,
+          "weeklySellRating": 311.21343288,
+          "monthlySellRating": -3447.3781728,
+          "quarterlySellRating": -89234.29892880001
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 1.5358275503154494e-12,
+          "USD_MaxSupplyMarketShare": 1.5358275503154494e-12
+        }
+      },
+      "reddit_data": {
+        "subreddit": "/r/Bitcoin/",
+        "subscribers": 3149632,
+        "active_users": 7957,
+        "created_utc": 1284042626
+      }
+    },
+    {
+      "id": 1027,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "slug": "ethereum",
+      "num_market_pairs": 6015,
+      "date_added": "2015-08-07T00:00:00.000Z",
+      "tags": [
+        "mineable",
+        "pow",
+        "smart-contracts",
+        "ethereum",
+        "coinbase-ventures-portfolio",
+        "three-arrows-capital-portfolio",
+        "polychain-capital-portfolio",
+        "binance-labs-portfolio",
+        "arrington-xrp-capital",
+        "blockchain-capital-portfolio",
+        "boostvc-portfolio",
+        "cms-holdings-portfolio",
+        "dcg-portfolio",
+        "dragonfly-capital-portfolio",
+        "electric-capital-portfolio",
+        "fabric-ventures-portfolio",
+        "framework-ventures",
+        "hashkey-capital-portfolio",
+        "kinetic-capital",
+        "huobi-capital",
+        "alameda-research-portfolio",
+        "a16z-portfolio",
+        "1confirmation-portfolio",
+        "winklevoss-capital",
+        "usv-portfolio",
+        "placeholder-ventures-portfolio",
+        "pantera-capital-portfolio",
+        "multicoin-capital-portfolio",
+        "paradigm-xzy-screener"
+      ],
+      "max_supply": null,
+      "circulating_supply": 116502659.6865,
+      "total_supply": 116502659.6865,
+      "platform": null,
+      "cmc_rank": 2,
+      "last_updated": "2021-06-30T14:16:02.000Z",
+      "quote": {
+        "USD": {
+          "price": 2143.384794576761,
+          "volume_24h": 22463819160.406544,
+          "percent_change_1h": 0.73295708,
+          "percent_change_24h": -3.44161814,
+          "percent_change_7d": 6.88431702,
+          "percent_change_30d": -15.22079988,
+          "percent_change_60d": -25.13885114,
+          "percent_change_90d": 11.04293631,
+          "market_cap": 249710029299.7951,
+          "last_updated": "2021-06-30T14:16:02.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": -0.73295708,
+          "dailyBuyRating": 82.59883536000001,
+          "weeklyBuyRating": -1156.56525936,
+          "monthlyBuyRating": 10958.9759136,
+          "quarterlyBuyRating": -23852.7424296
+        },
+        "sellRatings": {
+          "hourlySellRating": 0.73295708,
+          "dailySellRating": -82.59883536000001,
+          "weeklySellRating": 1156.56525936,
+          "monthlySellRating": -10958.9759136,
+          "quarterlySellRating": 23852.7424296
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 4.004644918764664e-12,
+          "USD_MaxSupplyMarketShare": 4.004644918764664e-12
+        }
+      },
+      "reddit_data": {
+        "subreddit": "/r/ethereum/",
+        "subscribers": 1027351,
+        "active_users": 2260,
+        "created_utc": 1387037735
+      }
+    },
+    {
+      "id": 825,
+      "name": "Tether",
+      "symbol": "USDT",
+      "slug": "tether",
+      "num_market_pairs": 13829,
+      "date_added": "2015-02-25T00:00:00.000Z",
+      "tags": [
+        "payments",
+        "stablecoin",
+        "stablecoin-asset-backed",
+        "solana-ecosystem"
+      ],
+      "max_supply": null,
+      "circulating_supply": 62455415418.20168,
+      "total_supply": 64471767616.826355,
+      "platform": {
+        "id": 1027,
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "slug": "ethereum",
+        "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      },
+      "cmc_rank": 3,
+      "last_updated": "2021-06-30T14:15:10.000Z",
+      "quote": {
+        "USD": {
+          "price": 1.00024774017653,
+          "volume_24h": 60234583174.39825,
+          "percent_change_1h": 0.00960288,
+          "percent_change_24h": -0.04732035,
+          "percent_change_7d": -0.07674681,
+          "percent_change_30d": -0.07373245,
+          "percent_change_60d": 0.02121107,
+          "percent_change_90d": -0.0064929,
+          "market_cap": 62470888133.842636,
+          "last_updated": "2021-06-30T14:15:10.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": -0.00960288,
+          "dailyBuyRating": 1.1356883999999998,
+          "weeklyBuyRating": 12.89346408,
+          "monthlyBuyRating": 53.087364,
+          "quarterlyBuyRating": 14.024664000000001
+        },
+        "sellRatings": {
+          "hourlySellRating": 0.00960288,
+          "dailySellRating": -1.1356883999999998,
+          "weeklySellRating": -12.89346408,
+          "monthlySellRating": -53.087364,
+          "quarterlySellRating": -14.024664000000001
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 1.600745611071704e-11,
+          "USD_MaxSupplyMarketShare": 1.5506823500253164e-11
+        }
+      },
+      "reddit_data": {
+        "subreddit": "/r/Tether/",
+        "subscribers": 7801,
+        "active_users": 90,
+        "created_utc": 1407122236
+      }
+    },
+    {
+      "id": 1839,
+      "name": "Binance Coin",
+      "symbol": "BNB",
+      "slug": "binance-coin",
+      "num_market_pairs": 571,
+      "date_added": "2017-07-25T00:00:00.000Z",
+      "tags": [
+        "marketplace",
+        "centralized-exchange",
+        "payments",
+        "binance-smart-chain",
+        "alameda-research-portfolio",
+        "multicoin-capital-portfolio"
+      ],
+      "max_supply": 170532785,
+      "circulating_supply": 153432897,
+      "total_supply": 169432897,
+      "platform": null,
+      "cmc_rank": 4,
+      "last_updated": "2021-06-30T14:15:16.000Z",
+      "quote": {
+        "USD": {
+          "price": 292.0836158082345,
+          "volume_24h": 1851971957.3191214,
+          "percent_change_1h": 1.1867712,
+          "percent_change_24h": -6.70992344,
+          "percent_change_7d": -2.87659737,
+          "percent_change_30d": -14.01238533,
+          "percent_change_60d": -52.81924631,
+          "percent_change_90d": -9.2331182,
+          "market_cap": 44815235339.69242,
+          "last_updated": "2021-06-30T14:15:16.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": -1.1867712,
+          "dailyBuyRating": 161.03816256,
+          "weeklyBuyRating": 483.26835816,
+          "monthlyBuyRating": 10088.917437600001,
+          "quarterlyBuyRating": 19943.535312
+        },
+        "sellRatings": {
+          "hourlySellRating": 1.1867712,
+          "dailySellRating": -161.03816256,
+          "weeklySellRating": -483.26835816,
+          "monthlySellRating": -10088.917437600001,
+          "quarterlySellRating": -19943.535312
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 2.2313840202336496e-11,
+          "USD_MaxSupplyMarketShare": 2.020668480595923e-11
+        }
+      },
+      "reddit_data": "None"
+    },
+    {
+      "id": 2010,
+      "name": "Cardano",
+      "symbol": "ADA",
+      "slug": "cardano",
+      "num_market_pairs": 269,
+      "date_added": "2017-10-01T00:00:00.000Z",
+      "tags": [
+        "mineable",
+        "dpos",
+        "pos",
+        "platform",
+        "research",
+        "smart-contracts",
+        "staking",
+        "binance-chain"
+      ],
+      "max_supply": 45000000000,
+      "circulating_supply": 31946328269.464,
+      "total_supply": 32704886184.416,
+      "platform": null,
+      "cmc_rank": 5,
+      "last_updated": "2021-06-30T14:15:12.000Z",
+      "quote": {
+        "USD": {
+          "price": 1.32834662311093,
+          "volume_24h": 2194798371.979125,
+          "percent_change_1h": 0.65188628,
+          "percent_change_24h": -5.80730638,
+          "percent_change_7d": 6.08344782,
+          "percent_change_30d": -18.32763485,
+          "percent_change_60d": -0.02998521,
+          "percent_change_90d": 11.33523019,
+          "market_cap": 42435797277.53574,
+          "last_updated": "2021-06-30T14:15:12.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": -0.65188628,
+          "dailyBuyRating": 139.37535312,
+          "weeklyBuyRating": -1022.01923376,
+          "monthlyBuyRating": 13195.897092,
+          "quarterlyBuyRating": -24484.097210400003
+        },
+        "sellRatings": {
+          "hourlySellRating": 0.65188628,
+          "dailySellRating": -139.37535312,
+          "weeklySellRating": 1022.01923376,
+          "monthlySellRating": -13195.897092,
+          "quarterlySellRating": 24484.097210400003
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 2.356501030155902e-11,
+          "USD_MaxSupplyMarketShare": 2.301844288715564e-11
+        }
+      },
+      "reddit_data": {
+        "subreddit": "/r/cardano/",
+        "subscribers": 533027,
+        "active_users": 1980,
+        "created_utc": 1490258606
+      }
+    },
+    {
+      "id": 74,
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "slug": "dogecoin",
+      "num_market_pairs": 369,
+      "date_added": "2013-12-15T00:00:00.000Z",
+      "tags": [
+        "mineable",
+        "pow",
+        "scrypt",
+        "medium-of-exchange",
+        "memes",
+        "payments",
+        "doggone-doggerel"
+      ],
+      "max_supply": null,
+      "circulating_supply": 130234209885.74089,
+      "total_supply": 130234209885.74089,
+      "platform": null,
+      "cmc_rank": 6,
+      "last_updated": "2021-06-30T14:16:03.000Z",
+      "quote": {
+        "USD": {
+          "price": 0.2471094066488,
+          "volume_24h": 1891994500.9761643,
+          "percent_change_1h": 0.45956743,
+          "percent_change_24h": -7.97773109,
+          "percent_change_7d": 4.36252333,
+          "percent_change_30d": -19.44762984,
+          "percent_change_60d": -31.34252772,
+          "percent_change_90d": 307.17392736,
+          "market_cap": 32182098330.240715,
+          "last_updated": "2021-06-30T14:16:03.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": -0.45956743,
+          "dailyBuyRating": 191.46554616,
+          "weeklyBuyRating": -732.90391944,
+          "monthlyBuyRating": 14002.2934848,
+          "quarterlyBuyRating": -663495.6830976
+        },
+        "sellRatings": {
+          "hourlySellRating": 0.45956743,
+          "dailySellRating": -191.46554616,
+          "weeklySellRating": 732.90391944,
+          "monthlySellRating": -14002.2934848,
+          "quarterlySellRating": 663495.6830976
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 3.107317583018895e-11,
+          "USD_MaxSupplyMarketShare": 3.107317583018895e-11
+        }
+      },
+      "reddit_data": {
+        "subreddit": "/r/dogecoin/",
+        "subscribers": 2100672,
+        "active_users": 6371,
+        "created_utc": 1386506171
+      }
+    },
+    {
+      "id": 52,
+      "name": "XRP",
+      "symbol": "XRP",
+      "slug": "xrp",
+      "num_market_pairs": 642,
+      "date_added": "2013-08-04T00:00:00.000Z",
+      "tags": [
+        "medium-of-exchange",
+        "enterprise-solutions",
+        "binance-chain",
+        "arrington-xrp-capital",
+        "galaxy-digital-portfolio",
+        "a16z-portfolio",
+        "pantera-capital-portfolio"
+      ],
+      "max_supply": 100000000000,
+      "circulating_supply": 46146927647,
+      "total_supply": 99990358414,
+      "platform": null,
+      "cmc_rank": 7,
+      "last_updated": "2021-06-30T14:16:03.000Z",
+      "quote": {
+        "USD": {
+          "price": 0.67227029115368,
+          "volume_24h": 2903487449.4149914,
+          "percent_change_1h": 1.59012546,
+          "percent_change_24h": -6.63063484,
+          "percent_change_7d": 4.21130182,
+          "percent_change_30d": -32.1779887,
+          "percent_change_60d": -56.68802157,
+          "percent_change_90d": 20.13370156,
+          "market_cap": 31023208485.096493,
+          "last_updated": "2021-06-30T14:16:03.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": -1.59012546,
+          "dailyBuyRating": 159.13523616,
+          "weeklyBuyRating": -707.49870576,
+          "monthlyBuyRating": 23168.151864,
+          "quarterlyBuyRating": -43488.7953696
+        },
+        "sellRatings": {
+          "hourlySellRating": 1.59012546,
+          "dailySellRating": -159.13523616,
+          "weeklySellRating": 707.49870576,
+          "monthlySellRating": -23168.151864,
+          "quarterlySellRating": 43488.7953696
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 3.223393223432704e-11,
+          "USD_MaxSupplyMarketShare": 1.4876403707215047e-11
+        }
+      },
+      "reddit_data": {
+        "subreddit": "/r/XRP/",
+        "subscribers": 260437,
+        "active_users": 714,
+        "created_utc": 1276702482
+      }
+    },
+    {
+      "id": 3408,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "slug": "usd-coin",
+      "num_market_pairs": 956,
+      "date_added": "2018-10-08T00:00:00.000Z",
+      "tags": [
+        "medium-of-exchange",
+        "stablecoin",
+        "stablecoin-asset-backed"
+      ],
+      "max_supply": null,
+      "circulating_supply": 25218133407.63972,
+      "total_supply": 25218133407.63972,
+      "platform": {
+        "id": 1027,
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "slug": "ethereum",
+        "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      },
+      "cmc_rank": 8,
+      "last_updated": "2021-06-30T14:16:06.000Z",
+      "quote": {
+        "USD": {
+          "price": 1.00016380558713,
+          "volume_24h": 2156966215.412446,
+          "percent_change_1h": 0.02113255,
+          "percent_change_24h": -0.02536161,
+          "percent_change_7d": -0.03562395,
+          "percent_change_30d": -0.02174591,
+          "percent_change_60d": 0.02281891,
+          "percent_change_90d": -0.0166214,
+          "market_cap": 25222264278.788883,
+          "last_updated": "2021-06-30T14:16:06.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": -0.02113255,
+          "dailyBuyRating": 0.6086786399999999,
+          "weeklyBuyRating": 5.9848236,
+          "monthlyBuyRating": 15.6570552,
+          "quarterlyBuyRating": 35.902224000000004
+        },
+        "sellRatings": {
+          "hourlySellRating": 0.02113255,
+          "dailySellRating": -0.6086786399999999,
+          "weeklySellRating": -5.9848236,
+          "monthlySellRating": -15.6570552,
+          "quarterlySellRating": -35.902224000000004
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 3.9647510982626885e-11,
+          "USD_MaxSupplyMarketShare": 3.9647510982626885e-11
+        }
+      },
+      "reddit_data": "None"
+    },
+    {
+      "id": 6636,
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "slug": "polkadot-new",
+      "num_market_pairs": 203,
+      "date_added": "2020-08-19T00:00:00.000Z",
+      "tags": [
+        "substrate",
+        "polkadot",
+        "binance-chain",
+        "polkadot-ecosystem",
+        "three-arrows-capital-portfolio",
+        "polychain-capital-portfolio",
+        "blockchain-capital-portfolio",
+        "boostvc-portfolio",
+        "cms-holdings-portfolio",
+        "coinfund-portfolio",
+        "fabric-ventures-portfolio",
+        "fenbushi-capital-portfolio",
+        "hashkey-capital-portfolio",
+        "kinetic-capital",
+        "1confirmation-portfolio",
+        "placeholder-ventures-portfolio",
+        "pantera-capital-portfolio",
+        "exnetwork-capital-portfolio"
+      ],
+      "max_supply": null,
+      "circulating_supply": 956114328.9549208,
+      "total_supply": 1086838485.3801086,
+      "platform": null,
+      "cmc_rank": 9,
+      "last_updated": "2021-06-30T14:16:06.000Z",
+      "quote": {
+        "USD": {
+          "price": 15.52109616581058,
+          "volume_24h": 1233081398.6362422,
+          "percent_change_1h": 1.50412378,
+          "percent_change_24h": -8.60986307,
+          "percent_change_7d": -4.70217179,
+          "percent_change_30d": -26.84132359,
+          "percent_change_60d": -57.15315955,
+          "percent_change_90d": -59.49152682,
+          "market_cap": 14839942445.218777,
+          "last_updated": "2021-06-30T14:16:06.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": -1.50412378,
+          "dailyBuyRating": 206.63671367999999,
+          "weeklyBuyRating": 789.96486072,
+          "monthlyBuyRating": 19325.752984799998,
+          "quarterlyBuyRating": 128501.69793119999
+        },
+        "sellRatings": {
+          "hourlySellRating": 1.50412378,
+          "dailySellRating": -206.63671367999999,
+          "weeklySellRating": -789.96486072,
+          "monthlySellRating": -19325.752984799998,
+          "quarterlySellRating": -128501.69793119999
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 6.738570608959377e-11,
+          "USD_MaxSupplyMarketShare": 5.928060151133901e-11
+        }
+      },
+      "reddit_data": {
+        "subreddit": "/r/Polkadot/",
+        "subscribers": 42973,
+        "active_users": 123,
+        "created_utc": 1340009924
+      }
+    },
+    {
+      "id": 7083,
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "slug": "uniswap",
+      "num_market_pairs": 260,
+      "date_added": "2020-09-17T00:00:00.000Z",
+      "tags": [
+        "decentralized-exchange",
+        "defi",
+        "dao",
+        "yield-farming",
+        "amm",
+        "coinbase-ventures-portfolio",
+        "three-arrows-capital-portfolio",
+        "governance",
+        "blockchain-capital-portfolio",
+        "defiance-capital",
+        "alameda-research-portfolio",
+        "a16z-portfolio",
+        "pantera-capital-portfolio",
+        "parafi-capital",
+        "paradigm-xzy-screener"
+      ],
+      "max_supply": 1000000000,
+      "circulating_supply": 575243785.1720014,
+      "total_supply": 1000000000,
+      "platform": {
+        "id": 1027,
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "slug": "ethereum",
+        "token_address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+      },
+      "cmc_rank": 10,
+      "last_updated": "2021-06-30T14:15:11.000Z",
+      "quote": {
+        "USD": {
+          "price": 17.93387397054901,
+          "volume_24h": 368617905.1185177,
+          "percent_change_1h": 1.11365688,
+          "percent_change_24h": -5.88405008,
+          "percent_change_7d": 0.41357166,
+          "percent_change_30d": -30.79268018,
+          "percent_change_60d": -54.97470707,
+          "percent_change_90d": -38.7960929,
+          "market_cap": 10316349545.616241,
+          "last_updated": "2021-06-30T14:15:11.000Z"
+        }
+      }
+    }
+  ]
+}

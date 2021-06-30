@@ -92,4 +92,4 @@ function calculateRelativePriceChanges(data) {
     }
 }
 
-console.table(purchasingPowerList)
+

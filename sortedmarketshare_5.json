@@ -1,0 +1,325 @@
+{
+  "status": {
+    "timestamp": "2021-06-30T14:09:03.660Z",
+    "error_code": 0,
+    "error_message": null,
+    "elapsed": 38,
+    "credit_count": 1,
+    "notice": null,
+    "total_count": 5503
+  },
+  "data": [
+    {
+      "id": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "slug": "bitcoin",
+      "num_market_pairs": 9224,
+      "date_added": "2013-04-28T00:00:00.000Z",
+      "tags": [
+        "mineable",
+        "pow",
+        "sha-256",
+        "store-of-value",
+        "state-channels",
+        "coinbase-ventures-portfolio",
+        "three-arrows-capital-portfolio",
+        "polychain-capital-portfolio",
+        "binance-labs-portfolio",
+        "arrington-xrp-capital",
+        "blockchain-capital-portfolio",
+        "boostvc-portfolio",
+        "cms-holdings-portfolio",
+        "dcg-portfolio",
+        "dragonfly-capital-portfolio",
+        "electric-capital-portfolio",
+        "fabric-ventures-portfolio",
+        "framework-ventures",
+        "galaxy-digital-portfolio",
+        "huobi-capital",
+        "alameda-research-portfolio",
+        "a16z-portfolio",
+        "1confirmation-portfolio",
+        "winklevoss-capital",
+        "usv-portfolio",
+        "placeholder-ventures-portfolio",
+        "pantera-capital-portfolio",
+        "multicoin-capital-portfolio",
+        "paradigm-xzy-screener"
+      ],
+      "max_supply": 21000000,
+      "circulating_supply": 18745112,
+      "total_supply": 18745112,
+      "platform": null,
+      "cmc_rank": 1,
+      "last_updated": "2021-06-30T14:08:02.000Z",
+      "quote": {
+        "USD": {
+          "price": 34745.84661112623,
+          "volume_24h": 32633565574.76012,
+          "percent_change_1h": 0.5875295,
+          "percent_change_24h": -4.27047573,
+          "percent_change_7d": 1.87557318,
+          "percent_change_30d": -4.86117553,
+          "percent_change_60d": -39.52952797,
+          "percent_change_90d": -41.300343,
+          "market_cap": 651314786260.3817,
+          "last_updated": "2021-06-30T14:08:02.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": -0.5875295,
+          "dailyBuyRating": 102.49141752,
+          "weeklyBuyRating": -315.09629424,
+          "monthlyBuyRating": 3500.0463815999997,
+          "quarterlyBuyRating": 89208.74088
+        },
+        "sellRatings": {
+          "hourlySellRating": 0.5875295,
+          "dailySellRating": -102.49141752,
+          "weeklySellRating": 315.09629424,
+          "monthlySellRating": -3500.0463815999997,
+          "quarterlySellRating": -89208.74088
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 1.5353559002424082e-12,
+          "USD_MaxSupplyMarketShare": 1.5353559002424082e-12
+        }
+      }
+    },
+    {
+      "id": 1027,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "slug": "ethereum",
+      "num_market_pairs": 6015,
+      "date_added": "2015-08-07T00:00:00.000Z",
+      "tags": [
+        "mineable",
+        "pow",
+        "smart-contracts",
+        "ethereum",
+        "coinbase-ventures-portfolio",
+        "three-arrows-capital-portfolio",
+        "polychain-capital-portfolio",
+        "binance-labs-portfolio",
+        "arrington-xrp-capital",
+        "blockchain-capital-portfolio",
+        "boostvc-portfolio",
+        "cms-holdings-portfolio",
+        "dcg-portfolio",
+        "dragonfly-capital-portfolio",
+        "electric-capital-portfolio",
+        "fabric-ventures-portfolio",
+        "framework-ventures",
+        "hashkey-capital-portfolio",
+        "kinetic-capital",
+        "huobi-capital",
+        "alameda-research-portfolio",
+        "a16z-portfolio",
+        "1confirmation-portfolio",
+        "winklevoss-capital",
+        "usv-portfolio",
+        "placeholder-ventures-portfolio",
+        "pantera-capital-portfolio",
+        "multicoin-capital-portfolio",
+        "paradigm-xzy-screener"
+      ],
+      "max_supply": null,
+      "circulating_supply": 116501471.0615,
+      "total_supply": 116501471.0615,
+      "platform": null,
+      "cmc_rank": 2,
+      "last_updated": "2021-06-30T14:08:02.000Z",
+      "quote": {
+        "USD": {
+          "price": 2144.448981964784,
+          "volume_24h": 22495715112.7478,
+          "percent_change_1h": 0.57457954,
+          "percent_change_24h": -3.62774182,
+          "percent_change_7d": 7.17979287,
+          "percent_change_30d": -15.17864239,
+          "percent_change_60d": -25.11365218,
+          "percent_change_90d": 10.79263175,
+          "market_cap": 249831461015.2334,
+          "last_updated": "2021-06-30T14:08:02.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": -0.57457954,
+          "dailyBuyRating": 87.06580367999999,
+          "weeklyBuyRating": -1206.20520216,
+          "monthlyBuyRating": 10928.6225208,
+          "quarterlyBuyRating": -23312.08458
+        },
+        "sellRatings": {
+          "hourlySellRating": 0.57457954,
+          "dailySellRating": -87.06580367999999,
+          "weeklySellRating": 1206.20520216,
+          "monthlySellRating": -10928.6225208,
+          "quarterlySellRating": 23312.08458
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 4.002698442927592e-12,
+          "USD_MaxSupplyMarketShare": 4.002698442927592e-12
+        }
+      }
+    },
+    {
+      "id": 825,
+      "name": "Tether",
+      "symbol": "USDT",
+      "slug": "tether",
+      "num_market_pairs": 13829,
+      "date_added": "2015-02-25T00:00:00.000Z",
+      "tags": [
+        "payments",
+        "stablecoin",
+        "stablecoin-asset-backed",
+        "solana-ecosystem"
+      ],
+      "max_supply": null,
+      "circulating_supply": 62455415418.20168,
+      "total_supply": 64471767616.826355,
+      "platform": {
+        "id": 1027,
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "slug": "ethereum",
+        "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      },
+      "cmc_rank": 3,
+      "last_updated": "2021-06-30T14:07:08.000Z",
+      "quote": {
+        "USD": {
+          "price": 1.0001246829361,
+          "volume_24h": 60289395924.71976,
+          "percent_change_1h": -0.00535165,
+          "percent_change_24h": -0.06050957,
+          "percent_change_7d": -0.09154485,
+          "percent_change_30d": -0.0891327,
+          "percent_change_60d": 0.0264097,
+          "percent_change_90d": -0.02711198,
+          "market_cap": 62463202542.77136,
+          "last_updated": "2021-06-30T14:07:08.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": 0.00535165,
+          "dailyBuyRating": 1.4522296799999999,
+          "weeklyBuyRating": 15.3795348,
+          "monthlyBuyRating": 64.175544,
+          "quarterlyBuyRating": 58.5618768
+        },
+        "sellRatings": {
+          "hourlySellRating": -0.00535165,
+          "dailySellRating": -1.4522296799999999,
+          "weeklySellRating": -15.3795348,
+          "monthlySellRating": -64.175544,
+          "quarterlySellRating": -58.5618768
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 1.600942569851834e-11,
+          "USD_MaxSupplyMarketShare": 1.5508731489267268e-11
+        }
+      }
+    },
+    {
+      "id": 1839,
+      "name": "Binance Coin",
+      "symbol": "BNB",
+      "slug": "binance-coin",
+      "num_market_pairs": 571,
+      "date_added": "2017-07-25T00:00:00.000Z",
+      "tags": [
+        "marketplace",
+        "centralized-exchange",
+        "payments",
+        "binance-smart-chain",
+        "alameda-research-portfolio",
+        "multicoin-capital-portfolio"
+      ],
+      "max_supply": 170532785,
+      "circulating_supply": 153432897,
+      "total_supply": 169432897,
+      "platform": null,
+      "cmc_rank": 4,
+      "last_updated": "2021-06-30T14:07:11.000Z",
+      "quote": {
+        "USD": {
+          "price": 291.69498287981395,
+          "volume_24h": 1851128042.330864,
+          "percent_change_1h": 0.48293661,
+          "percent_change_24h": -7.18194171,
+          "percent_change_7d": -3.01445107,
+          "percent_change_30d": -14.81993199,
+          "percent_change_60d": -52.90988588,
+          "percent_change_90d": -9.35331891,
+          "market_cap": 44755606263.61526,
+          "last_updated": "2021-06-30T14:07:11.000Z"
+        }
+      },
+      "weights": {
+        "buyRatings": {
+          "hourlyBuyRating": -0.48293661,
+          "dailyBuyRating": 172.36660104,
+          "weeklyBuyRating": 506.42777975999996,
+          "monthlyBuyRating": 10670.351032800001,
+          "quarterlyBuyRating": 20203.1688456
+        },
+        "sellRatings": {
+          "hourlySellRating": 0.48293661,
+          "dailySellRating": -172.36660104,
+          "weeklySellRating": -506.42777975999996,
+          "monthlySellRating": -10670.351032800001,
+          "quarterlySellRating": -20203.1688456
+        },
+        "marketShare": {
+          "USD_AvailibleMarketShare": 2.2343569520875085e-11,
+          "USD_MaxSupplyMarketShare": 2.023360670572e-11
+        }
+      }
+    },
+    {
+      "id": 2010,
+      "name": "Cardano",
+      "symbol": "ADA",
+      "slug": "cardano",
+      "num_market_pairs": 269,
+      "date_added": "2017-10-01T00:00:00.000Z",
+      "tags": [
+        "mineable",
+        "dpos",
+        "pos",
+        "platform",
+        "research",
+        "smart-contracts",
+        "staking",
+        "binance-chain"
+      ],
+      "max_supply": 45000000000,
+      "circulating_supply": 31946328269.464,
+      "total_supply": 32704886184.416,
+      "platform": null,
+      "cmc_rank": 5,
+      "last_updated": "2021-06-30T14:07:10.000Z",
+      "quote": {
+        "USD": {
+          "price": 1.32621434380378,
+          "volume_24h": 2201149328.7172704,
+          "percent_change_1h": -0.04060834,
+          "percent_change_24h": -6.4032014,
+          "percent_change_7d": 3.82510896,
+          "percent_change_30d": -19.20711674,
+          "percent_change_60d": -0.05151382,
+          "percent_change_90d": 11.06819986,
+          "market_cap": 42367678782.82735,
+          "last_updated": "2021-06-30T14:07:10.000Z"
+        }
+      }
+    }
+  ]
+}

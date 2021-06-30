@@ -1,12 +1,12 @@
 {
   "status": {
-    "timestamp": "2021-06-29T14:01:34.691Z",
+    "timestamp": "2021-06-30T13:05:42.869Z",
     "error_code": 0,
     "error_message": null,
-    "elapsed": 10,
+    "elapsed": 24,
     "credit_count": 1,
     "notice": null,
-    "total_count": 5490
+    "total_count": 5503
   },
   "data": [
     {
@@ -14,7 +14,7 @@
       "name": "Bitcoin",
       "symbol": "BTC",
       "slug": "bitcoin",
-      "num_market_pairs": 9214,
+      "num_market_pairs": 9224,
       "date_added": "2013-04-28T00:00:00.000Z",
       "tags": [
         "mineable",
@@ -48,43 +48,43 @@
         "paradigm-xzy-screener"
       ],
       "max_supply": 21000000,
-      "circulating_supply": 18744562,
-      "total_supply": 18744562,
+      "circulating_supply": 18745112,
+      "total_supply": 18745112,
       "platform": null,
       "cmc_rank": 1,
-      "last_updated": "2021-06-29T14:01:02.000Z",
+      "last_updated": "2021-06-30T13:05:02.000Z",
       "quote": {
         "USD": {
-          "price": 36299.47747168128,
-          "volume_24h": 37539270755.85021,
-          "percent_change_1h": 1.36399482,
-          "percent_change_24h": 5.97116739,
-          "percent_change_7d": 23.33738667,
-          "percent_change_30d": 1.90026457,
-          "percent_change_60d": -35.35133626,
-          "percent_change_90d": -38.32512532,
-          "market_cap": 680417806035.5331,
-          "last_updated": "2021-06-29T14:01:02.000Z"
+          "price": 34580.2210182745,
+          "volume_24h": 33735197357.116837,
+          "percent_change_1h": -0.83603447,
+          "percent_change_24h": -3.68197497,
+          "percent_change_7d": 0.49862035,
+          "percent_change_30d": -5.89779527,
+          "percent_change_60d": -40.22858724,
+          "percent_change_90d": -41.47923803,
+          "market_cap": 648210115972.3094,
+          "last_updated": "2021-06-30T13:05:02.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -1.36399482,
-          "dailyBuyRating": -143.30801736,
-          "weeklyBuyRating": -3920.68096056,
-          "monthlyBuyRating": -1368.1904904,
-          "quarterlyBuyRating": 82782.2706912
+          "hourlyBuyRating": 0.83603447,
+          "dailyBuyRating": 88.36739928,
+          "weeklyBuyRating": -83.7682188,
+          "monthlyBuyRating": 4246.4125944,
+          "quarterlyBuyRating": 89595.15414479999
         },
         "sellRatings": {
-          "hourlySellRating": 1.36399482,
-          "dailySellRating": 143.30801736,
-          "weeklySellRating": 3920.68096056,
-          "monthlySellRating": 1368.1904904,
-          "quarterlySellRating": -82782.2706912
+          "hourlySellRating": -0.83603447,
+          "dailySellRating": -88.36739928,
+          "weeklySellRating": 83.7682188,
+          "monthlySellRating": -4246.4125944,
+          "quarterlySellRating": -89595.15414479999
         },
         "marketShare": {
-          "USD_AvailibleMarketShare": 1.4696852303535655e-12,
-          "USD_MaxSupplyMarketShare": 1.4696852303535655e-12
+          "USD_AvailibleMarketShare": 1.5427096482442407e-12,
+          "USD_MaxSupplyMarketShare": 1.5427096482442407e-12
         }
       }
     },
@@ -93,7 +93,7 @@
       "name": "Ethereum",
       "symbol": "ETH",
       "slug": "ethereum",
-      "num_market_pairs": 6010,
+      "num_market_pairs": 6015,
       "date_added": "2015-08-07T00:00:00.000Z",
       "tags": [
         "mineable",
@@ -127,43 +127,43 @@
         "paradigm-xzy-screener"
       ],
       "max_supply": null,
-      "circulating_supply": 116488176.9365,
-      "total_supply": 116488176.9365,
+      "circulating_supply": 116501471.0615,
+      "total_supply": 116501471.0615,
       "platform": null,
       "cmc_rank": 2,
-      "last_updated": "2021-06-29T14:01:02.000Z",
+      "last_updated": "2021-06-30T13:05:02.000Z",
       "quote": {
         "USD": {
-          "price": 2225.4333815728314,
-          "volume_24h": 27289166418.907608,
-          "percent_change_1h": 2.43724833,
-          "percent_change_24h": 10.92619393,
-          "percent_change_7d": 28.00180497,
-          "percent_change_30d": -6.61114394,
-          "percent_change_60d": -18.62336395,
-          "percent_change_90d": 21.31757143,
-          "market_cap": 259236677513.0495,
-          "last_updated": "2021-06-29T14:01:02.000Z"
+          "price": 2133.628214953166,
+          "volume_24h": 23094645223.007347,
+          "percent_change_1h": -0.87413894,
+          "percent_change_24h": -2.09293623,
+          "percent_change_7d": 5.69452816,
+          "percent_change_30d": -15.94948816,
+          "percent_change_60d": -25.77251306,
+          "percent_change_90d": 10.52059092,
+          "market_cap": 248570825740.36618,
+          "last_updated": "2021-06-30T13:05:02.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -2.43724833,
-          "dailyBuyRating": -262.22865432000003,
-          "weeklyBuyRating": -4704.30323496,
-          "monthlyBuyRating": 4760.0236368,
-          "quarterlyBuyRating": -46045.9542888
+          "hourlyBuyRating": 0.87413894,
+          "dailyBuyRating": 50.23046952,
+          "weeklyBuyRating": -956.6807308799999,
+          "monthlyBuyRating": 11483.6314752,
+          "quarterlyBuyRating": -22724.4763872
         },
         "sellRatings": {
-          "hourlySellRating": 2.43724833,
-          "dailySellRating": 262.22865432000003,
-          "weeklySellRating": 4704.30323496,
-          "monthlySellRating": -4760.0236368,
-          "quarterlySellRating": 46045.9542888
+          "hourlySellRating": -0.87413894,
+          "dailySellRating": -50.23046952,
+          "weeklySellRating": 956.6807308799999,
+          "monthlySellRating": -11483.6314752,
+          "quarterlySellRating": 22724.4763872
         },
         "marketShare": {
-          "USD_AvailibleMarketShare": 3.857478847489325e-12,
-          "USD_MaxSupplyMarketShare": 3.857478847489325e-12
+          "USD_AvailibleMarketShare": 4.022998262251848e-12,
+          "USD_MaxSupplyMarketShare": 4.022998262251848e-12
         }
       }
     },
@@ -172,7 +172,7 @@
       "name": "Tether",
       "symbol": "USDT",
       "slug": "tether",
-      "num_market_pairs": 13775,
+      "num_market_pairs": 13829,
       "date_added": "2015-02-25T00:00:00.000Z",
       "tags": [
         "payments",
@@ -181,7 +181,7 @@
         "solana-ecosystem"
       ],
       "max_supply": null,
-      "circulating_supply": 62454526906.711685,
+      "circulating_supply": 62455415418.20168,
       "total_supply": 64471767616.826355,
       "platform": {
         "id": 1027,
@@ -191,39 +191,39 @@
         "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
       },
       "cmc_rank": 3,
-      "last_updated": "2021-06-29T14:00:09.000Z",
+      "last_updated": "2021-06-30T13:04:09.000Z",
       "quote": {
         "USD": {
-          "price": 1.00075475582745,
-          "volume_24h": 65297832877.55362,
-          "percent_change_1h": 0.02487167,
-          "percent_change_24h": 0.01919392,
-          "percent_change_7d": 0.03111544,
-          "percent_change_30d": 0.07056527,
-          "percent_change_60d": 0.09200055,
-          "percent_change_90d": -0.08798388,
-          "market_cap": 62501664824.84516,
-          "last_updated": "2021-06-29T14:00:09.000Z"
+          "price": 1.00018172676094,
+          "volume_24h": 62011505587.46223,
+          "percent_change_1h": -0.02334589,
+          "percent_change_24h": -0.04557524,
+          "percent_change_7d": -0.05427308,
+          "percent_change_30d": -0.05231533,
+          "percent_change_60d": 0.03287408,
+          "percent_change_90d": -0.03050978,
+          "market_cap": 62466765238.5488,
+          "last_updated": "2021-06-30T13:04:09.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -0.02487167,
-          "dailyBuyRating": -0.46065407999999997,
-          "weeklyBuyRating": -5.22739392,
-          "monthlyBuyRating": -50.8069944,
-          "quarterlyBuyRating": 190.0451808
+          "hourlyBuyRating": 0.02334589,
+          "dailyBuyRating": 1.09380576,
+          "weeklyBuyRating": 9.11787744,
+          "monthlyBuyRating": 37.6670376,
+          "quarterlyBuyRating": 65.9011248
         },
         "sellRatings": {
-          "hourlySellRating": 0.02487167,
-          "dailySellRating": 0.46065407999999997,
-          "weeklySellRating": 5.22739392,
-          "monthlySellRating": 50.8069944,
-          "quarterlySellRating": -190.0451808
+          "hourlySellRating": -0.02334589,
+          "dailySellRating": -1.09380576,
+          "weeklySellRating": -9.11787744,
+          "monthlySellRating": -37.6670376,
+          "quarterlySellRating": -65.9011248
         },
         "marketShare": {
-          "USD_AvailibleMarketShare": 1.599957381619198e-11,
-          "USD_MaxSupplyMarketShare": 1.5498967227610038e-11
+          "USD_AvailibleMarketShare": 1.6008512625572792e-11,
+          "USD_MaxSupplyMarketShare": 1.550784697264504e-11
         }
       }
     },
@@ -247,39 +247,39 @@
       "total_supply": 169432897,
       "platform": null,
       "cmc_rank": 4,
-      "last_updated": "2021-06-29T14:00:14.000Z",
+      "last_updated": "2021-06-30T13:04:11.000Z",
       "quote": {
         "USD": {
-          "price": 313.63684174097824,
-          "volume_24h": 1990549224.5789618,
-          "percent_change_1h": 2.04032917,
-          "percent_change_24h": 9.21840963,
-          "percent_change_7d": 33.48313304,
-          "percent_change_30d": -4.35575424,
-          "percent_change_60d": -48.12634766,
-          "percent_change_90d": 1.92300004,
-          "market_cap": 48122209234.24882,
-          "last_updated": "2021-06-29T14:00:14.000Z"
+          "price": 290.39484720285463,
+          "volume_24h": 1916672205.3194532,
+          "percent_change_1h": -1.05539091,
+          "percent_change_24h": -5.58052116,
+          "percent_change_7d": -3.02630265,
+          "percent_change_30d": -16.02143539,
+          "percent_change_60d": -53.55048367,
+          "percent_change_90d": -8.11922706,
+          "market_cap": 44556122680.20634,
+          "last_updated": "2021-06-30T13:04:11.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -2.04032917,
-          "dailyBuyRating": -221.24183112,
-          "weeklyBuyRating": -5625.16635072,
-          "monthlyBuyRating": 3136.1430528000005,
-          "quarterlyBuyRating": -4153.6800864
+          "hourlyBuyRating": 1.05539091,
+          "dailyBuyRating": 133.93250784,
+          "weeklyBuyRating": 508.41884519999996,
+          "monthlyBuyRating": 11535.4334808,
+          "quarterlyBuyRating": 17537.5304496
         },
         "sellRatings": {
-          "hourlySellRating": 2.04032917,
-          "dailySellRating": 221.24183112,
-          "weeklySellRating": 5625.16635072,
-          "monthlySellRating": -3136.1430528000005,
-          "quarterlySellRating": 4153.6800864
+          "hourlySellRating": -1.05539091,
+          "dailySellRating": -133.93250784,
+          "weeklySellRating": -508.41884519999996,
+          "monthlySellRating": -11535.4334808,
+          "quarterlySellRating": -17537.5304496
         },
         "marketShare": {
-          "USD_AvailibleMarketShare": 2.078042583482005e-11,
-          "USD_MaxSupplyMarketShare": 1.8818074843695105e-11
+          "USD_AvailibleMarketShare": 2.244360460126485e-11,
+          "USD_MaxSupplyMarketShare": 2.0324195206876477e-11
         }
       }
     },
@@ -288,7 +288,7 @@
       "name": "Cardano",
       "symbol": "ADA",
       "slug": "cardano",
-      "num_market_pairs": 267,
+      "num_market_pairs": 269,
       "date_added": "2017-10-01T00:00:00.000Z",
       "tags": [
         "mineable",
@@ -305,39 +305,39 @@
       "total_supply": 32704886184.416,
       "platform": null,
       "cmc_rank": 5,
-      "last_updated": "2021-06-29T14:00:10.000Z",
+      "last_updated": "2021-06-30T13:04:11.000Z",
       "quote": {
         "USD": {
-          "price": 1.41547778326233,
-          "volume_24h": 2779007673.053112,
-          "percent_change_1h": 1.92991079,
-          "percent_change_24h": 7.68630521,
-          "percent_change_7d": 38.49093044,
-          "percent_change_30d": -13.93483565,
-          "percent_change_60d": 4.82958646,
-          "percent_change_90d": 18.36879639,
-          "market_cap": 45219317922.23161,
-          "last_updated": "2021-06-29T14:00:10.000Z"
+          "price": 1.32723745174595,
+          "volume_24h": 2249775044.3524365,
+          "percent_change_1h": -1.03114704,
+          "percent_change_24h": -4.65122602,
+          "percent_change_7d": 4.45351928,
+          "percent_change_30d": -20.70305918,
+          "percent_change_60d": -0.61768435,
+          "percent_change_90d": 11.17743647,
+          "market_cap": 42400363325.003006,
+          "last_updated": "2021-06-30T13:04:11.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -1.92991079,
-          "dailyBuyRating": -184.47132504,
-          "weeklyBuyRating": -6466.47631392,
-          "monthlyBuyRating": 10033.081668,
-          "quarterlyBuyRating": -39676.6002024
+          "hourlyBuyRating": 1.03114704,
+          "dailyBuyRating": 111.62942448000001,
+          "weeklyBuyRating": -748.19123904,
+          "monthlyBuyRating": 14906.2026096,
+          "quarterlyBuyRating": -24143.2627752
         },
         "sellRatings": {
-          "hourlySellRating": 1.92991079,
-          "dailySellRating": 184.47132504,
-          "weeklySellRating": 6466.47631392,
-          "monthlySellRating": -10033.081668,
-          "quarterlySellRating": 39676.6002024
+          "hourlySellRating": -1.03114704,
+          "dailySellRating": -111.62942448000001,
+          "weeklySellRating": 748.19123904,
+          "monthlySellRating": -14906.2026096,
+          "quarterlySellRating": 24143.2627752
         },
         "marketShare": {
-          "USD_AvailibleMarketShare": 2.2114442365535116e-11,
-          "USD_MaxSupplyMarketShare": 2.160151945864789e-11
+          "USD_AvailibleMarketShare": 2.3584703563384597e-11,
+          "USD_MaxSupplyMarketShare": 2.3037679382993874e-11
         }
       }
     },
@@ -346,7 +346,7 @@
       "name": "Dogecoin",
       "symbol": "DOGE",
       "slug": "dogecoin",
-      "num_market_pairs": 368,
+      "num_market_pairs": 369,
       "date_added": "2013-12-15T00:00:00.000Z",
       "tags": [
         "mineable",
@@ -358,43 +358,43 @@
         "doggone-doggerel"
       ],
       "max_supply": null,
-      "circulating_supply": 130228392047.17001,
-      "total_supply": 130228392047.17001,
+      "circulating_supply": 130234209885.74089,
+      "total_supply": 130234209885.74089,
       "platform": null,
       "cmc_rank": 6,
-      "last_updated": "2021-06-29T14:01:03.000Z",
+      "last_updated": "2021-06-30T13:05:03.000Z",
       "quote": {
         "USD": {
-          "price": 0.27141423386601,
-          "volume_24h": 2140855246.1965504,
-          "percent_change_1h": 0.52702723,
-          "percent_change_24h": 7.58604648,
-          "percent_change_7d": 57.59889997,
-          "percent_change_30d": -9.8174326,
-          "percent_change_60d": -12.95314382,
-          "percent_change_90d": 408.83967731,
-          "market_cap": 35345839255.08504,
-          "last_updated": "2021-06-29T14:01:03.000Z"
+          "price": 0.24762418219001,
+          "volume_24h": 1948891350.1314013,
+          "percent_change_1h": -1.50028972,
+          "percent_change_24h": -8.77637368,
+          "percent_change_7d": 4.97177823,
+          "percent_change_30d": -19.74682292,
+          "percent_change_60d": -31.50843219,
+          "percent_change_90d": 292.10789698,
+          "market_cap": 32249139716.118706,
+          "last_updated": "2021-06-30T13:05:03.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -0.52702723,
-          "dailyBuyRating": -182.06511552,
-          "weeklyBuyRating": -9676.615194959999,
-          "monthlyBuyRating": 7068.551472,
-          "quarterlyBuyRating": -883093.7029896
+          "hourlyBuyRating": 1.50028972,
+          "dailyBuyRating": 210.63296832000003,
+          "weeklyBuyRating": -835.25874264,
+          "monthlyBuyRating": 14217.7125024,
+          "quarterlyBuyRating": -630953.0574768
         },
         "sellRatings": {
-          "hourlySellRating": 0.52702723,
-          "dailySellRating": 182.06511552,
-          "weeklySellRating": 9676.615194959999,
-          "monthlySellRating": -7068.551472,
-          "quarterlySellRating": 883093.7029896
+          "hourlySellRating": -1.50028972,
+          "dailySellRating": -210.63296832000003,
+          "weeklySellRating": 835.25874264,
+          "monthlySellRating": -14217.7125024,
+          "quarterlySellRating": 630953.0574768
         },
         "marketShare": {
-          "USD_AvailibleMarketShare": 2.829187313344483e-11,
-          "USD_MaxSupplyMarketShare": 2.829187313344483e-11
+          "USD_AvailibleMarketShare": 3.1008579106380996e-11,
+          "USD_MaxSupplyMarketShare": 3.1008579106380996e-11
         }
       }
     },
@@ -403,7 +403,7 @@
       "name": "XRP",
       "symbol": "XRP",
       "slug": "xrp",
-      "num_market_pairs": 641,
+      "num_market_pairs": 642,
       "date_added": "2013-08-04T00:00:00.000Z",
       "tags": [
         "medium-of-exchange",
@@ -419,39 +419,39 @@
       "total_supply": 99990358414,
       "platform": null,
       "cmc_rank": 7,
-      "last_updated": "2021-06-29T14:01:03.000Z",
+      "last_updated": "2021-06-30T13:05:03.000Z",
       "quote": {
         "USD": {
-          "price": 0.72157653430562,
-          "volume_24h": 3210115147.990622,
-          "percent_change_1h": 1.76040068,
-          "percent_change_24h": 14.59774818,
-          "percent_change_7d": 37.25262848,
-          "percent_change_30d": -17.85191635,
-          "percent_change_60d": -55.02327145,
-          "percent_change_90d": 28.99564738,
-          "market_cap": 33298540120.37446,
-          "last_updated": "2021-06-29T14:01:03.000Z"
+          "price": 0.66569750059753,
+          "volume_24h": 2970170010.347315,
+          "percent_change_1h": -1.55339791,
+          "percent_change_24h": -6.47102824,
+          "percent_change_7d": 1.802885,
+          "percent_change_30d": -33.65230429,
+          "percent_change_60d": -57.41859465,
+          "percent_change_90d": 17.95966177,
+          "market_cap": 30719894394.862953,
+          "last_updated": "2021-06-30T13:05:03.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -1.76040068,
-          "dailyBuyRating": -350.34595632,
-          "weeklyBuyRating": -6258.44158464,
-          "monthlyBuyRating": 12853.379772,
-          "quarterlyBuyRating": -62630.5983408
+          "hourlyBuyRating": 1.55339791,
+          "dailyBuyRating": 155.30467776,
+          "weeklyBuyRating": -302.88468,
+          "monthlyBuyRating": 24229.6590888,
+          "quarterlyBuyRating": -38792.8694232
         },
         "sellRatings": {
-          "hourlySellRating": 1.76040068,
-          "dailySellRating": 350.34595632,
-          "weeklySellRating": 6258.44158464,
-          "monthlySellRating": -12853.379772,
-          "quarterlySellRating": 62630.5983408
+          "hourlySellRating": -1.55339791,
+          "dailySellRating": -155.30467776,
+          "weeklySellRating": 302.88468,
+          "monthlySellRating": -24229.6590888,
+          "quarterlySellRating": 38792.8694232
         },
         "marketShare": {
-          "USD_AvailibleMarketShare": 3.00313466111425e-11,
-          "USD_MaxSupplyMarketShare": 1.3859880104323471e-11
+          "USD_AvailibleMarketShare": 3.255219523694789e-11,
+          "USD_MaxSupplyMarketShare": 1.5023286466589226e-11
         }
       }
     },
@@ -460,7 +460,7 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "slug": "usd-coin",
-      "num_market_pairs": 950,
+      "num_market_pairs": 956,
       "date_added": "2018-10-08T00:00:00.000Z",
       "tags": [
         "medium-of-exchange",
@@ -468,8 +468,8 @@
         "stablecoin-asset-backed"
       ],
       "max_supply": null,
-      "circulating_supply": 25376769571.36972,
-      "total_supply": 25376769571.36972,
+      "circulating_supply": 25264958638.589718,
+      "total_supply": 25264958638.589718,
       "platform": {
         "id": 1027,
         "name": "Ethereum",
@@ -478,39 +478,39 @@
         "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
       },
       "cmc_rank": 8,
-      "last_updated": "2021-06-29T14:01:06.000Z",
+      "last_updated": "2021-06-30T13:05:06.000Z",
       "quote": {
         "USD": {
-          "price": 1.00055709561587,
-          "volume_24h": 2399425337.605579,
-          "percent_change_1h": 0.02455307,
-          "percent_change_24h": 0.00810569,
-          "percent_change_7d": 0.01203618,
-          "percent_change_30d": 0.11317051,
-          "percent_change_60d": 0.05972355,
-          "percent_change_90d": -0.10340783,
-          "market_cap": 25390906858.442875,
-          "last_updated": "2021-06-29T14:01:06.000Z"
+          "price": 1.00004994259369,
+          "volume_24h": 2174836534.1252146,
+          "percent_change_1h": -0.02070326,
+          "percent_change_24h": -0.02673051,
+          "percent_change_7d": -0.04092369,
+          "percent_change_30d": 0.00346164,
+          "percent_change_60d": 0.00654774,
+          "percent_change_90d": -0.03557934,
+          "market_cap": 25266220436.1536,
+          "last_updated": "2021-06-30T13:05:06.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -0.02455307,
-          "dailyBuyRating": -0.19453656000000003,
-          "weeklyBuyRating": -2.02207824,
-          "monthlyBuyRating": -81.4827672,
-          "quarterlyBuyRating": 223.36091280000002
+          "hourlyBuyRating": 0.02070326,
+          "dailyBuyRating": 0.64153224,
+          "weeklyBuyRating": 6.87517992,
+          "monthlyBuyRating": -2.4923808000000003,
+          "quarterlyBuyRating": 76.8513744
         },
         "sellRatings": {
-          "hourlySellRating": 0.02455307,
-          "dailySellRating": 0.19453656000000003,
-          "weeklySellRating": 2.02207824,
-          "monthlySellRating": 81.4827672,
-          "quarterlySellRating": -223.36091280000002
+          "hourlySellRating": -0.02070326,
+          "dailySellRating": -0.64153224,
+          "weeklySellRating": -6.87517992,
+          "monthlySellRating": 2.4923808000000003,
+          "quarterlySellRating": -76.8513744
         },
         "marketShare": {
-          "USD_AvailibleMarketShare": 3.9384178185328755e-11,
-          "USD_MaxSupplyMarketShare": 3.9384178185328755e-11
+          "USD_AvailibleMarketShare": 3.9578535401721326e-11,
+          "USD_MaxSupplyMarketShare": 3.9578535401721326e-11
         }
       }
     },
@@ -519,7 +519,7 @@
       "name": "Polkadot",
       "symbol": "DOT",
       "slug": "polkadot-new",
-      "num_market_pairs": 202,
+      "num_market_pairs": 203,
       "date_added": "2020-08-19T00:00:00.000Z",
       "tags": [
         "substrate",
@@ -542,43 +542,43 @@
         "exnetwork-capital-portfolio"
       ],
       "max_supply": null,
-      "circulating_supply": 955877074.0672699,
-      "total_supply": 1086601230.4924579,
+      "circulating_supply": 956109445.4470508,
+      "total_supply": 1086833601.8722386,
       "platform": null,
       "cmc_rank": 9,
-      "last_updated": "2021-06-29T14:01:06.000Z",
+      "last_updated": "2021-06-30T13:05:06.000Z",
       "quote": {
         "USD": {
-          "price": 16.90783725364954,
-          "volume_24h": 1396117551.8557692,
-          "percent_change_1h": 2.86112587,
-          "percent_change_24h": 13.67897934,
-          "percent_change_7d": 24.7318674,
-          "percent_change_30d": -17.61086033,
-          "percent_change_60d": -52.80722668,
-          "percent_change_90d": -54.174154,
-          "market_cap": 16161814002.824106,
-          "last_updated": "2021-06-29T14:01:06.000Z"
+          "price": 15.41962626866199,
+          "volume_24h": 1289816972.6294682,
+          "percent_change_1h": -0.98775663,
+          "percent_change_24h": -6.23329861,
+          "percent_change_7d": -5.46075876,
+          "percent_change_30d": -28.23745094,
+          "percent_change_60d": -57.94558647,
+          "percent_change_90d": -59.72305793,
+          "market_cap": 14742850320.731192,
+          "last_updated": "2021-06-30T13:05:06.000Z"
         }
       },
       "weights": {
         "buyRatings": {
-          "hourlyBuyRating": -2.86112587,
-          "dailyBuyRating": -328.29550416,
-          "weeklyBuyRating": -4154.9537232,
-          "monthlyBuyRating": 12679.819437600001,
-          "quarterlyBuyRating": 117016.17264
+          "hourlyBuyRating": 0.98775663,
+          "dailyBuyRating": 149.59916664000002,
+          "weeklyBuyRating": 917.40747168,
+          "monthlyBuyRating": 20330.9646768,
+          "quarterlyBuyRating": 129001.80512880001
         },
         "sellRatings": {
-          "hourlySellRating": 2.86112587,
-          "dailySellRating": 328.29550416,
-          "weeklySellRating": 4154.9537232,
-          "monthlySellRating": -12679.819437600001,
-          "quarterlySellRating": -117016.17264
+          "hourlySellRating": -0.98775663,
+          "dailySellRating": -149.59916664000002,
+          "weeklySellRating": -917.40747168,
+          "monthlySellRating": -20330.9646768,
+          "quarterlySellRating": -129001.80512880001
         },
         "marketShare": {
-          "USD_AvailibleMarketShare": 6.187424257111612e-11,
-          "USD_MaxSupplyMarketShare": 5.443042791531011e-11
+          "USD_AvailibleMarketShare": 6.782948875183342e-11,
+          "USD_MaxSupplyMarketShare": 5.967096965326994e-11
         }
       }
     },
@@ -587,7 +587,7 @@
       "name": "Uniswap",
       "symbol": "UNI",
       "slug": "uniswap",
-      "num_market_pairs": 256,
+      "num_market_pairs": 260,
       "date_added": "2020-09-17T00:00:00.000Z",
       "tags": [
         "decentralized-exchange",
@@ -607,7 +607,7 @@
         "paradigm-xzy-screener"
       ],
       "max_supply": 1000000000,
-      "circulating_supply": 575233677.2908884,
+      "circulating_supply": 575240583.2378384,
       "total_supply": 1000000000,
       "platform": {
         "id": 1027,
@@ -617,19 +617,19 @@
         "token_address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
       },
       "cmc_rank": 10,
-      "last_updated": "2021-06-29T14:00:08.000Z",
+      "last_updated": "2021-06-30T13:04:09.000Z",
       "quote": {
         "USD": {
-          "price": 19.10462235510446,
-          "volume_24h": 326756666.29727066,
-          "percent_change_1h": 1.59695336,
-          "percent_change_24h": 11.82686888,
-          "percent_change_7d": 34.90810891,
-          "percent_change_30d": -23.02761158,
-          "percent_change_60d": -52.58037573,
-          "percent_change_90d": -32.29878031,
-          "market_cap": 10989622170.580452,
-          "last_updated": "2021-06-29T14:00:08.000Z"
+          "price": 17.86887655926147,
+          "volume_24h": 386770913.67455536,
+          "percent_change_1h": -1.41952884,
+          "percent_change_24h": -5.10988571,
+          "percent_change_7d": -1.84816008,
+          "percent_change_30d": -31.7203741,
+          "percent_change_60d": -55.5628151,
+          "percent_change_90d": -38.84491204,
+          "market_cap": 10278902973.754507,
+          "last_updated": "2021-06-30T13:04:09.000Z"
         }
       }
     }

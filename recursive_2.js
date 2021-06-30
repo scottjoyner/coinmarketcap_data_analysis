@@ -22,30 +22,20 @@ const requestOptions = {
 
 rp(requestOptions).then(response => {
     let coins = response;
+    coins.total_coins = total_coins;
     for (x = 0; x < total_coins - 1; x++) {
         coins.data[x].weights = calculateRelativePriceChanges(response.data[x]);
         coins.data[x].weights.marketShare = calculateTotalMarketSharePerUSD(response.data[x]);
         // purchasingPowerList[x] = coins.data[x].weights;
-    }    
+    }
     //purchasingPowerList.sort(function(a, b) {return b.USD_AvailibleMarketShare - a.USD_AvailibleMarketShare});
-    console.log(coins.data[0].weights)
     //fs.writeFileSync('./coins.json', JSON.stringify(response, null, 2) , 'utf-8');
-    fs.writeFileSync(`./sortedmarketshare_${total_coins}.json`, JSON.stringify(coins, null, 2) , 'utf-8');
-
+    fs.writeFileSync(`./currentMarketStats_${Date.now()}_Top${total_coins}.json`, JSON.stringify(coins, null, 2) , 'utf-8');
 }).catch((err) => {
   console.log('API call error:', err.message);
 });
 
 
-
-function cont(response) {
-
-    // console.log('API call response:', response.data[1]);
-    for (x = 0; x < response.status.total_count - 1; x++) {
-        purchasingPowerList.push(calculateTotalMarketSharePerUSD(response.data[x]));
-        purchasingPowerList.push(calculateRelativePriceChanges(response.data[x]));
-    }
-}
 /**
  * Calculates the relative market share that 1 USD is able to purchase given the totla market cap and total supply
  * @param {crypto} data 
