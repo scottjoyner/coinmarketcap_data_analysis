@@ -90,6 +90,6 @@ function calculateRelativePriceChanges(data) {
       monthlySellRating,
       quarterlySellRating
     }
+
 }
-
-
+}

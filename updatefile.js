@@ -35,7 +35,7 @@ const coins = require(`./coinmarketcap/${x.file}`);
         let reddit_data = saveRelevantSubredditData(response);
         coins.data[x].reddit_data = reddit_data;
     }
-    fs.writeFileSync(`./../data/reddit/${Date.now()}_Top${coins.totalcoins}.json`, JSON.stringify(coins, null, 2) , 'utf-8');
+    fs.writeFileSync(`./reddit/${Date.now()}_Top${coins.totalcoins}.json`, JSON.stringify(coinlist, null, 2) , 'utf-8');
 
 })();
 

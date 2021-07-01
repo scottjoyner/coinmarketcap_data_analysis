@@ -28,6 +28,7 @@ rp(requestOptions).then(response => {
         coins.data[x].weights.marketShare = calculateTotalMarketSharePerUSD(response.data[x]);
         // purchasingPowerList[x] = coins.data[x].weights;
     }
+    
     //purchasingPowerList.sort(function(a, b) {return b.USD_AvailibleMarketShare - a.USD_AvailibleMarketShare});
     //fs.writeFileSync('./coins.json', JSON.stringify(response, null, 2) , 'utf-8');
     fs.writeFileSync(`./../data/coinmarketcap/${Date.now()}_Top${total_coins}.json`, JSON.stringify(coins, null, 2) , 'utf-8');

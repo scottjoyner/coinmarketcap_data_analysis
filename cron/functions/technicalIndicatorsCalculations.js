@@ -25,8 +25,4 @@ let y = getSecondMostRecentFile(dirPath);
 
 const coins = require(`./../data/reddit/${x.file}`);
 const prevCoins = require(`./../data/reddit/${x.file}`);
-    for (let x=0; x < coins.totalcoins; x++) {
-        let diff = coins.data[x].weights.buyRatings.hourlyBuyRating - prevCoins.data[x].weights.buyRatings.hourlyBuyRating;
-        console.log(coins.data[x].weights.buyRatings.hourlyBuyRating)
 
-    }
