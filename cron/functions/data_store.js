@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+const plotlib = require('nodeplotlib');
+
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const ObjectsToCsv = require('objects-to-csv');
 
@@ -113,5 +115,14 @@ const calculateDeltasByTicker = (ticker) => {
 
 
 
-let eth = calculateDeltasByTicker("XRP");
-console.table(eth);
+let data = calculateDeltasByTicker("BTC");
+
+let x_data = [];
+let y_data = [];
+for(x=0; x < data.length; x++) {
+    x_data.push(parseInt(data[x][3]));
+    y_data.push(data[x][4].buyRatings.hourlyBuyRating);
+}
+console.table(data)
+const p = [{x: x_data , y: y_data, type: 'line'}];
+plotlib.plot(p);
