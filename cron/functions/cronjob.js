@@ -7,19 +7,26 @@ const shell = require('shelljs');
 
 // Check current market conditions and prices
 // Once every hour on the dot
-cron.schedule('0 * * * *', function(){
-    if (shell.exec('node logMarketConditions.js 10').code !== 0) {
+cron.schedule('* * * * *', function(){
+    if (shell.exec('node logMarketConditions.js 100').code !== 0) {
         shell.echo('Error: CoinmarketCap Data logg failed')
         shell.exit(1)
     }
     else {
         console.log("Market Data Collected")
     }
+    if (shell.exec('node logRedditUserBase.js').code !== 0) {
+        shell.echo('Error: CoinmarketCap Data logg failed')
+        shell.exit(1)
+    }
+    else {
+        console.log("Reddit User Data Collected")
+    }
 });
 
 // Check Reddit community sizes and relevance
 // Once per day at midnight 
-cron.schedule('* 0 * * *', function(){
+cron.schedule('*/2 * * * *', function(){
     if (shell.exec('node logRedditUserBase.js').code !== 0) {
         shell.echo('Error: CoinmarketCap Data logg failed')
         shell.exit(1)
