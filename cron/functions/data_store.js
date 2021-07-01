@@ -118,11 +118,45 @@ const calculateDeltasByTicker = (ticker) => {
 let data = calculateDeltasByTicker("BTC");
 
 let x_data = [];
-let y_data = [];
-for(x=0; x < data.length; x++) {
+let price = [];
+let hourlyBuyRating = [];
+let dailyBuyRating = [];
+let weeklyBuyRating = [];
+let monthlyBuyRating = [];
+let quarterlyBuyRating = [];
+let subscriberGrowth = [];
+let activeRedditUsers = [];
+
+for(x=0; x < data.length - 1; x++) {
     x_data.push(parseInt(data[x][3]));
-    y_data.push(data[x][4].buyRatings.hourlyBuyRating);
+    price.push(data[x][2]);
+    hourlyBuyRating.push(data[x][4].buyRatings.hourlyBuyRating);
+    dailyBuyRating.push(data[x][4].buyRatings.dailyBuyRating);
+    weeklyBuyRating.push(data[x][4].buyRatings.weeklyBuyRating);
+    monthlyBuyRating.push(data[x][4].buyRatings.monthlyBuyRating);
+    quarterlyBuyRating.push(data[x][4].buyRatings.quarterlyBuyRating);    
+    subscriberGrowth.push(data[x][6].deltaRedditSubscribers);
+    activeRedditUsers.push(data[x][5].active_users);
 }
-console.table(data)
-const p = [{x: x_data , y: y_data, type: 'line'}];
-plotlib.plot(p);
+
+
+const g_price = [{x: x_data , y: price, type: 'line', name: 'Price'}];
+const g_hourlyBuyRating = [{x: x_data , y: hourlyBuyRating, type: 'line', name: 'Hourly'}];
+const g_dailyBuyRating = [{x: x_data , y: dailyBuyRating, type: 'line', name: 'Daily'}];
+const g_weeklyBuyRating = [{x: x_data , y: weeklyBuyRating, type: 'line', name: 'Weekly'}];
+const g_monthlyBuyRating = [{x: x_data , y: monthlyBuyRating, type: 'line', name: 'Monthly'}];
+const g_quarterlyBuyRating = [{x: x_data , y: quarterlyBuyRating, type: 'line', name: 'Quarterly'}];
+const g_subscriberGrowth = [{x: x_data , y: subscriberGrowth, type: 'line', name: 'Subscriber Growth'}];
+const g_activeRedditUsers = [{x: x_data , y: activeRedditUsers, type: 'line', name: 'Active Users'}];
+var set = [g_price, g_hourlyBuyRating, g_dailyBuyRating, g_weeklyBuyRating, g_monthlyBuyRating, g_quarterlyBuyRating, g_subscriberGrowth, g_activeRedditUsers]
+console.table(set.g_price)
+plotlib.stack(g_price);
+plotlib.stack(g_hourlyBuyRating);
+plotlib.stack(g_dailyBuyRating);
+plotlib.stack(g_weeklyBuyRating);
+plotlib.stack(g_monthlyBuyRating);
+plotlib.stack(g_quarterlyBuyRating);
+plotlib.stack(g_subscriberGrowth);
+plotlib.stack(g_activeRedditUsers);
+
+plotlib.plot();

@@ -7,8 +7,8 @@ const shell = require('shelljs');
 
 // Check current market conditions and prices
 // Once every hour on the dot
-cron.schedule('0 * * * *', function(){
-    if (shell.exec('node logMarketConditions.js 1000').code !== 0) {
+cron.schedule('*/5 * * * *', function(){
+    if (shell.exec('node logMarketConditions.js 250').code !== 0) {
         shell.echo('Error: CoinmarketCap Data logg failed')
         shell.exit(1)
     }
