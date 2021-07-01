@@ -14,6 +14,16 @@ const getHistorialDataByID = (id) => {
     return data;
 };
 
+const getHistorialDataByTicker = (ticker) => {
+    let history = parseFileHistory('./../data/reddit/')
+    let data = [];
+    for(i=0; i < history.length - 1; i++) {
+        if( ticker == history[i][1]) {
+            data.push(history[i]);
+        }
+    }
+    return data;
+};
 
 
 const parseFileHistory = (dir) => {
@@ -26,9 +36,10 @@ const parseFileHistory = (dir) => {
             for(j=0; j < current.total_coins - 1; j++) {
                 let id = current.data[j].id;
                 let price = current.data[j].quote.USD.price;
+                let ticker = current.data[j].symbol;
                 let w = current.data[j].weights;
                 let r = current.data[j].reddit_data;
-                data.push([id, price, time, w,r]);
+                data.push([id, ticker, price, time, w,r]);
             }
         }
     }
@@ -47,21 +58,12 @@ const orderReccentFiles = (dir) => {
         .sort((a, b) => b.mtime.getTime() - a.mtime.getTime());
 };
 
-console.log(getHistorialDataByID('1'));
+const saveHistoricalDataByTicker = (ticker) => {
+    let data = getHistorialDataByTicker(ticker);
+    fs.writeFileSync(`./../data/history/${ticker}.json`, JSON.stringify(data, null, 2) , 'utf-8');
+}
 
 
 
+saveHistoricalDataByTicker('BTC');
 
-
-// for (x = 0; x < coins.total_coins; x++) {
-
-// }
-// (async () => {
-//     const csv = new ObjectsToCsv(coins.data);
-   
-//     // Save to file:
-//     await csv.toDisk('./test.csv');
-   
-//     // Return the CSV file as string:
-//     console.log(await csv.toString());
-//   })();
