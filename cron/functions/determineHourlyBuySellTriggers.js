@@ -117,49 +117,99 @@ const calculateDeltasByTicker = (ticker) => {
 
 let data = calculateDeltasByTicker("BTC");
 
-let x_data = [];
-let price = [];
-let hourlyBuyRating = [];
-let dailyBuyRating = [];
-let weeklyBuyRating = [];
-let monthlyBuyRating = [];
-let quarterlyBuyRating = [];
-let subscriberGrowth = [];
-let activeRedditUsers = [];
-let deltaHourlyBuyRating = [];
+let buyIndicatorSet = [];
+let currentTime = parseInt(Date.now());
+console.log(currentTime);
 for(x=0; x < data.length - 1; x++) {
-    x_data.push(parseInt(data[x][3]));
-    price.push(data[x][2]);
-    hourlyBuyRating.push(data[x][4].buyRatings.hourlyBuyRating);
-    dailyBuyRating.push(data[x][4].buyRatings.dailyBuyRating);
-    weeklyBuyRating.push(data[x][4].buyRatings.weeklyBuyRating);
-    monthlyBuyRating.push(data[x][4].buyRatings.monthlyBuyRating);
-    quarterlyBuyRating.push(data[x][4].buyRatings.quarterlyBuyRating);    
-    subscriberGrowth.push(data[x][6].deltaRedditSubscribers);
-    activeRedditUsers.push(data[x][5].active_users);
-    deltaHourlyBuyRating.push(data[x][6].deltaHourlyBuyRating);
+    if(currentTime - parseInt(data[x][3]) <= 86400000) {
+        buyIndicatorSet.push([parseInt(data[x][3]), data[x][2], data[x][4].buyRatings.hourlyBuyRating, data[x][6].deltaHourlyBuyRating]);
+    }
 }
 
+let sumAvgSell = 0;
+let sumAvgBuy = 0;
+let buyCount = 0;
+let sellCount = 0;
+let maxBuy = 0;
+let maxSell = 0;
+for(x=0; x < buyIndicatorSet.length - 1; x++) {
+    if(buyIndicatorSet[x][2] < 0) {
+        sumAvgSell += buyIndicatorSet[x][2];
+        sellCount += 1;
+        if(buyIndicatorSet[x][2] < maxSell) {
+            maxSell = buyIndicatorSet[x][2];
+        }
+    }
+    if(buyIndicatorSet[x][2] > 0) {
+        sumAvgBuy += buyIndicatorSet[x][2];
+        buyCount += 1;
+        if(buyIndicatorSet[x][2] > maxBuy) {
+            maxBuy = buyIndicatorSet[x][2];
+        }
+    }
+}
+
+let avgSell = sumAvgSell / sellCount;
+let avgBuy = sumAvgBuy / buyCount;
+
+let buyTrend = 0;
+let sellTrend = 0;
+let betaBuyTrend = 0;
+let betaSellTrend = 0;
+let trendTable = [];
+for(x=0; x < buyIndicatorSet.length - 1; x++) {
+    if(buyTrend === sellTrend) {
+        console.log("Start");
+    }
+    if(buyIndicatorSet[x][2] > avgBuy) {
+        buyTrend += 1;
+        betaBuyTrend = maxBuy - buyIndicatorSet[x][2];
+        if(betaBuyTrend > 0) {
+            buyTrend += 5 * (betaBuyTrend / maxBuy);
+        }
+        if(betaBuyTrend < 0) {
+            buyTrend += 5 * (buyIndicatorSet[x][2] / maxBuy);
+        }
+        //betaBuyTrend += 1 * buyIndicatorSet[x][3];
+    }
+    if(buyIndicatorSet[x][2] < avgSell) {
+        sellTrend += 1;
+        betaSellTrend = maxSell - buyIndicatorSet[x][2];
+        if(betaSellTrend > 0) {
+            sellTrend += 5 * (buyIndicatorSet[x][2] / maxSell);
+        }
+        if(betaSellTrend < 0) {
+            sellTrend += 5 * (betaSellTrend / maxSell);
+        }
+        //betaSellTrend += 1 * buyIndicatorSet[x][3];
+    }
+
+    trendTable.push([buyIndicatorSet[x][0], buyIndicatorSet[x][1], buyIndicatorSet[x][2], buyIndicatorSet[x][3], buyTrend, sellTrend]);
+    buyTrend = 0;
+    sellTrend = 0;
+}
+console.table(trendTable);
+console.log(maxSell, avgSell)
+
+let x_data = [];
+let price = [];
+let sellIndicator = [];
+let buyIndicator = [];
+
+for(x=0; x < buyIndicatorSet.length - 1; x++) {
+    x_data.push(parseInt(buyIndicatorSet[x][0]));
+    price.push(parseInt(buyIndicatorSet[x][1]));
+    sellIndicator.push(parseInt(buyIndicatorSet[x][5]));
+    buyIndicator.push(parseInt(buyIndicatorSet[x][4]));
+
+}
 
 const g_price = [{x: x_data , y: price, type: 'line', name: 'Price'}];
-const g_hourlyBuyRating = [{x: x_data , y: hourlyBuyRating, type: 'line', name: 'Hourly'}];
-const g_DeltaHourlyBuyRating = [{x: x_data , y: deltaHourlyBuyRating, type: 'line', name: 'Hourly'}];
-const g_dailyBuyRating = [{x: x_data , y: dailyBuyRating, type: 'line', name: 'Daily'}];
-const g_weeklyBuyRating = [{x: x_data , y: weeklyBuyRating, type: 'line', name: 'Weekly'}];
-const g_monthlyBuyRating = [{x: x_data , y: monthlyBuyRating, type: 'line', name: 'Monthly'}];
-const g_quarterlyBuyRating = [{x: x_data , y: quarterlyBuyRating, type: 'line', name: 'Quarterly'}];
-const g_subscriberGrowth = [{x: x_data , y: subscriberGrowth, type: 'line', name: 'Subscriber Growth'}];
-const g_activeRedditUsers = [{x: x_data , y: activeRedditUsers, type: 'line', name: 'Active Users'}];
-var set = [g_price, g_hourlyBuyRating, g_dailyBuyRating, g_weeklyBuyRating, g_monthlyBuyRating, g_quarterlyBuyRating, g_subscriberGrowth, g_activeRedditUsers]
-console.table(set.g_price)
+const g_sell = [{x: x_data , y: sellIndicator, type: 'line', name: 'Price'}];
+const g_buy = [{x: x_data , y: buyIndicator, type: 'line', name: 'Price'}];
+
 plotlib.stack(g_price);
-plotlib.stack(g_hourlyBuyRating);
-plotlib.stack(g_DeltaHourlyBuyRating);
-// plotlib.stack(g_dailyBuyRating);
-// plotlib.stack(g_weeklyBuyRating);
-// plotlib.stack(g_monthlyBuyRating);
-// plotlib.stack(g_quarterlyBuyRating);
-// plotlib.stack(g_subscriberGrowth);
-// plotlib.stack(g_activeRedditUsers);
+plotlib.stack(g_sell);
+plotlib.stack(g_buy);
 
 plotlib.plot();
