@@ -68,7 +68,7 @@ const saveHistoricalDataByTicker = (ticker) => {
 
 const calculateDeltasByTicker = (ticker) => {
 
-    let data = getHistorialDataByTicker(ticker)
+    let data = getHistorialDataByTicker(ticker);
     let newData = [];
     for(x=0; x < data.length - 2; x++) {
         // Weights
@@ -162,7 +162,7 @@ for(x=0; x < buyIndicatorSet.length - 1; x++) {
         console.log("Start");
     }
     if(buyIndicatorSet[x][2] > avgBuy) {
-        buyTrend += 1;
+        // buyTrend += 1;
         betaBuyTrend = maxBuy - buyIndicatorSet[x][2];
         if(betaBuyTrend > 0) {
             buyTrend += 5 * (betaBuyTrend / maxBuy);
@@ -173,7 +173,7 @@ for(x=0; x < buyIndicatorSet.length - 1; x++) {
         //betaBuyTrend += 1 * buyIndicatorSet[x][3];
     }
     if(buyIndicatorSet[x][2] < avgSell) {
-        sellTrend += 1;
+        // sellTrend += 1;
         betaSellTrend = maxSell - buyIndicatorSet[x][2];
         if(betaSellTrend > 0) {
             sellTrend += 5 * (buyIndicatorSet[x][2] / maxSell);
@@ -201,12 +201,11 @@ for(x=0; x < buyIndicatorSet.length - 1; x++) {
     price.push(parseInt(buyIndicatorSet[x][1]));
     sellIndicator.push(parseInt(buyIndicatorSet[x][5]));
     buyIndicator.push(parseInt(buyIndicatorSet[x][4]));
-
 }
 
 const g_price = [{x: x_data , y: price, type: 'line', name: 'Price'}];
-const g_sell = [{x: x_data , y: sellIndicator, type: 'line', name: 'Price'}];
-const g_buy = [{x: x_data , y: buyIndicator, type: 'line', name: 'Price'}];
+const g_sell = [{x: x_data , y: sellIndicator, type: 'bar', name: 'Price'}];
+const g_buy = [{x: x_data , y: buyIndicator, type: 'bar', name: 'Price'}];
 
 plotlib.stack(g_price);
 plotlib.stack(g_sell);
