@@ -158,9 +158,6 @@ let betaBuyTrend = 0;
 let betaSellTrend = 0;
 let trendTable = [];
 for(x=0; x < buyIndicatorSet.length - 1; x++) {
-    if(buyTrend === sellTrend) {
-        console.log("Start");
-    }
     if(buyIndicatorSet[x][2] > avgBuy) {
         // buyTrend += 1;
         betaBuyTrend = maxBuy - buyIndicatorSet[x][2];
