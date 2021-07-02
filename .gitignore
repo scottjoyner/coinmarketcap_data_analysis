@@ -1,2 +1,4 @@
 node_modules/
 cron/data/
+exchangeFunctions/.env
+cron/functions/.env

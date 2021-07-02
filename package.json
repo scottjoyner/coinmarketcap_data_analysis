@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bittrex-wrapper": "^1.0.5",
     "csv-writer": "^1.6.0",
     "express": "^4.17.1",
     "node-cron": "^3.0.0",
