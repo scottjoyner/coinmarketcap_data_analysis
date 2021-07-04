@@ -114,7 +114,7 @@ const calculateDeltasByTicker = (ticker) => {
 }
 
 
-const getMostRecentFile = (ticker) => {
+const calculateBuySellWeightsByTicker = (ticker) => {
 
     let data = calculateDeltasByTicker(ticker);
 
@@ -207,10 +207,10 @@ const getMostRecentFile = (ticker) => {
 
 
     
-getHistorialDataByTicker("BTC");
-getHistorialDataByTicker("ETH");
-getHistorialDataByTicker("DOGE");
-getHistorialDataByTicker("XRP");
+calculateBuySellWeightsByTicker("BTC");
+calculateBuySellWeightsByTicker("ETH");
+calculateBuySellWeightsByTicker("DOGE");
+calculateBuySellWeightsByTicker("XRP");
 
 
 
