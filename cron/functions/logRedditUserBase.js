@@ -33,7 +33,7 @@ const coins = require(`./../data/coinmarketcap/${x.file}`);
         const res = await fetch(`https://www.reddit.com/r/${coins.data[x].symbol}/about.json`);
         const response = await res.json();
         let reddit_data = saveRelevantSubredditData(response);
-        coins.data[x].reddit_data = reddit_data;
+        coins.data[x].reddit_data_alternate = reddit_data;
     }
     fs.writeFileSync(`./../data/reddit/${Date.now()}_Top${coins.total_coins}.json`, JSON.stringify(coins, null, 2) , 'utf-8');
 

@@ -190,18 +190,18 @@ const calculateBuySellWeightsByTicker = (ticker) => {
 
     // console.table(trendTable[0]);
     if(trendTable[0][5] > 0) {
-        console.log("Buy", trendTable[0][4], "Price: ", trendTable[0][1]);
-        let set = ["Sell", trendTable[0][5], "Price: ", trendTable[0][1]];
+        console.log(ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]);
+        let set = [ticker, "Sell", trendTable[0][5], "Price: ", trendTable[0][1]];
         return set;
     }
     else if(trendTable[0][4] > 0 ) {
-        console.log("Buy", trendTable[0][4], "Price: ", trendTable[0][1]);
-        let set = ["Buy", trendTable[0][4], "Price: ", trendTable[0][1]];
+        console.log(ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]);
+        let set = [ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]];
         return set;
     }
     else {
-        console.log("Hold", "Price: ", trendTable[0][1]);
-        return ["Hold", 0, "Price: ", trendTable[0][1]];
+        console.log(ticker, "Hold", "Price: ", trendTable[0][1]);
+        return [ticker, "Hold", 0, "Price: ", trendTable[0][1]];
     }
 }
 
@@ -211,23 +211,28 @@ calculateBuySellWeightsByTicker("BTC");
 calculateBuySellWeightsByTicker("ETH");
 calculateBuySellWeightsByTicker("DOGE");
 calculateBuySellWeightsByTicker("XRP");
+calculateBuySellWeightsByTicker("DOT");
+//calculateBuySellWeightsByTicker("BCH");
+calculateBuySellWeightsByTicker("XLM");
+//calculateBuySellWeightsByTicker("LTC");
 
 
 
 
 
 
-let x_data = [];
-let price = [];
-let sellIndicator = [];
-let buyIndicator = [];
 
-for(x=0; x < buyIndicatorSet.length - 1; x++) {
-    x_data.push(parseInt(buyIndicatorSet[x][0]));
-    price.push(parseInt(buyIndicatorSet[x][1]));
-    sellIndicator.push(parseInt(buyIndicatorSet[x][5]));
-    buyIndicator.push(parseInt(buyIndicatorSet[x][4]));
-}
+// let x_data = [];
+// let price = [];
+// let sellIndicator = [];
+// let buyIndicator = [];
+
+// for(x=0; x < buyIndicatorSet.length - 1; x++) {
+//     x_data.push(parseInt(buyIndicatorSet[x][0]));
+//     price.push(parseInt(buyIndicatorSet[x][1]));
+//     sellIndicator.push(parseInt(buyIndicatorSet[x][5]));
+//     buyIndicator.push(parseInt(buyIndicatorSet[x][4]));
+// }
 
 
 // const g_price = [{x: x_data , y: price, type: 'line', name: 'Price'}];
