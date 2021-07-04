@@ -83,28 +83,47 @@ const calculateDeltasByTicker = (ticker) => {
         let deltaWeeklySellRating = data[x][4].sellRatings.weeklySellRating - data[x + 1][4].sellRatings.weeklySellRating;
         let deltaMonthlySellRating = data[x][4].sellRatings.monthlySellRating - data[x + 1][4].sellRatings.monthlySellRating;
         let deltaQuarterlySellRating = data[x][4].sellRatings.quarterlySellRating - data[x + 1][4].sellRatings.quarterlySellRating;
+        let deltas = {};
+        if(!(data[x][5].subscribers == undefined)) {
+            let deltaRedditSubscribers = data[x][5].subscribers - data[x + 1][5].subscribers;
+            let deltaActiveUsers = data[x][5].active_users - data[x + 1][5].active_users;
+            let subRedditAge = data[3] - data[x][5].created_utc;
 
-        let deltaRedditSubscribers = data[x][5].subscribers - data[x + 1][5].subscribers;
-        let deltaActiveUsers = data[x][5].active_users - data[x + 1][5].active_users;
-        let subRedditAge = data[3] - data[x][5].created_utc;
+            deltas = {
+            deltaHourlyBuyRating,
+            deltaDailyBuyRating,
+            deltaWeeklyBuyRating,
+            deltaMonthlyBuyRating,
+            deltaQuarterlyBuyRating,
 
-        let deltas = {
-        deltaHourlyBuyRating,
-        deltaDailyBuyRating,
-        deltaWeeklyBuyRating,
-        deltaMonthlyBuyRating,
-        deltaQuarterlyBuyRating,
+            deltaHourlySellRating,
+            deltaDailySellRating,
+            deltaWeeklySellRating,
+            deltaMonthlySellRating,
+            deltaQuarterlySellRating,
 
-        deltaHourlySellRating,
-        deltaDailySellRating,
-        deltaWeeklySellRating,
-        deltaMonthlySellRating,
-        deltaQuarterlySellRating,
+            deltaRedditSubscribers,
+            deltaActiveUsers,
+            subRedditAge
+            };
 
-        deltaRedditSubscribers,
-        deltaActiveUsers,
-        subRedditAge
-        };
+        }
+        else {
+            deltas = {
+                deltaHourlyBuyRating,
+                deltaDailyBuyRating,
+                deltaWeeklyBuyRating,
+                deltaMonthlyBuyRating,
+                deltaQuarterlyBuyRating,
+    
+                deltaHourlySellRating,
+                deltaDailySellRating,
+                deltaWeeklySellRating,
+                deltaMonthlySellRating,
+                deltaQuarterlySellRating
+                };
+        }
+        
         let temp = data[x]
         temp.push(deltas);
         newData.push(temp);
