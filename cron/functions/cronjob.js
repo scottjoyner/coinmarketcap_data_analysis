@@ -22,6 +22,11 @@ cron.schedule('*/5 * * * *', function(){
     else {
         console.log("Reddit User Data Collected")
     }
+    if (shell.exec('node determineHourlyBuySellTriggers.js').code !== 0) {
+        shell.echo('Error: Buy Sell Failed.')
+        shell.exit(1)
+    }
+
 });
 
 // // Check Reddit community sizes and relevance

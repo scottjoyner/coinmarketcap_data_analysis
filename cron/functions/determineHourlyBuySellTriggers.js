@@ -114,79 +114,103 @@ const calculateDeltasByTicker = (ticker) => {
 }
 
 
+const getMostRecentFile = (ticker) => {
 
-let data = calculateDeltasByTicker("BTC");
+    let data = calculateDeltasByTicker(ticker);
 
-let buyIndicatorSet = [];
-let currentTime = parseInt(Date.now());
-console.log(currentTime);
-for(x=0; x < data.length - 1; x++) {
-    if(currentTime - parseInt(data[x][3]) <= 86400000) {
-        buyIndicatorSet.push([parseInt(data[x][3]), data[x][2], data[x][4].buyRatings.hourlyBuyRating, data[x][6].deltaHourlyBuyRating]);
-    }
-}
-
-let sumAvgSell = 0;
-let sumAvgBuy = 0;
-let buyCount = 0;
-let sellCount = 0;
-let maxBuy = 0;
-let maxSell = 0;
-for(x=0; x < buyIndicatorSet.length - 1; x++) {
-    if(buyIndicatorSet[x][2] < 0) {
-        sumAvgSell += buyIndicatorSet[x][2];
-        sellCount += 1;
-        if(buyIndicatorSet[x][2] < maxSell) {
-            maxSell = buyIndicatorSet[x][2];
+    let buyIndicatorSet = [];
+    let currentTime = parseInt(Date.now());
+    console.log(currentTime);
+    for(x=0; x < data.length - 1; x++) {
+        if(currentTime - parseInt(data[x][3]) <= 86400000) {
+            buyIndicatorSet.push([parseInt(data[x][3]), data[x][2], data[x][4].buyRatings.hourlyBuyRating, data[x][6].deltaHourlyBuyRating]);
         }
     }
-    if(buyIndicatorSet[x][2] > 0) {
-        sumAvgBuy += buyIndicatorSet[x][2];
-        buyCount += 1;
-        if(buyIndicatorSet[x][2] > maxBuy) {
-            maxBuy = buyIndicatorSet[x][2];
+
+    let sumAvgSell = 0;
+    let sumAvgBuy = 0;
+    let buyCount = 0;
+    let sellCount = 0;
+    let maxBuy = 0;
+    let maxSell = 0;
+    for(x=0; x < buyIndicatorSet.length - 1; x++) {
+        if(buyIndicatorSet[x][2] < 0) {
+            sumAvgSell += buyIndicatorSet[x][2];
+            sellCount += 1;
+            if(buyIndicatorSet[x][2] < maxSell) {
+                maxSell = buyIndicatorSet[x][2];
+            }
+        }
+        if(buyIndicatorSet[x][2] > 0) {
+            sumAvgBuy += buyIndicatorSet[x][2];
+            buyCount += 1;
+            if(buyIndicatorSet[x][2] > maxBuy) {
+                maxBuy = buyIndicatorSet[x][2];
+            }
         }
     }
-}
 
-let avgSell = sumAvgSell / sellCount;
-let avgBuy = sumAvgBuy / buyCount;
+    let avgSell = sumAvgSell / sellCount;
+    let avgBuy = sumAvgBuy / buyCount;
 
-let buyTrend = 0;
-let sellTrend = 0;
-let betaBuyTrend = 0;
-let betaSellTrend = 0;
-let trendTable = [];
-for(x=0; x < buyIndicatorSet.length - 1; x++) {
-    if(buyIndicatorSet[x][2] > avgBuy) {
-        // buyTrend += 1;
-        betaBuyTrend = maxBuy - buyIndicatorSet[x][2];
-        if(betaBuyTrend > 0) {
-            buyTrend += 5 * (betaBuyTrend / maxBuy);
+    let buyTrend = 0;
+    let sellTrend = 0;
+    let betaBuyTrend = 0;
+    let betaSellTrend = 0;
+    let trendTable = [];
+    for(x=0; x < buyIndicatorSet.length - 1; x++) {
+        if(buyIndicatorSet[x][2] > avgBuy) {
+            // buyTrend += 1;
+            betaBuyTrend = maxBuy - buyIndicatorSet[x][2];
+            if(betaBuyTrend > 0) {
+                buyTrend += 5 * (betaBuyTrend / maxBuy);
+            }
+            if(betaBuyTrend < 0) {
+                buyTrend += 5 * (buyIndicatorSet[x][2] / maxBuy);
+            }
+            //betaBuyTrend += 1 * buyIndicatorSet[x][3];
         }
-        if(betaBuyTrend < 0) {
-            buyTrend += 5 * (buyIndicatorSet[x][2] / maxBuy);
+        if(buyIndicatorSet[x][2] < avgSell) {
+            // sellTrend += 1;
+            betaSellTrend = maxSell - buyIndicatorSet[x][2];
+            if(betaSellTrend > 0) {
+                sellTrend += 5 * (buyIndicatorSet[x][2] / maxSell);
+            }
+            if(betaSellTrend < 0) {
+                sellTrend += 5 * (betaSellTrend / maxSell);
+            }
+            //betaSellTrend += 1 * buyIndicatorSet[x][3];
         }
-        //betaBuyTrend += 1 * buyIndicatorSet[x][3];
+
+        trendTable.push([buyIndicatorSet[x][0], buyIndicatorSet[x][1], buyIndicatorSet[x][2], buyIndicatorSet[x][3], buyTrend, sellTrend]);
+        buyTrend = 0;
+        sellTrend = 0;
     }
-    if(buyIndicatorSet[x][2] < avgSell) {
-        // sellTrend += 1;
-        betaSellTrend = maxSell - buyIndicatorSet[x][2];
-        if(betaSellTrend > 0) {
-            sellTrend += 5 * (buyIndicatorSet[x][2] / maxSell);
-        }
-        if(betaSellTrend < 0) {
-            sellTrend += 5 * (betaSellTrend / maxSell);
-        }
-        //betaSellTrend += 1 * buyIndicatorSet[x][3];
+
+
+    // console.table(trendTable[0]);
+    if(trendTable[0][5] > 0) {
+        console.log("Buy", trendTable[0][4], "Price: ", trendTable[0][1]);
+        let set = ["Sell", trendTable[0][5], "Price: ", trendTable[0][1]];
+        return set;
+    }
+    else if(trendTable[0][4] > 0 ) {
+        console.log("Buy", trendTable[0][4], "Price: ", trendTable[0][1]);
+        let set = ["Buy", trendTable[0][4], "Price: ", trendTable[0][1]];
+        return set;
+    }
+    else {
+        console.log("Hold", "Price: ", trendTable[0][1]);
+        return ["Hold", 0, "Price: ", trendTable[0][1]];
     }
 
-    trendTable.push([buyIndicatorSet[x][0], buyIndicatorSet[x][1], buyIndicatorSet[x][2], buyIndicatorSet[x][3], buyTrend, sellTrend]);
-    buyTrend = 0;
-    sellTrend = 0;
-}
-console.table(trendTable);
-console.log(maxSell, avgSell)
+
+    
+
+
+
+
+
 
 let x_data = [];
 let price = [];
@@ -200,12 +224,13 @@ for(x=0; x < buyIndicatorSet.length - 1; x++) {
     buyIndicator.push(parseInt(buyIndicatorSet[x][4]));
 }
 
-const g_price = [{x: x_data , y: price, type: 'line', name: 'Price'}];
-const g_sell = [{x: x_data , y: sellIndicator, type: 'bar', name: 'Price'}];
-const g_buy = [{x: x_data , y: buyIndicator, type: 'bar', name: 'Price'}];
 
-plotlib.stack(g_price);
-plotlib.stack(g_sell);
-plotlib.stack(g_buy);
+// const g_price = [{x: x_data , y: price, type: 'line', name: 'Price'}];
+// const g_sell = [{x: x_data , y: sellIndicator, type: 'bar', name: 'Price'}];
+// const g_buy = [{x: x_data , y: buyIndicator, type: 'bar', name: 'Price'}];
 
-plotlib.plot();
+// plotlib.stack(g_price);
+// plotlib.stack(g_sell);
+// plotlib.stack(g_buy);
+
+// plotlib.plot();
