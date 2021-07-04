@@ -203,9 +203,14 @@ const getMostRecentFile = (ticker) => {
         console.log("Hold", "Price: ", trendTable[0][1]);
         return ["Hold", 0, "Price: ", trendTable[0][1]];
     }
+}
 
 
     
+getHistorialDataByTicker("BTC");
+getHistorialDataByTicker("ETH");
+getHistorialDataByTicker("DOGE");
+getHistorialDataByTicker("XRP");
 
 
 
