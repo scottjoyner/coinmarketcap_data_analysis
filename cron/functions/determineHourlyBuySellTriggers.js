@@ -84,24 +84,24 @@ const calculateDeltasByTicker = (ticker) => {
         let deltaMonthlySellRating = data[x][4].sellRatings.monthlySellRating - data[x + 1][4].sellRatings.monthlySellRating;
         let deltaQuarterlySellRating = data[x][4].sellRatings.quarterlySellRating - data[x + 1][4].sellRatings.quarterlySellRating;
         let deltas = {};
-        if(!(data[x][5].subscribers == undefined)) {
+        if(!(data[x][5] === undefined)) {
             let deltaRedditSubscribers = data[x][5].subscribers - data[x + 1][5].subscribers;
             let deltaActiveUsers = data[x][5].active_users - data[x + 1][5].active_users;
             let subRedditAge = data[3] - data[x][5].created_utc;
-
+    
             deltas = {
             deltaHourlyBuyRating,
             deltaDailyBuyRating,
             deltaWeeklyBuyRating,
             deltaMonthlyBuyRating,
             deltaQuarterlyBuyRating,
-
+    
             deltaHourlySellRating,
             deltaDailySellRating,
             deltaWeeklySellRating,
             deltaMonthlySellRating,
             deltaQuarterlySellRating,
-
+    
             deltaRedditSubscribers,
             deltaActiveUsers,
             subRedditAge
@@ -110,20 +110,20 @@ const calculateDeltasByTicker = (ticker) => {
         }
         else {
             deltas = {
-                deltaHourlyBuyRating,
-                deltaDailyBuyRating,
-                deltaWeeklyBuyRating,
-                deltaMonthlyBuyRating,
-                deltaQuarterlyBuyRating,
+            deltaHourlyBuyRating,
+            deltaDailyBuyRating,
+            deltaWeeklyBuyRating,
+            deltaMonthlyBuyRating,
+            deltaQuarterlyBuyRating,
     
-                deltaHourlySellRating,
-                deltaDailySellRating,
-                deltaWeeklySellRating,
-                deltaMonthlySellRating,
-                deltaQuarterlySellRating
-                };
+            deltaHourlySellRating,
+            deltaDailySellRating,
+            deltaWeeklySellRating,
+            deltaMonthlySellRating,
+            deltaQuarterlySellRating
+            };
         }
-        
+
         let temp = data[x]
         temp.push(deltas);
         newData.push(temp);
@@ -209,7 +209,7 @@ const calculateBuySellWeightsByTicker = (ticker) => {
 
     // console.table(trendTable[0]);
     if(trendTable[0][5] > 0) {
-        console.log(ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]);
+        console.log(ticker, "Sell", trendTable[0][5], "Price: ", trendTable[0][1]);
         let set = [ticker, "Sell", trendTable[0][5], "Price: ", trendTable[0][1]];
         return set;
     }
