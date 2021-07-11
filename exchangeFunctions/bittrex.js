@@ -10,18 +10,18 @@ const bittrex = new Bittrex(process.env.BITTREX_VIEW_KEY, process.env.BITTREX_SE
 //     console.log(error);
 //   });
 
+function getMarketPairs(ticker) {
+  const bittrexMarkets = require(`./bittrexMarkets.json`);
+  let pairs = [];
+  for(x=0;x<bittrexMarkets.length - 1;x++) {
+    if(bittrexMarkets[x].MarketCurrency == ticker) {
+      pairs.push(bittrexMarkets[x].MarketName);
+    }
+  }
+  return pairs;
+}
 
-bittrex.accountGetBalances().then((response) => {
-    // console.log(response);
-    let results = [];
-    for(x=0; x < response.result.length - 1; x++) {
-        
-        results.push([response.result[x].Currency,response.result[x].Balance, response.result[x].CryptoAddress]);
-      }
-    console.table(results)
-  }).catch((error) => {
-    console.log(error);
-  });
+
 
 // bittrex.accountGetDepositAddress('VTC').then((response) => {
 //     console.log(response);
@@ -36,12 +36,9 @@ bittrex.accountGetBalances().then((response) => {
 //       });
 
 
-bittrex.publicGetTicker('USD-VTC').then((response) => {
+bittrex.publicGetTicker('BTC-VTC').then((response) => {
     console.log(response);
   }).catch((error) => {
     console.log(error);
   });
-
-
-
 

@@ -1,9 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 const plotlib = require('nodeplotlib');
+const Bittrex = require('bittrex-wrapper');
+require('dotenv').config();
+let test = false;
+const bittrex = new Bittrex(process.env.BITTREX_VIEW_KEY, process.env.BITTREX_SECRET);
+const markets = require(`./bittrexMarkets.json`);
 
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
-const ObjectsToCsv = require('objects-to-csv');
 
 const getHistorialDataByID = (id) => {
     let history = parseFileHistory('./../data/reddit/')
@@ -209,11 +212,13 @@ const calculateBuySellWeightsByTicker = (ticker) => {
 
     // console.table(trendTable[0]);
     if(trendTable[0][5] > 0) {
+        postBittrexSellOrder(ticker, trendTable[0][5], trendTable[0][1]);
         console.log(ticker, "Sell", trendTable[0][5], "Price: ", trendTable[0][1]);
         let set = [ticker, "Sell", trendTable[0][5], "Price: ", trendTable[0][1]];
         return set;
     }
     else if(trendTable[0][4] > 0 ) {
+        postBittrexSellOrder(ticker, trendTable[0][5], trendTable[0][1]);
         console.log(ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]);
         let set = [ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]];
         return set;
@@ -225,14 +230,57 @@ const calculateBuySellWeightsByTicker = (ticker) => {
 }
 
 
+function getMarketPairs(ticker) {
+    let pairs = [];
+    for(x=0;x<markets.length - 1;x++) {
+      if(markets[x].MarketCurrency == ticker) {
+        pairs.push(markets[x]);
+      }
+    }
+    return pairs;
+  }
+
+const postBittrexSellOrder = (ticker, indicatorStrength, rate) => {
+
+    let mkts = getMarketPairs(ticker);
+    let market = mkts[0].MarketName;
+    let quantity = indicatorStrength * mkts[0].MinTradeSize;
+    if(test == true) {
+        console.log("Test", market, quantity, rate)
+    }
+    else {
+        bittrex.marketSellLimit(market, quantity, rate).then((response) => {
+            console.log(response);
+        }).catch((error) => {
+            console.log(error);
+        });
+    }
+}
+
+const postBittrexBuyOrder = (ticker, indicatorStrength, rate) => {
+    let mkts = getMarketPairs(ticker);
+    let market = mkts[0].MarketName;
+    let quantity = indicatorStrength * mkts[0].MinTradeSize;
+    if(test == true) {
+        console.log("Test", market, quantity, rate)
+    }
+    else {
+        bittrex.marketBuyLimit(market, quantity, rate).then((response) => {
+            console.log(response);
+        }).catch((error) => {
+            console.log(error);
+        });
+    }
+}
+
     
 calculateBuySellWeightsByTicker("BTC");
 calculateBuySellWeightsByTicker("ETH");
-calculateBuySellWeightsByTicker("DOGE");
-calculateBuySellWeightsByTicker("XRP");
-calculateBuySellWeightsByTicker("DOT");
+//calculateBuySellWeightsByTicker("DOGE");
+//calculateBuySellWeightsByTicker("XRP");
+//calculateBuySellWeightsByTicker("DOT");
 //calculateBuySellWeightsByTicker("BCH");
-calculateBuySellWeightsByTicker("XLM");
+//calculateBuySellWeightsByTicker("XLM");
 //calculateBuySellWeightsByTicker("LTC");
 
 

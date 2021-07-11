@@ -27,12 +27,11 @@ const coins = require(`./../cron/data/reddit/${x.file}`);
 
 for(i=0; i < coins.total_coins - 1; i++) {
   bittrex.accountGetBalance(coins.data[i].symbol).then((response) => {
-    if(response.success === true) {
+    if(response.success === true && response.result.Balance != null) {
       console.log(response.result.Currency, response.result.Balance, response.result.CryptoAddress)
     }
     //console.log(response);
   }).catch((error) => {
     console.log(error);
   });
-
 }

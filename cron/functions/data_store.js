@@ -83,10 +83,10 @@ const calculateDeltasByTicker = (ticker) => {
         let deltaWeeklySellRating = data[x][4].sellRatings.weeklySellRating - data[x + 1][4].sellRatings.weeklySellRating;
         let deltaMonthlySellRating = data[x][4].sellRatings.monthlySellRating - data[x + 1][4].sellRatings.monthlySellRating;
         let deltaQuarterlySellRating = data[x][4].sellRatings.quarterlySellRating - data[x + 1][4].sellRatings.quarterlySellRating;
-
-        let deltaRedditSubscribers = data[x][5].subscribers - data[x + 1][5].subscribers;
-        let deltaActiveUsers = data[x][5].active_users - data[x + 1][5].active_users;
-        let subRedditAge = data[3] - data[x][5].created_utc;
+        
+        // let deltaRedditSubscribers = data[x][5].subscribers - data[x + 1][5].subscribers;
+        // let deltaActiveUsers = data[x][5].active_users - data[x + 1][5].active_users;
+        // let subRedditAge = data[3] - data[x][5].created_utc;
 
         let deltas = {
         deltaHourlyBuyRating,
@@ -99,11 +99,11 @@ const calculateDeltasByTicker = (ticker) => {
         deltaDailySellRating,
         deltaWeeklySellRating,
         deltaMonthlySellRating,
-        deltaQuarterlySellRating,
+        deltaQuarterlySellRating
 
-        deltaRedditSubscribers,
-        deltaActiveUsers,
-        subRedditAge
+        // deltaRedditSubscribers,
+        // deltaActiveUsers,
+        // subRedditAge
         };
         let temp = data[x]
         temp.push(deltas);
@@ -135,8 +135,8 @@ for(x=0; x < data.length - 1; x++) {
     weeklyBuyRating.push(data[x][4].buyRatings.weeklyBuyRating);
     monthlyBuyRating.push(data[x][4].buyRatings.monthlyBuyRating);
     quarterlyBuyRating.push(data[x][4].buyRatings.quarterlyBuyRating);    
-    subscriberGrowth.push(data[x][6].deltaRedditSubscribers);
-    activeRedditUsers.push(data[x][5].active_users);
+    // subscriberGrowth.push(data[x][6].deltaRedditSubscribers);
+    // activeRedditUsers.push(data[x][5].active_users);
     deltaHourlyBuyRating.push(data[x][6].deltaHourlyBuyRating);
 }
 
@@ -148,10 +148,9 @@ const g_dailyBuyRating = [{x: x_data , y: dailyBuyRating, type: 'line', name: 'D
 const g_weeklyBuyRating = [{x: x_data , y: weeklyBuyRating, type: 'line', name: 'Weekly'}];
 const g_monthlyBuyRating = [{x: x_data , y: monthlyBuyRating, type: 'line', name: 'Monthly'}];
 const g_quarterlyBuyRating = [{x: x_data , y: quarterlyBuyRating, type: 'line', name: 'Quarterly'}];
-const g_subscriberGrowth = [{x: x_data , y: subscriberGrowth, type: 'line', name: 'Subscriber Growth'}];
-const g_activeRedditUsers = [{x: x_data , y: activeRedditUsers, type: 'line', name: 'Active Users'}];
-var set = [g_price, g_hourlyBuyRating, g_dailyBuyRating, g_weeklyBuyRating, g_monthlyBuyRating, g_quarterlyBuyRating, g_subscriberGrowth, g_activeRedditUsers]
-console.table(set.g_price)
+// const g_subscriberGrowth = [{x: x_data , y: subscriberGrowth, type: 'line', name: 'Subscriber Growth'}];
+// const g_activeRedditUsers = [{x: x_data , y: activeRedditUsers, type: 'line', name: 'Active Users'}];
+// var set = [g_price, g_hourlyBuyRating, g_dailyBuyRating, g_weeklyBuyRating, g_monthlyBuyRating, g_quarterlyBuyRating, g_subscriberGrowth, g_activeRedditUsers]
 plotlib.stack(g_price);
 plotlib.stack(g_hourlyBuyRating);
 plotlib.stack(g_DeltaHourlyBuyRating);
