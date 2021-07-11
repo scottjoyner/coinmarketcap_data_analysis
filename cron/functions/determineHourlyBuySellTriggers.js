@@ -218,7 +218,7 @@ const calculateBuySellWeightsByTicker = (ticker) => {
         return set;
     }
     else if(trendTable[0][4] > 0 ) {
-        postBittrexSellOrder(ticker, trendTable[0][5], trendTable[0][1]);
+        postBittrexBuyOrder(ticker, trendTable[0][5], trendTable[0][1]);
         console.log(ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]);
         let set = [ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]];
         return set;
@@ -240,11 +240,19 @@ function getMarketPairs(ticker) {
     return pairs;
   }
 
-const postBittrexSellOrder = (ticker, indicatorStrength, rate) => {
+const postBittrexSellOrder = (ticker, indicatorStrength, rate, marketPair = 'USDT') => {
 
     let mkts = getMarketPairs(ticker);
-    let market = mkts[0].MarketName;
-    let quantity = indicatorStrength * mkts[0].MinTradeSize;
+    let market = '';
+    let minTradeSize;
+    for(x=0; x < mkts.length - 1; x++) {
+        if(mkts[x].BaseCurrency === marketPair) {
+            market = mkts[x].MarketName;
+            minTradeSize = mkts[x].MinTradeSize
+        }
+    }
+
+    let quantity = indicatorStrength * minTradeSize;
     if(test == true) {
         console.log("Test", market, quantity, rate)
     }
@@ -257,10 +265,15 @@ const postBittrexSellOrder = (ticker, indicatorStrength, rate) => {
     }
 }
 
-const postBittrexBuyOrder = (ticker, indicatorStrength, rate) => {
+const postBittrexBuyOrder = (ticker, indicatorStrength, rate, marketPair = 'USDT') => {
     let mkts = getMarketPairs(ticker);
-    let market = mkts[0].MarketName;
-    let quantity = indicatorStrength * mkts[0].MinTradeSize;
+    let market = '';
+    for(x=0; x < mkts.length - 1; x++) {
+        if(mkts[x].BaseCurrency === marketPair) {
+            market = mkts[x].MarketName;
+        }
+    }
+    let quantity = indicatorStrength;
     if(test == true) {
         console.log("Test", market, quantity, rate)
     }
@@ -273,7 +286,6 @@ const postBittrexBuyOrder = (ticker, indicatorStrength, rate) => {
     }
 }
 
-    
 calculateBuySellWeightsByTicker("BTC");
 calculateBuySellWeightsByTicker("ETH");
 //calculateBuySellWeightsByTicker("DOGE");
