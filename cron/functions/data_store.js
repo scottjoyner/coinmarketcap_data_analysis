@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const plotlib = require('nodeplotlib');
+var arg3 = process.argv[2];
 
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const ObjectsToCsv = require('objects-to-csv');
@@ -115,7 +116,7 @@ const calculateDeltasByTicker = (ticker) => {
 
 
 
-let data = calculateDeltasByTicker("BTC");
+let data = calculateDeltasByTicker(arg3);
 
 let x_data = [];
 let price = [];
@@ -128,16 +129,19 @@ let subscriberGrowth = [];
 let activeRedditUsers = [];
 let deltaHourlyBuyRating = [];
 for(x=0; x < data.length - 1; x++) {
-    x_data.push(parseInt(data[x][3]));
-    price.push(data[x][2]);
-    hourlyBuyRating.push(data[x][4].buyRatings.hourlyBuyRating);
-    dailyBuyRating.push(data[x][4].buyRatings.dailyBuyRating);
-    weeklyBuyRating.push(data[x][4].buyRatings.weeklyBuyRating);
-    monthlyBuyRating.push(data[x][4].buyRatings.monthlyBuyRating);
-    quarterlyBuyRating.push(data[x][4].buyRatings.quarterlyBuyRating);    
-    // subscriberGrowth.push(data[x][6].deltaRedditSubscribers);
-    // activeRedditUsers.push(data[x][5].active_users);
-    deltaHourlyBuyRating.push(data[x][6].deltaHourlyBuyRating);
+    if(data[x][3] >= (Date.now() - 86400000)) {
+        x_data.push(parseInt(data[x][3]));
+        price.push(data[x][2]);
+        hourlyBuyRating.push(data[x][4].buyRatings.hourlyBuyRating);
+        dailyBuyRating.push(data[x][4].buyRatings.dailyBuyRating);
+        weeklyBuyRating.push(data[x][4].buyRatings.weeklyBuyRating);
+        monthlyBuyRating.push(data[x][4].buyRatings.monthlyBuyRating);
+        quarterlyBuyRating.push(data[x][4].buyRatings.quarterlyBuyRating);    
+        // subscriberGrowth.push(data[x][6].deltaRedditSubscribers);
+        // activeRedditUsers.push(data[x][5].active_users);
+        deltaHourlyBuyRating.push(data[x][6].deltaHourlyBuyRating);
+    }
+    
 }
 
 

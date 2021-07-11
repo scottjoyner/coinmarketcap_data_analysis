@@ -218,7 +218,7 @@ const calculateBuySellWeightsByTicker = (ticker) => {
         return set;
     }
     else if(trendTable[0][4] > 0 ) {
-        postBittrexBuyOrder(ticker, trendTable[0][5], trendTable[0][1]);
+        postBittrexBuyOrder(ticker, trendTable[0][4], trendTable[0][1]);
         console.log(ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]);
         let set = [ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]];
         return set;
@@ -268,14 +268,17 @@ const postBittrexSellOrder = (ticker, indicatorStrength, rate, marketPair = 'USD
 const postBittrexBuyOrder = (ticker, indicatorStrength, rate, marketPair = 'USDT') => {
     let mkts = getMarketPairs(ticker);
     let market = '';
+    let minTradeSize;
     for(x=0; x < mkts.length - 1; x++) {
         if(mkts[x].BaseCurrency === marketPair) {
             market = mkts[x].MarketName;
+            minTradeSize = mkts[x].MinTradeSize
         }
     }
-    let quantity = indicatorStrength;
+
+    let quantity = indicatorStrength * minTradeSize;
     if(test == true) {
-        console.log("Test", market, quantity, rate)
+        console.log("Test", minTradeSize, indicatorStrength, market, quantity, rate)
     }
     else {
         bittrex.marketBuyLimit(market, quantity, rate).then((response) => {
@@ -288,12 +291,12 @@ const postBittrexBuyOrder = (ticker, indicatorStrength, rate, marketPair = 'USDT
 
 calculateBuySellWeightsByTicker("BTC");
 calculateBuySellWeightsByTicker("ETH");
-//calculateBuySellWeightsByTicker("DOGE");
+calculateBuySellWeightsByTicker("DOGE");
 //calculateBuySellWeightsByTicker("XRP");
 //calculateBuySellWeightsByTicker("DOT");
-//calculateBuySellWeightsByTicker("BCH");
-//calculateBuySellWeightsByTicker("XLM");
-//calculateBuySellWeightsByTicker("LTC");
+calculateBuySellWeightsByTicker("BCH");
+calculateBuySellWeightsByTicker("XLM");
+calculateBuySellWeightsByTicker("LTC");
 
 
 
