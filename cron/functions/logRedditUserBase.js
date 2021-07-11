@@ -23,13 +23,13 @@ const coins = require(`./../data/coinmarketcap/${x.file}`);
 
 
 (async () => {
-    for (x=0; x < coins.totalcoins; x++) {
+    for (x=0; x < coins.total_coins; x++) {
         const res = await fetch(`https://www.reddit.com/r/${coins.data[x].name}/about.json`);
         const response = await res.json();
         let reddit_data = saveRelevantSubredditData(response);
         coins.data[x].reddit_data = reddit_data;
     }
-    for (x=0; x < 9; x++) {
+    for (x=0; x < coins.total_coins; x++) {
         const res = await fetch(`https://www.reddit.com/r/${coins.data[x].symbol}/about.json`);
         const response = await res.json();
         let reddit_data = saveRelevantSubredditData(response);

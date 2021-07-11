@@ -1,3 +1,5 @@
+//Reddit Data collection
+
 const cron = require('node-cron');
 const express = require('express');
 const fs = require('fs'); // previous example
@@ -19,29 +21,14 @@ cron.schedule('*/5 * * * *', function(){
         console.log("USD Market Data Collected")
     }
     console.log("|------------------------------|");
-    console.log("|----Killing Previous Orders---|");
-    console.log("|------------------------------|");
-    if (shell.exec('node killOrFill.js').code !== 0) {
-        shell.echo('Error: Killing orders Failed.')
-        shell.exit(1)
-    }
-    console.log("|------------------------------|");
-    console.log("|--Calculating USD Pair Trades-|");
-    console.log("|------------------------------|");
-    if (shell.exec('node determineHourlyBuySellTriggers.js').code !== 0) {
-        shell.echo('Error: Buy Sell Failed.')
-        shell.exit(1)
-    }
-    console.log("|------------------------------|");
     console.log("|-----Collecting BTC Data------|");
     console.log("|------------------------------|");
-    if (shell.exec('node logMarketConditionsBTC.js 100').code !== 0) {
+    if (shell.exec('node logMarketConditionsBTC.js 300').code !== 0) {
         shell.echo('Error: CoinmarketCap Data logg failed')
         shell.exit(1)
     }
     else {
-        console.log("|--BTC Market Data Collected---|")
-        console.log("|------------------------------|");
+        console.log("BTC Market Data Collected")
     }
     console.log("|------------------------------|");
     console.log("|----Collecting Reddit Data----|");
@@ -51,8 +38,14 @@ cron.schedule('*/5 * * * *', function(){
         shell.exit(1)
     }
     else {
-        console.log("|--Reddit User Data Collected--|");
-        console.log("|------------------------------|");
+        console.log("Reddit User Data Collected")
+    }
+    console.log("|------------------------------|");
+    console.log("|--Calculating USD Pair Trades-|");
+    console.log("|------------------------------|");
+    if (shell.exec('node determineHourlyBuySellTriggers.js').code !== 0) {
+        shell.echo('Error: Buy Sell Failed.')
+        shell.exit(1)
     }
 
 });

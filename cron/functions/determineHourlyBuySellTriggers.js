@@ -9,7 +9,7 @@ const markets = require(`./bittrexMarkets.json`);
 
 
 const getHistorialDataByID = (id) => {
-    let history = parseFileHistory('./../data/reddit/')
+    let history = parseFileHistory('./../data/coinmarketcap/')
     let data = [];
     for(i=0; i < history.length - 1; i++) {
         if( id == history[i][0]) {
@@ -20,7 +20,7 @@ const getHistorialDataByID = (id) => {
 };
 
 const getHistorialDataByTicker = (ticker) => {
-    let history = parseFileHistory('./../data/reddit/')
+    let history = parseFileHistory('./../data/coinmarketcap/')
     let data = [];
     for(i=0; i < history.length - 1; i++) {
         if( ticker == history[i][1]) {
@@ -36,7 +36,7 @@ const parseFileHistory = (dir) => {
     let data = [];
     if(!(files.length === undefined)) {
         for(i=0; i < files.length - 1; i++) {
-            let current = require(`./../data/reddit/${files[i].file}`);
+            let current = require(`./../data/coinmarketcap/${files[i].file}`);
             let time = files[i].file.substr(0, files[i].file.indexOf('_')); 
             for(j=0; j < current.total_coins - 1; j++) {
                 let id = current.data[j].id;
@@ -87,7 +87,7 @@ const calculateDeltasByTicker = (ticker) => {
         let deltaMonthlySellRating = data[x][4].sellRatings.monthlySellRating - data[x + 1][4].sellRatings.monthlySellRating;
         let deltaQuarterlySellRating = data[x][4].sellRatings.quarterlySellRating - data[x + 1][4].sellRatings.quarterlySellRating;
         let deltas = {};
-        if(!(data[x][5] === undefined)) {
+        if(1==0) {
             let deltaRedditSubscribers = data[x][5].subscribers - data[x + 1][5].subscribers;
             let deltaActiveUsers = data[x][5].active_users - data[x + 1][5].active_users;
             let subRedditAge = data[3] - data[x][5].created_utc;
@@ -210,14 +210,15 @@ const calculateBuySellWeightsByTicker = (ticker) => {
     }
 
 
-    // console.table(trendTable[0]);
-    if(trendTable[0][5] > 0) {
+    //console.table(trendTable);
+    // TODO Add decison making for current holdings, prioritizing balancing holdings instead of selling out of one asset too soon.
+    if(trendTable[0][5] > 1.75) {
         postBittrexSellOrder(ticker, trendTable[0][5], trendTable[0][1]);
         console.log(ticker, "Sell", trendTable[0][5], "Price: ", trendTable[0][1]);
         let set = [ticker, "Sell", trendTable[0][5], "Price: ", trendTable[0][1]];
         return set;
     }
-    else if(trendTable[0][4] > 0 ) {
+    else if(trendTable[0][4] > 1.75 ) {
         postBittrexBuyOrder(ticker, trendTable[0][4], trendTable[0][1]);
         console.log(ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]);
         let set = [ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]];
@@ -291,12 +292,12 @@ const postBittrexBuyOrder = (ticker, indicatorStrength, rate, marketPair = 'USDT
 
 calculateBuySellWeightsByTicker("BTC");
 calculateBuySellWeightsByTicker("ETH");
-calculateBuySellWeightsByTicker("DOGE");
-//calculateBuySellWeightsByTicker("XRP");
-//calculateBuySellWeightsByTicker("DOT");
+//calculateBuySellWeightsByTicker("DOGE");
+calculateBuySellWeightsByTicker("DOT");
 calculateBuySellWeightsByTicker("BCH");
 calculateBuySellWeightsByTicker("XLM");
 calculateBuySellWeightsByTicker("LTC");
+calculateBuySellWeightsByTicker("ADA");
 
 
 

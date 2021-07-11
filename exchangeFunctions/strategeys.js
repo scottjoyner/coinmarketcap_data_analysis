@@ -1,4 +1,4 @@
 
 
 
-// BTC_USD Pair
+let relevantMarketPairs = [];
