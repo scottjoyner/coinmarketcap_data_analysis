@@ -142,7 +142,6 @@ const calculateBuySellWeightsByTicker = (ticker) => {
 
     let buyIndicatorSet = [];
     let currentTime = parseInt(Date.now());
-    console.log(currentTime);
     for(x=0; x < data.length - 1; x++) {
         if(currentTime - parseInt(data[x][3]) <= 86400000) {
             buyIndicatorSet.push([parseInt(data[x][3]), data[x][2], data[x][4].buyRatings.hourlyBuyRating, data[x][6].deltaHourlyBuyRating]);
@@ -214,18 +213,18 @@ const calculateBuySellWeightsByTicker = (ticker) => {
     // TODO Add decison making for current holdings, prioritizing balancing holdings instead of selling out of one asset too soon.
     if(trendTable[0][5] > 1.75) {
         postBittrexSellOrder(ticker, trendTable[0][5], trendTable[0][1]);
-        console.log(ticker, "Sell", trendTable[0][5], "Price: ", trendTable[0][1]);
+        console.log(`|${ticker}-----${parseFloat(trendTable[0][1]).toFixed(2)}\tSell--${parseFloat(trendTable[0][5]).toFixed(2)}----|`);
         let set = [ticker, "Sell", trendTable[0][5], "Price: ", trendTable[0][1]];
         return set;
     }
     else if(trendTable[0][4] > 1.75 ) {
         postBittrexBuyOrder(ticker, trendTable[0][4], trendTable[0][1]);
-        console.log(ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]);
+        console.log(`|${ticker}-----${parseFloat(trendTable[0][1]).toFixed(2)}\tBuy--${parseFloat(trendTable[0][4]).toFixed(2)}----|`);
         let set = [ticker, "Buy", trendTable[0][4], "Price: ", trendTable[0][1]];
         return set;
     }
     else {
-        console.log(ticker, "Hold", "Price: ", trendTable[0][1]);
+        console.log(`|${ticker}-----${parseFloat(trendTable[0][1]).toFixed(2)}\tHold---------|`);
         return [ticker, "Hold", 0, "Price: ", trendTable[0][1]];
     }
 }
@@ -293,11 +292,10 @@ const postBittrexBuyOrder = (ticker, indicatorStrength, rate, marketPair = 'USDT
 calculateBuySellWeightsByTicker("BTC");
 calculateBuySellWeightsByTicker("ETH");
 //calculateBuySellWeightsByTicker("DOGE");
-calculateBuySellWeightsByTicker("DOT");
-calculateBuySellWeightsByTicker("BCH");
-calculateBuySellWeightsByTicker("XLM");
-calculateBuySellWeightsByTicker("LTC");
-calculateBuySellWeightsByTicker("ADA");
+// calculateBuySellWeightsByTicker("BCH");
+// calculateBuySellWeightsByTicker("XLM");
+// calculateBuySellWeightsByTicker("LTC");
+// calculateBuySellWeightsByTicker("ADA");
 
 
 
