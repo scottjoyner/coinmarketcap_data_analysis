@@ -12,3 +12,10 @@ A repository for exploring and analyzing cryptocurrency market data associated w
 ## Reproducibility and limitations
 
 Record API versions, data-collection timestamps, exchange coverage, transformations, and missing-data handling with any published results. This repository does not provide financial advice or verified trading signals.
+
+## Repository links
+
+- [Browse the default-branch files](https://github.com/scottjoyner/coinmarketcap_data_analysis/tree/master)
+- [Review repository history](https://github.com/scottjoyner/coinmarketcap_data_analysis/commits/master)
+
+These links refer to this checkout and do not constitute build or deployment verification.
