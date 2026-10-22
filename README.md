@@ -1,21 +1,24 @@
-# CoinMarketCap Data Analysis
+# CoinMarketCap data analysis — historical market-data scripts
 
-A repository for exploring and analyzing cryptocurrency market data associated with CoinMarketCap. This root README is an orientation point; the actual dataset sources, analysis scripts, notebooks, and runnable commands have not yet been verified.
+An older JavaScript/Node.js workspace containing cryptocurrency market snapshots, graphing utilities, exchange experiments, scheduled collection ideas, and data transformation scripts. This is an exploratory code/data repository, **not** a verified current CoinMarketCap feed or a live trading service.
 
-## Using the materials
+## Source-based navigation
 
-1. Inspect the repository contents for datasets and code entry points.
-2. Verify the provenance, collection date, column definitions, and licensing of any market data before analysis.
-3. Run exploratory analysis on a local copy; do not assume historical prices or rankings reflect current markets.
-4. Add exact dependency installation and reproduction commands after the analysis entry point is identified.
+| Location | What it contains |
+| --- | --- |
+| `api.js`, `btc.js`, `eth.js` | Individual market/data experiments |
+| `cron/`, `server/` | Scheduling/server experiments |
+| `exchangeFunctions/`, `justLend/` | Exchange/DeFi-related code to inspect before use |
+| `currentMarketStats_*.json`, `sortedmarketshare*.json`, `coins.json` | Historical snapshot/derived data files |
+| `example_BTC_graph.html`, `pics/` | Visual output and references |
+| `package.json` | Node dependencies, including Express, scheduler, request/plotting and CSV libraries |
 
-## Reproducibility and limitations
+The manifest's `npm test` script is a **deliberately failing placeholder** (`Error: no test specified`), not a test suite. Several dependencies come from older Node ecosystems and should be reviewed before installation.
 
-Record API versions, data-collection timestamps, exchange coverage, transformations, and missing-data handling with any published results. This repository does not provide financial advice or verified trading signals.
+## Data and safety
 
-## Repository links
+Treat timestamps in filenames as historical; validate collection dates, ticker identities, provider terms, licenses, currency/unit conventions, and pricing timestamps. Do not start scheduler, API calls, smart-contract interactions, or exchange-connected code just to reproduce the README.
 
-- [Browse the default-branch files](https://github.com/scottjoyner/coinmarketcap_data_analysis/tree/master)
-- [Review repository history](https://github.com/scottjoyner/coinmarketcap_data_analysis/commits/master)
+Keep API credentials, wallet keys, account balances, and private transaction details outside Git and request traces. Prefer offline JSON fixtures for tests. The repo contents have not been verified to represent current prices or investment performance.
 
-These links refer to this checkout and do not constitute build or deployment verification.
+**Status:** documentation based on manifest and tree inspection; no install, API requests, tests, or trades executed.
